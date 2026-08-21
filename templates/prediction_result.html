@@ -1,0 +1,134 @@
+{% extends 'base.html' %}
+
+{% block title %}Evaluation Result - #{{ app.id }}{% endblock %}
+
+{% block content %}
+<div class="container py-4">
+    <div class="d-flex justify-content-between align-items-center mb-4">
+        <div>
+            <h2 class="fw-bold mb-1">Underwriting Decision & Risk Intelligence</h2>
+            <p class="text-muted mb-0">Application Reference ID: <strong>#{{ app.id }}</strong> • Processed on {{ app.created_at | format_date }}</p>
+        </div>
+        <div>
+            <a href="{{ url_for('predict.predict') }}" class="btn btn-outline-primary me-2">New Evaluation</a>
+            <a href="{{ url_for('predict.history') }}" class="btn btn-secondary">History Log</a>
+        </div>
+    </div>
+
+    <!-- MAIN RESULT BANNER -->
+    <div class="card-bank p-4 mb-4 border-0 shadow-lg {% if app.prediction_status == 'Approved' %}bg-white border-start border-5 border-success{% else %}bg-white border-start border-5 border-danger{% endif %}">
+        <div class="row align-items-center">
+            <div class="col-md-7">
+                <div class="d-flex align-items-center gap-3 mb-2">
+                    {% if app.prediction_status == 'Approved' %}
+                        <span class="badge-status-approved fs-4"><i class="fa-solid fa-circle-check me-2"></i> LOAN APPROVED</span>
+                    {% else %}
+                        <span class="badge-status-rejected fs-4"><i class="fa-solid fa-circle-xmark me-2"></i> LOAN REJECTED</span>
+                    {% endif %}
+
+                    {% if app.risk_level == 'Low' %}
+                        <span class="badge-risk-low fs-6">Low Risk</span>
+                    {% elif app.risk_level == 'Medium' %}
+                        <span class="badge-risk-medium fs-6">Medium Risk</span>
+                    {% else %}
+                        <span class="badge-risk-high fs-6">High Risk</span>
+                    {% endif %}
+                </div>
+                
+                <h3 class="fw-bold text-dark mt-2 mb-1">{{ app.applicant_name }}</h3>
+                <p class="text-muted mb-0">Requested <strong>{{ app.loan_amount | currency }}</strong> for <strong>{{ app.loan_purpose }}</strong> over {{ app.loan_term }} months.</p>
+            </div>
+
+            <!-- PROBABILITY GAUGE -->
+            <div class="col-md-5 text-center border-start-md ps-md-4 mt-3 mt-md-0">
+                <div class="gauge-container mb-2">
+                    <canvas id="resultGaugeChart"></canvas>
+                    <div class="gauge-center-text">
+                        <div class="gauge-percentage">{{ app.approval_probability }}%</div>
+                        <div class="small text-muted fw-bold">Approval Chance</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row g-4">
+        <!-- RISK FACTORS & RECOMMENDATIONS -->
+        <div class="col-md-6">
+            <div class="card-bank p-4 h-100">
+                <h5 class="fw-bold mb-3 text-primary"><i class="fa-solid fa-list-check me-2"></i> Risk Assessment Factors</h5>
+                <ul class="list-group list-group-flush mb-3">
+                    {% if risk_factors %}
+                        {% for factor in risk_factors %}
+                            <li class="list-group-item bg-transparent px-0 d-flex align-items-start gap-2">
+                                <i class="fa-solid fa-circle-exclamation text-amber mt-1"></i>
+                                <span>{{ factor }}</span>
+                            </li>
+                        {% endfor %}
+                    {% else %}
+                        <li class="list-group-item bg-transparent px-0 text-success">
+                            <i class="fa-solid fa-circle-check me-2"></i> No high-risk factors detected. Favorable credit profile.
+                        </li>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+
+        <!-- SUMMARY OF APPLICANT PARAMETERS (19 FIELDS) -->
+        <div class="col-md-6">
+            <div class="card-bank p-4 h-100">
+                <h5 class="fw-bold mb-3 text-primary"><i class="fa-solid fa-user-tag me-2"></i> Applicant Parameter Summary</h5>
+                <div class="table-responsive">
+                    <table class="table table-sm table-borderless small mb-0">
+                        <tbody>
+                            <tr><td class="text-muted">Age / Gender:</td><td class="fw-bold text-end">{{ app.age }} yrs / {{ app.gender }}</td></tr>
+                            <tr><td class="text-muted">Marital / Education:</td><td class="fw-bold text-end">{{ app.marital_status }} / {{ app.education }}</td></tr>
+                            <tr><td class="text-muted">Employment / Dependents:</td><td class="fw-bold text-end">{{ app.employment_status }} / {{ app.dependents }}</td></tr>
+                            <tr><td class="text-muted">Annual Income:</td><td class="fw-bold text-end">{{ app.annual_income | currency }}</td></tr>
+                            <tr><td class="text-muted">Monthly / Co-App Income:</td><td class="fw-bold text-end">{{ app.monthly_income | currency }} / {{ app.coapplicant_income | currency }}</td></tr>
+                            <tr><td class="text-muted">Credit Score:</td><td class="fw-bold text-end">{{ app.credit_score }}</td></tr>
+                            <tr><td class="text-muted">DTI Ratio:</td><td class="fw-bold text-end">{{ app.dti_ratio }}%</td></tr>
+                            <tr><td class="text-muted">Liquid Savings:</td><td class="fw-bold text-end">{{ app.savings | currency }}</td></tr>
+                            <tr><td class="text-muted">Collateral Value:</td><td class="fw-bold text-end">{{ app.collateral_value | currency }}</td></tr>
+                            <tr><td class="text-muted">Property Area:</td><td class="fw-bold text-end">{{ app.property_area }}</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_scripts %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const ctx = document.getElementById('resultGaugeChart').getContext('2d');
+    const probability = {{ app.approval_probability }};
+    const remainder = 100 - probability;
+    const isApproved = probability >= 50;
+
+    new Chart(ctx, {
+        type: 'doughnut',
+        data: {
+            datasets: [{
+                data: [probability, remainder],
+                backgroundColor: [
+                    isApproved ? '#10b981' : '#ef4444',
+                    '#e2e8f0'
+                ],
+                borderWidth: 0,
+                cutout: '80%',
+                circumference: 240,
+                rotation: 240
+            }]
+        },
+        options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: { tooltip: { enabled: false } }
+        }
+    });
+});
+</script>
+{% endblock %}

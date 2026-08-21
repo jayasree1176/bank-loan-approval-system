@@ -1,0 +1,120 @@
+{% extends 'base.html' %}
+
+{% block title %}Application History - Bank Loan Approval System{% endblock %}
+
+{% block content %}
+<div class="container py-4">
+    <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2">
+        <div>
+            <h2 class="fw-bold mb-1">Prediction History & Audit Log</h2>
+            <p class="text-muted mb-0">Search and review past underwriting evaluations.</p>
+        </div>
+        <div>
+            <a href="{{ url_for('predict.download_csv') }}" class="btn btn-outline-success">
+                <i class="fa-solid fa-file-excel me-1"></i> Export to CSV
+            </a>
+            <a href="{{ url_for('predict.predict') }}" class="btn btn-bank-primary ms-2">
+                <i class="fa-solid fa-plus me-1"></i> New Evaluation
+            </a>
+        </div>
+    </div>
+
+    <!-- Filter & Search Bar -->
+    <div class="card-bank p-3 mb-4">
+        <form action="{{ url_for('predict.history') }}" method="GET" class="row g-2 align-items-center">
+            <div class="col-md-5">
+                <div class="input-group">
+                    <span class="input-group-text bg-white"><i class="fa-solid fa-magnifying-glass text-muted"></i></span>
+                    <input type="text" class="form-control" name="search" value="{{ search }}" placeholder="Search applicant name or loan purpose...">
+                </div>
+            </div>
+            <div class="col-md-3">
+                <select class="form-select" name="risk" onchange="this.form.submit()">
+                    <option value="">All Risk Levels</option>
+                    <option value="Low" {% if risk_filter == 'Low' %}selected{% endif %}>Low Risk Only</option>
+                    <option value="Medium" {% if risk_filter == 'Medium' %}selected{% endif %}>Medium Risk Only</option>
+                    <option value="High" {% if risk_filter == 'High' %}selected{% endif %}>High Risk Only</option>
+                </select>
+            </div>
+            <div class="col-md-3">
+                <select class="form-select" name="status" onchange="this.form.submit()">
+                    <option value="">All Statuses</option>
+                    <option value="Approved" {% if status_filter == 'Approved' %}selected{% endif %}>Approved Only</option>
+                    <option value="Rejected" {% if status_filter == 'Rejected' %}selected{% endif %}>Rejected Only</option>
+                </select>
+            </div>
+            <div class="col-md-1">
+                <a href="{{ url_for('predict.history') }}" class="btn btn-light w-100 border" title="Reset filters">
+                    <i class="fa-solid fa-rotate-left"></i>
+                </a>
+            </div>
+        </form>
+    </div>
+
+    <!-- History Table -->
+    <div class="card-bank p-4 shadow-sm">
+        <div class="table-responsive">
+            <table class="table table-hover align-middle mb-0">
+                <thead class="table-light">
+                    <tr>
+                        <th>#ID</th>
+                        <th>Applicant Name</th>
+                        <th>Loan Amount</th>
+                        <th>Credit Score</th>
+                        <th>Loan Purpose</th>
+                        <th>Approval Prob</th>
+                        <th>Risk Level</th>
+                        <th>Status</th>
+                        <th>Date</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% if applications %}
+                        {% for app in applications %}
+                        <tr>
+                            <td class="fw-bold text-muted">#{{ app.id }}</td>
+                            <td class="fw-bold">{{ app.applicant_name }}</td>
+                            <td>{{ app.loan_amount | currency }}</td>
+                            <td>
+                                <span class="badge {% if app.credit_score >= 740 %}bg-success{% elif app.credit_score >= 650 %}bg-info text-dark{% else %}bg-danger{% endif %}">
+                                    {{ app.credit_score }}
+                                </span>
+                            </td>
+                            <td>{{ app.loan_purpose }}</td>
+                            <td><span class="fw-bold">{{ app.approval_probability }}%</span></td>
+                            <td>
+                                {% if app.risk_level == 'Low' %}
+                                    <span class="badge-risk-low">Low</span>
+                                {% elif app.risk_level == 'Medium' %}
+                                    <span class="badge-risk-medium">Medium</span>
+                                {% else %}
+                                    <span class="badge-risk-high">High</span>
+                                {% endif %}
+                            </td>
+                            <td>
+                                {% if app.prediction_status == 'Approved' %}
+                                    <span class="badge-status-approved">Approved</span>
+                                {% else %}
+                                    <span class="badge-status-rejected">Rejected</span>
+                                {% endif %}
+                            </td>
+                            <td class="small text-muted">{{ app.created_at | format_date }}</td>
+                            <td>
+                                <a href="{{ url_for('predict.prediction_result', app_id=app.id) }}" class="btn btn-sm btn-outline-primary">
+                                    <i class="fa-solid fa-arrow-up-right-from-square"></i> Details
+                                </a>
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    {% else %}
+                        <tr>
+                            <td colspan="10" class="text-center py-4 text-muted">No application history matches the search criteria.</td>
+                        </tr>
+                    {% endif %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+{% endblock %}

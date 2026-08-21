@@ -1,0 +1,170 @@
+/* Banking Theme Design System - Bank Loan Approval and Credit Risk Intelligence System */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+:root {
+    --primary-color: #1e3a8a;       /* Deep Navy */
+    --primary-hover: #1e40af;
+    --accent-blue: #2563eb;         /* Royal Blue */
+    --accent-light: #dbeafe;
+    --bg-light: #f8fafc;            /* Crisp Grey Light */
+    --card-bg: #ffffff;
+    --text-main: #0f172a;
+    --text-muted: #64748b;
+    
+    /* Risk Badge Colors */
+    --low-risk: #10b981;            /* Emerald Green */
+    --medium-risk: #f59e0b;         /* Amber Yellow */
+    --high-risk: #ef4444;           /* Crimson Red */
+    
+    --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
+    --shadow-md: 0 4px 12px rgba(0,0,0,0.08);
+    --shadow-lg: 0 10px 25px rgba(15,23,42,0.1);
+    --border-radius: 12px;
+}
+
+body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background-color: var(--bg-light);
+    color: var(--text-main);
+    overflow-x: hidden;
+    min-height: 100vh;
+}
+
+/* Navbar */
+.navbar-banking {
+    background: linear-gradient(135deg, #0a192f 0%, #1e3a8a 100%);
+    box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.35rem;
+    letter-spacing: -0.5px;
+    color: #ffffff !important;
+}
+
+.nav-link {
+    font-weight: 500;
+    color: rgba(255,255,255,0.85) !important;
+    transition: all 0.2s ease;
+    padding: 0.5rem 1rem !important;
+    border-radius: 6px;
+}
+
+.nav-link:hover, .nav-link.active {
+    color: #ffffff !important;
+    background: rgba(255,255,255,0.12);
+}
+
+/* Cards & Containers */
+.card-bank {
+    background: var(--card-bg);
+    border: 1px solid rgba(226, 232, 240, 0.8);
+    border-radius: var(--border-radius);
+    box-shadow: var(--shadow-sm);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card-bank:hover {
+    box-shadow: var(--shadow-md);
+}
+
+.hero-banner {
+    background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 60%, #3b82f6 100%);
+    color: #ffffff;
+    border-radius: 16px;
+    padding: 4rem 2rem;
+    box-shadow: var(--shadow-lg);
+}
+
+/* Form Controls */
+.form-label {
+    font-weight: 600;
+    font-size: 0.88rem;
+    color: #334155;
+    margin-bottom: 0.4rem;
+}
+
+.form-control, .form-select {
+    border-radius: 8px;
+    border: 1.5px solid #cbd5e1;
+    padding: 0.65rem 0.9rem;
+    font-size: 0.95rem;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-control:focus, .form-select:focus {
+    border-color: var(--accent-blue);
+    box-shadow: 0 0 0 4px rgba(37, 99, 235, 0.15);
+}
+
+/* Buttons */
+.btn-bank-primary {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    font-weight: 600;
+    border: none;
+    padding: 0.7rem 1.5rem;
+    border-radius: 8px;
+    transition: all 0.25s ease;
+}
+
+.btn-bank-primary:hover {
+    background-color: var(--primary-hover);
+    color: #ffffff;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(30, 58, 138, 0.3);
+}
+
+/* Risk Level Badges */
+.badge-risk-low {
+    background-color: rgba(16, 185, 129, 0.12);
+    color: #047857;
+    border: 1px solid rgba(16, 185, 129, 0.3);
+    font-weight: 600;
+    padding: 0.35em 0.75em;
+    border-radius: 20px;
+}
+
+.badge-risk-medium {
+    background-color: rgba(245, 158, 11, 0.12);
+    color: #b45309;
+    border: 1px solid rgba(245, 158, 11, 0.3);
+    font-weight: 600;
+    padding: 0.35em 0.75em;
+    border-radius: 20px;
+}
+
+.badge-risk-high {
+    background-color: rgba(239, 68, 68, 0.12);
+    color: #b91c1c;
+    border: 1px solid rgba(239, 68, 68, 0.3);
+    font-weight: 600;
+    padding: 0.35em 0.75em;
+    border-radius: 20px;
+}
+
+/* Status Badges */
+.badge-status-approved {
+    background-color: #d1fae5;
+    color: #065f46;
+    font-weight: 700;
+    padding: 0.4em 0.8em;
+    border-radius: 6px;
+}
+
+.badge-status-rejected {
+    background-color: #fee2e2;
+    color: #991b1b;
+    font-weight: 700;
+    padding: 0.4em 0.8em;
+    border-radius: 6px;
+}
+
+/* Footer */
+.footer-bank {
+    background: #0f172a;
+    color: #94a3b8;
+    padding: 2.5rem 0;
+    margin-top: 4rem;
+}

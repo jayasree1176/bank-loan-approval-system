@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+
+{% block title %}About System Architecture & Model Specification{% endblock %}
+
+{% block content %}
+<div class="container py-4">
+    <div class="card-bank p-4 p-md-5 mb-4">
+        <h2 class="fw-bold text-primary mb-3"><i class="fa-solid fa-microchip me-2"></i> System Architecture & ML Specifications</h2>
+        <p class="lead text-muted">
+            The <strong>Bank Loan Approval and Credit Risk Intelligence System</strong> is an end-to-end Machine Learning web platform designed for credit risk assessment and automated loan decisioning.
+        </p>
+
+        <hr class="my-4">
+
+        <h4 class="fw-bold mb-3">Technical Stack Overview</h4>
+        <div class="row g-3 mb-4">
+            <div class="col-md-3">
+                <div class="p-3 bg-light rounded border text-center">
+                    <i class="fa-brands fa-python fs-2 text-primary mb-2"></i>
+                    <h6 class="fw-bold">Python Flask</h6>
+                    <small class="text-muted">MVC Blueprints architecture</small>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="p-3 bg-light rounded border text-center">
+                    <i class="fa-solid fa-tree fs-2 text-success mb-2"></i>
+                    <h6 class="fw-bold">Random Forest ML</h6>
+                    <small class="text-muted">Scikit-learn classification</small>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="p-3 bg-light rounded border text-center">
+                    <i class="fa-solid fa-database fs-2 text-info mb-2"></i>
+                    <h6 class="fw-bold">SQLite Database</h6>
+                    <small class="text-muted">Application & audit logs</small>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <div class="p-3 bg-light rounded border text-center">
+                    <i class="fa-solid fa-chart-pie fs-2 text-warning mb-2"></i>
+                    <h6 class="fw-bold">Bootstrap 5 + Chart.js</h6>
+                    <small class="text-muted">Responsive Banking UI</small>
+                </div>
+            </div>
+        </div>
+
+        <h4 class="fw-bold mb-3">19 Machine Learning Input Parameters</h4>
+        <div class="row g-2 small text-muted mb-4">
+            <div class="col-md-4">• Applicant Name & Age</div>
+            <div class="col-md-4">• Gender & Marital Status</div>
+            <div class="col-md-4">• Education & Employment Status</div>
+            <div class="col-md-4">• Annual & Monthly Income</div>
+            <div class="col-md-4">• Co-Applicant Income & Savings</div>
+            <div class="col-md-4">• Credit Score (300 - 850)</div>
+            <div class="col-md-4">• Requested Loan Amount & Term</div>
+            <div class="col-md-4">• Existing Active Loans Count</div>
+            <div class="col-md-4">• Property Area (Urban/Semi/Rural)</div>
+            <div class="col-md-4">• Debt-to-Income (DTI) Ratio</div>
+            <div class="col-md-4">• Collateral Security Value</div>
+            <div class="col-md-4">• Loan Purpose & Dependents</div>
+        </div>
+    </div>
+</div>
+{% endblock %}

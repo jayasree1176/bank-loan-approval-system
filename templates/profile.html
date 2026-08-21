@@ -1,0 +1,59 @@
+{% extends 'base.html' %}
+
+{% block title %}User Profile - Bank Loan Approval System{% endblock %}
+
+{% block content %}
+<div class="container py-4">
+    <div class="row justify-content-center">
+        <div class="col-md-8 col-lg-6">
+            <div class="card-bank p-4 p-md-5 shadow-sm">
+                <div class="d-flex align-items-center gap-3 mb-4">
+                    <div class="metric-icon icon-blue">
+                        <i class="fa-solid fa-user-circle"></i>
+                    </div>
+                    <div>
+                        <h3 class="fw-bold mb-0">{{ user.username }}</h3>
+                        <span class="badge bg-primary">{{ user.role | upper }} ACCOUNT</span>
+                    </div>
+                </div>
+
+                <div class="row text-center bg-light p-3 rounded-3 mb-4 border">
+                    <div class="col-4">
+                        <div class="text-muted small">Evaluated</div>
+                        <div class="fw-bold fs-4">{{ stats.total or 0 }}</div>
+                    </div>
+                    <div class="col-4">
+                        <div class="text-muted small">Approved</div>
+                        <div class="fw-bold fs-4 text-success">{{ stats.approved or 0 }}</div>
+                    </div>
+                    <div class="col-4">
+                        <div class="text-muted small">Rejected</div>
+                        <div class="fw-bold fs-4 text-danger">{{ stats.rejected or 0 }}</div>
+                    </div>
+                </div>
+
+                <form action="{{ url_for('auth.profile') }}" method="POST">
+                    <div class="mb-3">
+                        <label for="username_disp" class="form-label">Username</label>
+                        <input type="text" class="form-control" id="username_disp" value="{{ user.username }}" disabled>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="email" name="email" value="{{ user.email }}" required>
+                    </div>
+
+                    <div class="mb-4">
+                        <label for="new_password" class="form-label">Change Password (leave blank to keep current)</label>
+                        <input type="password" class="form-control" id="new_password" name="new_password" placeholder="New password">
+                    </div>
+
+                    <button type="submit" class="btn btn-bank-primary w-100 shadow-sm">
+                        <i class="fa-solid fa-floppy-disk me-2"></i> Save Profile Changes
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

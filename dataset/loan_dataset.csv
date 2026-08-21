@@ -1,0 +1,1201 @@
+applicant_name,age,gender,marital_status,education,employment_status,annual_income,monthly_income,coapplicant_income,loan_amount,loan_term,credit_score,existing_loans,savings,property_area,dti_ratio,collateral_value,loan_purpose,dependents,loan_status
+Michael Brown,65,Male,Married,Graduate,Business,70200.0,5850.0,40500.0,175000.0,120,640,1,77200.0,Semiurban,19.06,243300.0,Auto Loan,3,1
+Joseph Hernandez,61,Male,Single,Graduate,Unemployed,52000.0,4333.33,0.0,10000.0,60,690,0,40500.0,Rural,5.0,10400.0,Home Loan,3,1
+Linda Gonzalez,67,Male,Single,Graduate,Business,77500.0,6458.33,0.0,234000.0,60,693,0,11400.0,Urban,60.39,320200.0,Home Loan,0,1
+Rahul Miller,34,Female,Married,Post Graduate,Salaried,39600.0,3300.0,5100.0,276000.0,240,696,1,43200.0,Semiurban,38.93,136400.0,Education Loan,0,0
+Charles Miller,59,Male,Single,Graduate,Salaried,37700.0,3141.67,0.0,310000.0,60,582,2,700.0,Urban,85.0,344800.0,Home Loan,2,0
+David Hernandez,45,Female,Married,Graduate,Self-Employed,48800.0,4066.67,94200.0,197000.0,48,781,4,22400.0,Urban,44.51,41700.0,Personal Loan,3,1
+Ananya Jones,40,Female,Married,Graduate,Business,114400.0,9533.33,14800.0,10000.0,48,691,3,8600.0,Urban,10.29,14500.0,Business Loan,1,1
+Patricia Davis,22,Male,Married,Graduate,Salaried,21900.0,1825.0,4600.0,175000.0,360,622,3,3600.0,Semiurban,62.77,54900.0,Personal Loan,1,0
+Ananya Williams,59,Female,Married,Graduate,Salaried,93500.0,7791.67,8200.0,219000.0,180,640,2,64600.0,Rural,21.44,35600.0,Personal Loan,2,1
+Priya Jones,26,Male,Married,Post Graduate,Business,40700.0,3391.67,8000.0,90000.0,120,702,1,6700.0,Urban,25.87,101800.0,Home Loan,0,1
+Mary Davis,37,Female,Married,Graduate,Salaried,106800.0,8900.0,400.0,156000.0,60,568,0,51800.0,Semiurban,29.1,73300.0,Personal Loan,4,0
+Barbara Wilson,45,Female,Married,Not Graduate,Salaried,92900.0,7741.67,2900.0,65000.0,60,750,1,16000.0,Semiurban,17.33,55000.0,Home Loan,0,1
+Jennifer Johnson,48,Female,Single,Not Graduate,Self-Employed,39300.0,3275.0,0.0,125000.0,24,699,0,400.0,Urban,85.0,31200.0,Education Loan,1,0
+Rahul Smith,22,Male,Married,Graduate,Salaried,73300.0,6108.33,2600.0,262000.0,60,805,2,39600.0,Rural,78.52,267900.0,Auto Loan,1,1
+Barbara Martinez,55,Male,Married,Graduate,Salaried,27800.0,2316.67,5200.0,241000.0,240,686,1,27200.0,Urban,47.42,221000.0,Auto Loan,1,1
+Priya Gonzalez,57,Male,Married,Graduate,Self-Employed,122000.0,10166.67,8600.0,54000.0,60,593,1,12700.0,Urban,11.03,11600.0,Personal Loan,2,1
+Barbara Rodriguez,25,Male,Married,Graduate,Self-Employed,43300.0,3608.33,28400.0,117000.0,60,584,0,9900.0,Urban,32.64,191400.0,Home Loan,4,1
+Thomas Hernandez,21,Male,Single,Not Graduate,Unemployed,47400.0,3950.0,0.0,185000.0,12,649,1,2300.0,Rural,85.0,274400.0,Home Loan,1,1
+Elizabeth Verma,60,Male,Married,Graduate,Salaried,75100.0,6258.33,23400.0,200000.0,60,657,0,85100.0,Rural,40.61,256800.0,Home Loan,2,1
+Jessica Sharma,32,Male,Married,Graduate,Salaried,97400.0,8116.67,16700.0,120000.0,12,635,0,20400.0,Urban,85.0,34100.0,Personal Loan,0,0
+Joseph Wilson,56,Male,Married,Graduate,Self-Employed,32100.0,2675.0,23000.0,223000.0,120,690,0,2700.0,Urban,40.47,129600.0,Personal Loan,2,0
+Charles Lopez,65,Female,Divorced,Post Graduate,Salaried,68700.0,5725.0,0.0,177000.0,120,633,0,60900.0,Semiurban,25.76,19000.0,Personal Loan,0,0
+Amit Brown,43,Male,Married,Not Graduate,Salaried,42400.0,3533.33,53400.0,10000.0,360,700,1,9800.0,Semiurban,5.0,5500.0,Personal Loan,0,1
+Carlos Williams,67,Male,Divorced,Not Graduate,Self-Employed,40700.0,3391.67,0.0,129000.0,120,638,1,6800.0,Semiurban,40.54,37100.0,Education Loan,0,0
+Robert Williams,51,Male,Divorced,Not Graduate,Salaried,72700.0,6058.33,0.0,126000.0,60,731,2,9900.0,Rural,44.57,224500.0,Home Loan,1,1
+Michael Jones,31,Male,Married,Graduate,Salaried,42000.0,3500.0,29500.0,241000.0,120,655,1,24900.0,Rural,38.74,420400.0,Auto Loan,4,1
+William Miller,30,Female,Married,Not Graduate,Salaried,39100.0,3258.33,11400.0,243000.0,180,780,0,2300.0,Rural,32.08,235700.0,Home Loan,1,1
+Sarah Brown,23,Male,Single,Graduate,Salaried,101300.0,8441.67,0.0,30000.0,24,732,4,19700.0,Semiurban,29.02,5600.0,Personal Loan,0,1
+Carlos Lopez,34,Female,Married,Not Graduate,Salaried,24800.0,2066.67,12600.0,219000.0,180,695,1,67800.0,Urban,48.66,382300.0,Home Loan,0,1
+Susan Johnson,36,Female,Married,Not Graduate,Salaried,70700.0,5891.67,41600.0,173000.0,360,663,1,6300.0,Semiurban,8.34,46400.0,Personal Loan,1,1
+William Martinez,30,Female,Single,Graduate,Self-Employed,32900.0,2741.67,0.0,191000.0,48,558,1,12100.0,Urban,85.0,340500.0,Home Loan,0,0
+Rahul Johnson,49,Female,Single,Not Graduate,Business,20700.0,1725.0,0.0,125000.0,180,793,2,15100.0,Urban,75.04,104500.0,Home Loan,0,0
+Karen Lopez,30,Female,Divorced,Post Graduate,Salaried,28200.0,2350.0,0.0,174000.0,360,626,0,26500.0,Urban,20.57,254200.0,Business Loan,1,1
+Joseph Lopez,32,Female,Married,Graduate,Salaried,62000.0,5166.67,45700.0,284000.0,120,687,0,75500.0,Semiurban,26.37,302800.0,Home Loan,3,1
+Michael Lopez,50,Female,Married,Not Graduate,Salaried,75600.0,6300.0,26300.0,190000.0,240,708,2,15100.0,Semiurban,16.39,71200.0,Personal Loan,0,1
+Linda Sharma,61,Female,Married,Graduate,Salaried,21000.0,1750.0,9100.0,176000.0,60,665,0,2100.0,Semiurban,85.0,100900.0,Personal Loan,0,1
+John Wilson,21,Female,Single,Graduate,Self-Employed,21700.0,1808.33,0.0,137000.0,60,788,2,12800.0,Urban,85.0,14100.0,Personal Loan,2,0
+Thomas Brown,25,Male,Single,Graduate,Self-Employed,124800.0,10400.0,0.0,275000.0,180,582,1,6300.0,Semiurban,17.57,403400.0,Auto Loan,2,1
+Sarah Davis,40,Female,Single,Graduate,Self-Employed,23400.0,1950.0,0.0,65000.0,240,819,1,31600.0,Urban,29.27,16000.0,Personal Loan,2,1
+Patricia Johnson,28,Male,Single,Post Graduate,Salaried,121100.0,10091.67,0.0,108000.0,360,734,2,900.0,Semiurban,8.92,128800.0,Home Loan,0,1
+Jennifer Garcia,63,Male,Single,Post Graduate,Salaried,31700.0,2641.67,0.0,60000.0,48,660,0,10400.0,Urban,47.32,58900.0,Home Loan,0,1
+Elizabeth Brown,32,Male,Divorced,Not Graduate,Salaried,80600.0,6716.67,0.0,198000.0,60,661,2,23600.0,Rural,58.06,277400.0,Business Loan,4,1
+Priya Gonzalez,21,Male,Married,Graduate,Salaried,36700.0,3058.33,3600.0,286000.0,48,503,4,9700.0,Semiurban,85.0,83400.0,Personal Loan,0,0
+Sarah Martinez,40,Male,Single,Post Graduate,Self-Employed,108100.0,9008.33,0.0,150000.0,24,612,1,24000.0,Semiurban,72.71,210000.0,Business Loan,1,1
+Barbara Johnson,48,Male,Single,Graduate,Unemployed,74200.0,6183.33,0.0,84000.0,60,652,3,3700.0,Semiurban,37.2,16000.0,Personal Loan,0,1
+Elizabeth Wilson,63,Female,Married,Post Graduate,Salaried,43100.0,3591.67,3700.0,327000.0,60,694,0,85800.0,Semiurban,85.0,429000.0,Auto Loan,1,1
+Patricia Wilson,57,Male,Single,Graduate,Self-Employed,23600.0,1966.67,0.0,221000.0,48,781,2,10300.0,Urban,85.0,78200.0,Education Loan,2,0
+Jessica Sharma,67,Female,Divorced,Graduate,Salaried,79400.0,6616.67,0.0,205000.0,48,843,0,76900.0,Semiurban,64.55,257800.0,Auto Loan,1,1
+Linda Wilson,57,Male,Married,Not Graduate,Salaried,63200.0,5266.67,28700.0,163000.0,60,702,0,11800.0,Semiurban,35.47,19100.0,Personal Loan,2,1
+Amit Lopez,32,Male,Married,Graduate,Self-Employed,20100.0,1675.0,11000.0,240000.0,360,696,0,45700.0,Semiurban,25.72,114000.0,Personal Loan,0,0
+Carlos Wilson,57,Female,Single,Graduate,Salaried,20400.0,1700.0,0.0,204000.0,240,641,0,8500.0,Urban,50.0,74900.0,Personal Loan,4,0
+Linda Jones,64,Female,Single,Graduate,Salaried,94400.0,7866.67,0.0,137000.0,24,543,0,33200.0,Rural,72.56,36500.0,Personal Loan,0,0
+Jessica Gonzalez,48,Male,Married,Graduate,Self-Employed,33500.0,2791.67,15000.0,152000.0,360,632,3,11700.0,Urban,32.71,197500.0,Home Loan,0,1
+Sarah Sharma,67,Female,Married,Graduate,Business,65500.0,5458.33,7800.0,88000.0,180,664,2,21300.0,Urban,17.83,128400.0,Auto Loan,0,1
+Rahul Davis,35,Female,Married,Graduate,Salaried,47200.0,3933.33,2400.0,77000.0,360,758,0,33600.0,Rural,5.17,97500.0,Home Loan,2,1
+Carlos Lopez,26,Male,Single,Graduate,Salaried,109600.0,9133.33,0.0,153000.0,60,722,0,26700.0,Rural,27.92,227400.0,Home Loan,2,1
+Richard Rodriguez,64,Male,Married,Graduate,Business,132000.0,11000.0,5800.0,284000.0,60,698,2,25800.0,Urban,46.44,320700.0,Auto Loan,1,1
+Joseph Gonzalez,40,Female,Married,Not Graduate,Business,278600.0,23216.67,48000.0,87000.0,360,634,0,2000.0,Rural,5.0,105300.0,Home Loan,1,1
+James Rodriguez,34,Female,Married,Graduate,Self-Employed,27500.0,2291.67,2100.0,255000.0,48,521,0,8600.0,Urban,85.0,424300.0,Business Loan,2,0
+Michael Rodriguez,22,Male,Single,Post Graduate,Salaried,109400.0,9116.67,0.0,108000.0,360,526,1,25400.0,Semiurban,6.58,121900.0,Business Loan,2,1
+Ananya Smith,29,Female,Single,Post Graduate,Business,33900.0,2825.0,0.0,19000.0,360,547,1,600.0,Semiurban,12.49,5600.0,Education Loan,1,1
+Barbara Davis,57,Male,Married,Graduate,Salaried,60200.0,5016.67,8000.0,229000.0,360,657,0,8700.0,Semiurban,11.19,222700.0,Auto Loan,2,1
+Ananya Sharma,40,Male,Married,Not Graduate,Self-Employed,51700.0,4308.33,21600.0,327000.0,60,760,1,7800.0,Semiurban,85.0,82000.0,Personal Loan,1,0
+David Williams,46,Male,Married,Not Graduate,Salaried,20800.0,1733.33,26200.0,103000.0,48,757,1,8600.0,Urban,62.45,44600.0,Personal Loan,0,1
+Thomas Davis,49,Female,Married,Post Graduate,Self-Employed,141500.0,11791.67,12100.0,39000.0,60,743,0,23000.0,Urban,5.08,22300.0,Personal Loan,0,1
+John Williams,21,Female,Married,Graduate,Salaried,23700.0,1975.0,23100.0,221000.0,360,639,3,26200.0,Semiurban,38.82,338500.0,Home Loan,4,1
+James Hernandez,55,Female,Married,Graduate,Salaried,72400.0,6033.33,8900.0,97000.0,60,772,1,71900.0,Urban,28.29,94500.0,Home Loan,0,1
+Robert Martinez,26,Male,Married,Not Graduate,Salaried,89200.0,7433.33,22000.0,228000.0,120,606,0,14600.0,Rural,20.5,236400.0,Auto Loan,0,1
+Michael Martinez,57,Male,Divorced,Not Graduate,Salaried,91400.0,7616.67,0.0,284000.0,60,748,0,78300.0,Semiurban,62.14,390600.0,Home Loan,3,1
+William Lopez,25,Male,Married,Not Graduate,Self-Employed,26600.0,2216.67,9900.0,210000.0,60,546,0,31700.0,Urban,85.0,230000.0,Home Loan,0,0
+Michael Rodriguez,53,Female,Divorced,Graduate,Business,46700.0,3891.67,0.0,253000.0,36,586,1,73100.0,Semiurban,85.0,309200.0,Auto Loan,2,1
+Linda Lopez,34,Male,Married,Post Graduate,Unemployed,99600.0,8300.0,32500.0,253000.0,120,812,0,53800.0,Urban,19.15,325500.0,Home Loan,2,1
+Mary Smith,32,Male,Single,Post Graduate,Salaried,36200.0,3016.67,0.0,269000.0,360,664,1,34900.0,Urban,34.71,375100.0,Home Loan,4,1
+Jessica Miller,62,Female,Married,Graduate,Self-Employed,48400.0,4033.33,4600.0,184000.0,12,626,0,13200.0,Urban,85.0,193400.0,Home Loan,0,1
+Amit Wilson,40,Male,Single,Graduate,Self-Employed,34300.0,2858.33,0.0,250000.0,360,768,1,8300.0,Rural,34.79,240800.0,Auto Loan,0,0
+Ananya Jones,44,Female,Divorced,Graduate,Salaried,48000.0,4000.0,0.0,195000.0,180,777,2,7500.0,Urban,42.08,233700.0,Auto Loan,3,1
+John Lopez,63,Male,Married,Not Graduate,Salaried,118500.0,9875.0,2200.0,215000.0,180,645,1,91200.0,Urban,14.86,189600.0,Auto Loan,0,1
+Linda Garcia,54,Female,Single,Not Graduate,Self-Employed,47300.0,3941.67,0.0,455000.0,180,702,1,95500.0,Urban,71.74,603700.0,Home Loan,1,1
+John Smith,45,Male,Married,Not Graduate,Business,56500.0,4708.33,2800.0,202000.0,48,691,3,38700.0,Urban,85.0,331200.0,Auto Loan,2,1
+John Jones,49,Female,Divorced,Graduate,Self-Employed,43300.0,3608.33,0.0,45000.0,60,454,1,64600.0,Urban,29.1,13300.0,Personal Loan,0,0
+Joseph Wilson,59,Male,Single,Graduate,Salaried,47700.0,3975.0,0.0,162000.0,240,568,0,75400.0,Rural,16.98,64200.0,Personal Loan,3,0
+John Smith,51,Male,Married,Graduate,Salaried,20700.0,1725.0,13800.0,152000.0,60,755,1,21500.0,Rural,85.0,54400.0,Personal Loan,1,0
+Robert Martinez,67,Male,Married,Graduate,Salaried,35000.0,2916.67,12900.0,156000.0,60,613,2,29800.0,Urban,80.17,93100.0,Personal Loan,0,0
+Amit Sharma,63,Male,Married,Not Graduate,Self-Employed,45800.0,3816.67,46400.0,266000.0,12,722,0,16300.0,Semiurban,85.0,91800.0,Personal Loan,0,0
+Susan Miller,43,Male,Married,Post Graduate,Self-Employed,65200.0,5433.33,700.0,282000.0,240,701,0,16300.0,Rural,21.4,502900.0,Auto Loan,0,1
+William Sharma,64,Female,Single,Post Graduate,Salaried,46900.0,3908.33,0.0,170000.0,60,777,1,1200.0,Urban,80.17,196900.0,Home Loan,0,1
+Joseph Martinez,58,Male,Single,Post Graduate,Business,38500.0,3208.33,0.0,55000.0,120,571,1,17100.0,Urban,23.64,7500.0,Personal Loan,2,1
+Elizabeth Lopez,40,Female,Married,Graduate,Salaried,42100.0,3508.33,18600.0,189000.0,36,712,2,33600.0,Rural,85.0,27100.0,Personal Loan,0,0
+Richard Williams,43,Female,Married,Graduate,Unemployed,32500.0,2708.33,13100.0,131000.0,360,675,0,16400.0,Semiurban,9.58,56300.0,Personal Loan,0,1
+Michael Smith,65,Female,Divorced,Not Graduate,Salaried,136300.0,11358.33,0.0,199000.0,60,617,0,61800.0,Urban,29.2,45700.0,Personal Loan,3,1
+Karen Gonzalez,36,Male,Single,Post Graduate,Salaried,53200.0,4433.33,0.0,169000.0,180,616,3,12100.0,Urban,41.48,218700.0,Business Loan,1,1
+Patricia Wilson,62,Male,Married,Graduate,Salaried,20600.0,1716.67,33800.0,289000.0,120,698,0,4300.0,Urban,53.12,321100.0,Business Loan,0,1
+Robert Miller,28,Female,Single,Graduate,Salaried,20900.0,1741.67,0.0,205000.0,240,730,0,50100.0,Urban,49.04,239600.0,Auto Loan,3,1
+Michael Gonzalez,41,Female,Single,Graduate,Salaried,182500.0,15208.33,0.0,131000.0,48,685,1,33600.0,Semiurban,19.92,146800.0,Auto Loan,0,1
+Joseph Hernandez,21,Male,Married,Not Graduate,Self-Employed,31300.0,2608.33,43400.0,55000.0,240,688,2,8300.0,Semiurban,13.32,67400.0,Home Loan,3,1
+Patricia Gonzalez,28,Male,Married,Graduate,Self-Employed,93700.0,7808.33,21000.0,176000.0,60,640,2,23100.0,Semiurban,36.97,201000.0,Auto Loan,2,1
+Michael Hernandez,49,Male,Married,Graduate,Self-Employed,22700.0,1891.67,3600.0,176000.0,60,645,3,15400.0,Urban,85.0,103000.0,Personal Loan,2,0
+Charles Garcia,52,Female,Divorced,Graduate,Salaried,134300.0,11191.67,0.0,156000.0,180,617,0,83800.0,Urban,7.74,170900.0,Home Loan,2,1
+Mary Martinez,58,Male,Married,Graduate,Salaried,113400.0,9450.0,3000.0,250000.0,240,639,0,28000.0,Urban,10.74,287700.0,Home Loan,1,1
+Richard Wilson,25,Male,Divorced,Post Graduate,Salaried,58100.0,4841.67,0.0,56000.0,180,728,0,5200.0,Rural,6.43,69200.0,Home Loan,2,1
+Carlos Jones,67,Female,Married,Graduate,Self-Employed,20400.0,1700.0,4000.0,111000.0,360,737,2,20900.0,Semiurban,44.67,89200.0,Home Loan,2,1
+Jennifer Lopez,42,Male,Married,Not Graduate,Salaried,33400.0,2783.33,5100.0,185000.0,48,578,1,59500.0,Urban,85.0,239000.0,Home Loan,0,0
+Barbara Lopez,67,Male,Married,Not Graduate,Business,43500.0,3625.0,500.0,130000.0,360,608,0,33400.0,Urban,9.85,137300.0,Home Loan,0,1
+Karen Wilson,54,Female,Married,Post Graduate,Self-Employed,47700.0,3975.0,25700.0,148000.0,36,623,1,55400.0,Rural,72.12,126700.0,Auto Loan,2,0
+David Verma,21,Female,Single,Graduate,Salaried,35900.0,2991.67,0.0,175000.0,180,675,0,8600.0,Semiurban,32.5,299400.0,Home Loan,1,1
+Amit Lopez,46,Male,Married,Post Graduate,Salaried,21500.0,1791.67,31900.0,242000.0,120,545,1,65800.0,Urban,52.06,130300.0,Personal Loan,2,0
+Carlos Miller,63,Male,Single,Graduate,Salaried,60100.0,5008.33,0.0,171000.0,60,610,2,42300.0,Urban,68.89,209700.0,Business Loan,1,0
+James Smith,30,Male,Married,Post Graduate,Salaried,53400.0,4450.0,46700.0,10000.0,60,569,0,39200.0,Urban,5.0,16300.0,Home Loan,1,1
+Carlos Hernandez,50,Male,Married,Post Graduate,Business,35000.0,2916.67,22300.0,126000.0,120,712,0,12800.0,Rural,21.99,121800.0,Business Loan,0,1
+Carlos Brown,38,Female,Single,Graduate,Business,21700.0,1808.33,0.0,225000.0,36,678,0,65600.0,Semiurban,85.0,371300.0,Auto Loan,0,1
+Richard Rodriguez,37,Male,Single,Graduate,Salaried,254900.0,21241.67,0.0,249000.0,60,643,0,30500.0,Semiurban,19.54,259400.0,Home Loan,1,1
+John Miller,46,Male,Divorced,Graduate,Self-Employed,49600.0,4133.33,0.0,254000.0,24,595,0,57300.0,Rural,85.0,352800.0,Home Loan,1,0
+Jennifer Davis,28,Male,Married,Graduate,Self-Employed,83500.0,6958.33,30700.0,279000.0,120,644,1,13400.0,Rural,27.58,414500.0,Home Loan,1,1
+William Wilson,67,Female,Single,Graduate,Self-Employed,47100.0,3925.0,0.0,191000.0,24,635,0,4700.0,Urban,85.0,325700.0,Home Loan,2,1
+Robert Smith,60,Male,Married,Graduate,Salaried,22000.0,1833.33,14700.0,204000.0,36,811,3,12100.0,Urban,85.0,287200.0,Home Loan,1,1
+Charles Martinez,32,Female,Married,Graduate,Salaried,36700.0,3058.33,36200.0,89000.0,24,760,0,18200.0,Semiurban,61.04,111500.0,Home Loan,2,1
+Barbara Davis,47,Male,Married,Graduate,Salaried,37400.0,3116.67,35500.0,10000.0,60,625,0,22900.0,Urban,5.0,13700.0,Home Loan,0,1
+Joseph Hernandez,28,Female,Divorced,Graduate,Business,102000.0,8500.0,0.0,52000.0,360,693,0,21500.0,Semiurban,5.0,13400.0,Personal Loan,1,1
+Priya Verma,45,Female,Married,Graduate,Salaried,67800.0,5650.0,24000.0,117000.0,360,756,2,23700.0,Rural,12.09,174200.0,Home Loan,0,1
+Ananya Rodriguez,66,Male,Single,Graduate,Salaried,34500.0,2875.0,0.0,58000.0,24,625,1,55300.0,Semiurban,85.0,57200.0,Business Loan,1,1
+Karen Smith,24,Male,Married,Graduate,Business,174500.0,14541.67,400.0,154000.0,180,567,2,5600.0,Urban,9.99,209000.0,Home Loan,0,1
+Thomas Martinez,53,Male,Married,Graduate,Self-Employed,37500.0,3125.0,13100.0,138000.0,180,536,2,11400.0,Urban,32.41,199800.0,Business Loan,0,1
+Karen Lopez,21,Male,Single,Graduate,Business,305300.0,25441.67,0.0,264000.0,120,782,3,65800.0,Urban,12.18,448400.0,Home Loan,0,1
+Michael Johnson,39,Male,Single,Post Graduate,Salaried,270300.0,22525.0,0.0,93000.0,180,665,2,24700.0,Rural,5.0,116300.0,Auto Loan,0,1
+John Smith,51,Male,Single,Graduate,Salaried,29500.0,2458.33,0.0,193000.0,48,703,0,26300.0,Urban,85.0,304000.0,Home Loan,1,1
+Robert Smith,36,Male,Married,Graduate,Business,36900.0,3075.0,17600.0,142000.0,60,634,2,19500.0,Urban,65.32,60200.0,Personal Loan,4,0
+Ananya Smith,34,Female,Married,Graduate,Salaried,50000.0,4166.67,28900.0,89000.0,60,579,3,23900.0,Urban,36.25,85100.0,Home Loan,0,1
+Thomas Johnson,25,Male,Married,Not Graduate,Salaried,69100.0,5758.33,99700.0,115000.0,24,593,4,6600.0,Rural,42.59,41500.0,Personal Loan,2,1
+Mary Lopez,61,Female,Divorced,Post Graduate,Salaried,53800.0,4483.33,0.0,10000.0,180,573,0,23700.0,Semiurban,5.0,14000.0,Home Loan,1,1
+Priya Miller,46,Male,Married,Post Graduate,Salaried,177000.0,14750.0,31600.0,247000.0,60,748,1,176100.0,Rural,25.41,39900.0,Personal Loan,0,1
+Robert Verma,48,Female,Single,Not Graduate,Salaried,77900.0,6491.67,0.0,306000.0,48,799,0,25000.0,Semiurban,85.0,473000.0,Home Loan,0,1
+James Smith,22,Female,Single,Graduate,Business,30700.0,2558.33,0.0,156000.0,60,683,0,1400.0,Semiurban,85.0,42500.0,Personal Loan,0,0
+Charles Wilson,26,Male,Married,Graduate,Business,25000.0,2083.33,20400.0,183000.0,240,559,1,47800.0,Urban,28.08,260300.0,Home Loan,2,1
+Mary Jones,29,Female,Single,Graduate,Business,72500.0,6041.67,0.0,153000.0,360,720,4,15100.0,Urban,26.9,151200.0,Home Loan,0,1
+Barbara Martinez,53,Male,Married,Post Graduate,Salaried,27800.0,2316.67,58300.0,106000.0,180,781,1,5000.0,Semiurban,12.39,30500.0,Personal Loan,0,1
+Jennifer Verma,61,Male,Married,Not Graduate,Salaried,89700.0,7475.0,53100.0,243000.0,60,758,2,59500.0,Rural,39.08,110500.0,Education Loan,0,1
+Amit Brown,45,Female,Single,Not Graduate,Salaried,36800.0,3066.67,0.0,209000.0,120,678,0,6600.0,Urban,56.79,105700.0,Personal Loan,1,1
+Amit Hernandez,33,Male,Married,Graduate,Business,37800.0,3150.0,1600.0,10000.0,60,661,0,76100.0,Urban,5.08,13100.0,Auto Loan,2,1
+Ananya Hernandez,29,Male,Married,Not Graduate,Salaried,20500.0,1708.33,3800.0,87000.0,36,677,1,17500.0,Semiurban,85.0,47900.0,Personal Loan,0,0
+Thomas Sharma,33,Female,Married,Graduate,Self-Employed,74300.0,6191.67,1200.0,10000.0,60,778,0,40700.0,Urban,5.0,1400.0,Personal Loan,1,1
+Jennifer Davis,51,Female,Single,Graduate,Self-Employed,25400.0,2116.67,0.0,320000.0,120,741,2,23800.0,Semiurban,85.0,369400.0,Home Loan,1,0
+Robert Brown,61,Female,Married,Graduate,Salaried,86700.0,7225.0,4100.0,165000.0,120,649,0,8900.0,Urban,18.17,270100.0,Home Loan,0,1
+Mary Garcia,31,Male,Single,Graduate,Salaried,50500.0,4208.33,0.0,202000.0,360,647,1,33400.0,Urban,20.46,268300.0,Business Loan,0,1
+Priya Hernandez,24,Female,Divorced,Graduate,Unemployed,89000.0,7416.67,0.0,148000.0,240,641,1,95000.0,Urban,12.36,59600.0,Personal Loan,1,1
+Jessica Verma,54,Male,Single,Post Graduate,Unemployed,59500.0,4958.33,0.0,279000.0,36,595,0,44000.0,Semiurban,85.0,498000.0,Auto Loan,1,1
+James Rodriguez,58,Female,Married,Graduate,Salaried,23900.0,1991.67,4700.0,257000.0,36,788,3,27800.0,Semiurban,85.0,58600.0,Personal Loan,2,1
+Jennifer Verma,66,Female,Married,Graduate,Salaried,85300.0,7108.33,22300.0,161000.0,36,617,1,140100.0,Urban,53.22,77600.0,Personal Loan,1,1
+John Brown,24,Female,Divorced,Graduate,Unemployed,23300.0,1941.67,0.0,335000.0,240,719,1,9200.0,Rural,85.0,152500.0,Personal Loan,0,0
+Patricia Williams,58,Female,Single,Graduate,Salaried,49300.0,4108.33,0.0,197000.0,240,627,2,1900.0,Urban,34.58,35400.0,Personal Loan,0,1
+John Sharma,39,Male,Single,Not Graduate,Salaried,28500.0,2375.0,0.0,49000.0,360,642,0,1000.0,Urban,5.73,72300.0,Home Loan,1,1
+Charles Brown,26,Female,Single,Not Graduate,Salaried,82800.0,6900.0,0.0,189000.0,120,671,2,37200.0,Semiurban,31.52,64400.0,Personal Loan,2,1
+Michael Brown,54,Female,Single,Not Graduate,Salaried,129200.0,10766.67,0.0,227000.0,360,724,0,53200.0,Urban,5.86,57300.0,Personal Loan,0,1
+William Smith,38,Male,Single,Post Graduate,Salaried,56300.0,4691.67,0.0,168000.0,120,659,0,30200.0,Semiurban,29.84,82300.0,Education Loan,3,1
+Linda Verma,33,Female,Married,Not Graduate,Salaried,53700.0,4475.0,2700.0,143000.0,360,589,3,70600.0,Rural,27.6,80500.0,Personal Loan,1,1
+Michael Johnson,61,Male,Single,Graduate,Salaried,85000.0,7083.33,0.0,339000.0,240,682,2,35900.0,Semiurban,28.41,485700.0,Auto Loan,0,1
+Linda Smith,43,Female,Single,Not Graduate,Salaried,20200.0,1683.33,0.0,73000.0,180,619,0,13900.0,Semiurban,24.09,58500.0,Home Loan,1,0
+David Lopez,39,Female,Married,Graduate,Unemployed,132400.0,11033.33,6700.0,10000.0,120,804,1,6000.0,Semiurban,5.0,12700.0,Home Loan,0,1
+Carlos Rodriguez,65,Female,Single,Graduate,Business,29900.0,2491.67,0.0,326000.0,240,659,3,77600.0,Urban,85.0,552300.0,Business Loan,1,1
+Sarah Miller,31,Male,Single,Graduate,Business,206400.0,17200.0,0.0,70000.0,60,627,0,3300.0,Urban,6.78,103600.0,Auto Loan,1,1
+Elizabeth Williams,21,Female,Single,Not Graduate,Self-Employed,80000.0,6666.67,0.0,154000.0,24,838,0,23500.0,Urban,85.0,182900.0,Home Loan,0,1
+Michael Lopez,44,Male,Divorced,Not Graduate,Salaried,87000.0,7250.0,0.0,146000.0,12,739,1,11300.0,Rural,85.0,22400.0,Personal Loan,2,0
+Jessica Martinez,27,Female,Single,Graduate,Salaried,68000.0,5666.67,0.0,291000.0,60,608,0,9500.0,Urban,85.0,505300.0,Home Loan,2,0
+Jessica Rodriguez,45,Male,Married,Not Graduate,Business,48700.0,4058.33,2700.0,309000.0,120,617,0,31100.0,Semiurban,60.12,305200.0,Auto Loan,0,1
+Karen Lopez,41,Male,Married,Post Graduate,Salaried,58100.0,4841.67,500.0,64000.0,24,718,2,7900.0,Rural,66.89,85200.0,Home Loan,0,1
+Thomas Johnson,35,Female,Single,Graduate,Salaried,22100.0,1841.67,0.0,302000.0,48,683,0,74400.0,Semiurban,85.0,312500.0,Business Loan,0,1
+James Verma,21,Male,Divorced,Graduate,Self-Employed,64000.0,5333.33,0.0,300000.0,60,751,2,15600.0,Rural,85.0,132100.0,Personal Loan,2,0
+Barbara Jones,32,Female,Single,Not Graduate,Salaried,64300.0,5358.33,0.0,182000.0,120,627,1,33900.0,Semiurban,33.9,276800.0,Home Loan,0,1
+Robert Verma,27,Female,Single,Graduate,Salaried,119800.0,9983.33,0.0,264000.0,48,736,1,39000.0,Urban,58.1,422700.0,Business Loan,0,1
+Amit Rodriguez,35,Female,Married,Not Graduate,Unemployed,51700.0,4308.33,41100.0,273000.0,24,501,1,34500.0,Rural,85.0,133400.0,Education Loan,0,0
+William Williams,41,Female,Married,Graduate,Business,23600.0,1966.67,2100.0,157000.0,36,668,1,70100.0,Urban,85.0,162100.0,Home Loan,0,1
+Charles Verma,39,Male,Married,Graduate,Salaried,36500.0,3041.67,11500.0,166000.0,36,631,0,7900.0,Urban,85.0,140900.0,Business Loan,2,0
+Jessica Williams,49,Male,Single,Not Graduate,Unemployed,68000.0,5666.67,0.0,233000.0,360,644,0,2700.0,Semiurban,11.42,254200.0,Business Loan,2,1
+Karen Davis,45,Male,Married,Not Graduate,Self-Employed,32300.0,2691.67,35900.0,33000.0,48,672,2,1700.0,Semiurban,22.65,39600.0,Auto Loan,1,1
+Priya Davis,53,Male,Married,Not Graduate,Self-Employed,34800.0,2900.0,13500.0,148000.0,240,771,0,63100.0,Rural,15.32,50400.0,Education Loan,1,1
+James Davis,52,Male,Single,Post Graduate,Salaried,97300.0,8108.33,0.0,72000.0,120,588,0,108700.0,Rural,7.4,30200.0,Personal Loan,1,1
+Karen Hernandez,55,Female,Single,Not Graduate,Salaried,59500.0,4958.33,0.0,308000.0,360,505,4,10800.0,Rural,41.46,354100.0,Auto Loan,0,0
+Thomas Davis,64,Female,Single,Not Graduate,Self-Employed,52000.0,4333.33,0.0,147000.0,48,597,4,35500.0,Urban,85.0,187200.0,Business Loan,0,0
+Patricia Garcia,58,Male,Single,Graduate,Business,37300.0,3108.33,0.0,205000.0,36,762,0,300.0,Semiurban,85.0,120500.0,Personal Loan,0,0
+Linda Brown,46,Female,Married,Graduate,Self-Employed,79100.0,6591.67,12700.0,160000.0,24,548,0,6300.0,Semiurban,85.0,44700.0,Personal Loan,2,0
+John Verma,31,Female,Married,Graduate,Salaried,35300.0,2941.67,15000.0,154000.0,48,634,1,35100.0,Rural,83.7,156600.0,Home Loan,3,0
+Carlos Williams,55,Female,Divorced,Not Graduate,Salaried,80100.0,6675.0,0.0,199000.0,180,747,2,2000.0,Urban,25.55,276500.0,Business Loan,0,1
+Carlos Gonzalez,28,Female,Single,Graduate,Business,23300.0,1941.67,0.0,114000.0,24,675,0,19000.0,Urban,85.0,140900.0,Auto Loan,0,1
+Sarah Verma,66,Male,Married,Graduate,Salaried,110000.0,9166.67,9000.0,162000.0,48,770,0,32600.0,Rural,34.03,86700.0,Personal Loan,0,1
+Susan Johnson,34,Male,Single,Graduate,Salaried,51200.0,4266.67,0.0,161000.0,360,517,2,43600.0,Urban,24.54,17700.0,Personal Loan,2,0
+Mary Garcia,30,Male,Single,Not Graduate,Salaried,46000.0,3833.33,0.0,142000.0,120,654,3,18100.0,Semiurban,54.35,221500.0,Home Loan,2,1
+John Verma,22,Male,Single,Post Graduate,Salaried,62500.0,5208.33,0.0,215000.0,24,787,2,29900.0,Urban,85.0,297400.0,Home Loan,0,1
+William Brown,66,Female,Single,Graduate,Self-Employed,64000.0,5333.33,0.0,140000.0,12,590,0,23300.0,Urban,85.0,22600.0,Personal Loan,2,0
+James Brown,29,Female,Married,Post Graduate,Self-Employed,26400.0,2200.0,68800.0,325000.0,24,763,1,1600.0,Semiurban,85.0,133400.0,Personal Loan,2,1
+James Wilson,23,Male,Divorced,Graduate,Salaried,83500.0,6958.33,0.0,237000.0,360,661,1,40700.0,Urban,13.77,237700.0,Business Loan,0,1
+Rahul Verma,41,Male,Married,Graduate,Salaried,34500.0,2875.0,11900.0,59000.0,360,715,0,5700.0,Semiurban,5.0,31600.0,Personal Loan,0,1
+Karen Davis,46,Female,Single,Post Graduate,Business,125900.0,10491.67,0.0,230000.0,360,781,0,1000.0,Urban,6.09,88900.0,Education Loan,1,1
+Linda Miller,28,Male,Single,Graduate,Salaried,96600.0,8050.0,0.0,118000.0,360,714,0,18000.0,Urban,5.0,162700.0,Home Loan,0,1
+John Smith,22,Male,Single,Post Graduate,Salaried,39100.0,3258.33,0.0,192000.0,120,633,1,60200.0,Urban,58.31,112700.0,Education Loan,0,0
+James Verma,26,Female,Married,Graduate,Unemployed,94200.0,7850.0,18700.0,114000.0,48,725,1,4900.0,Semiurban,28.43,158200.0,Home Loan,0,1
+Barbara Hernandez,48,Male,Married,Graduate,Salaried,39800.0,3316.67,15400.0,10000.0,60,627,2,400.0,Urban,16.67,9200.0,Auto Loan,1,1
+Charles Garcia,49,Male,Divorced,Post Graduate,Business,24800.0,2066.67,0.0,178000.0,240,702,2,3500.0,Semiurban,64.92,25300.0,Personal Loan,2,0
+Amit Garcia,46,Male,Single,Graduate,Salaried,167000.0,13916.67,0.0,51000.0,360,580,3,13600.0,Semiurban,7.49,30000.0,Personal Loan,1,1
+Susan Wilson,45,Female,Married,Post Graduate,Self-Employed,67600.0,5633.33,6500.0,218000.0,60,682,2,26000.0,Semiurban,68.56,371300.0,Home Loan,0,1
+Jennifer Garcia,32,Female,Married,Post Graduate,Salaried,47400.0,3950.0,13900.0,196000.0,120,775,0,6400.0,Semiurban,31.97,335500.0,Home Loan,0,1
+Richard Williams,25,Male,Married,Graduate,Unemployed,42800.0,3566.67,3500.0,126000.0,360,656,0,48600.0,Urban,9.07,197600.0,Auto Loan,1,1
+Priya Davis,54,Male,Married,Graduate,Salaried,37700.0,3141.67,8300.0,344000.0,36,767,1,42000.0,Urban,85.0,103900.0,Personal Loan,0,0
+Mary Jones,57,Male,Married,Graduate,Salaried,199400.0,16616.67,7800.0,68000.0,360,850,0,35700.0,Semiurban,5.0,39700.0,Education Loan,1,1
+James Lopez,35,Female,Married,Graduate,Unemployed,26500.0,2208.33,17700.0,124000.0,36,678,3,20100.0,Urban,85.0,109700.0,Home Loan,0,0
+Joseph Verma,64,Female,Single,Graduate,Salaried,37000.0,3083.33,0.0,79000.0,60,729,0,13600.0,Rural,42.7,36000.0,Education Loan,2,0
+James Jones,56,Male,Married,Graduate,Salaried,49900.0,4158.33,35400.0,364000.0,48,718,0,14100.0,Rural,85.0,446600.0,Home Loan,2,1
+Jessica Williams,35,Female,Single,Graduate,Salaried,49300.0,4108.33,0.0,302000.0,180,698,1,21000.0,Urban,48.14,377900.0,Home Loan,2,1
+Patricia Williams,63,Male,Married,Graduate,Self-Employed,48700.0,4058.33,22200.0,52000.0,120,743,1,2400.0,Semiurban,12.41,85700.0,Home Loan,0,1
+Thomas Verma,43,Male,Married,Post Graduate,Salaried,28700.0,2391.67,24300.0,106000.0,60,660,1,34400.0,Rural,46.79,150700.0,Business Loan,1,1
+Thomas Lopez,26,Male,Married,Not Graduate,Salaried,27000.0,2250.0,6900.0,109000.0,360,627,1,13000.0,Urban,21.34,47100.0,Personal Loan,0,0
+Susan Jones,66,Male,Divorced,Not Graduate,Self-Employed,33200.0,2766.67,0.0,130000.0,180,558,0,7600.0,Semiurban,26.1,131400.0,Home Loan,2,0
+Jennifer Williams,64,Male,Married,Graduate,Salaried,130700.0,10891.67,62600.0,86000.0,240,653,0,9800.0,Urban,5.0,69300.0,Home Loan,0,1
+William Jones,63,Male,Married,Not Graduate,Unemployed,25400.0,2116.67,29100.0,125000.0,36,752,3,6000.0,Semiurban,85.0,188800.0,Home Loan,2,1
+Ananya Gonzalez,65,Male,Married,Graduate,Business,83700.0,6975.0,69800.0,270000.0,360,605,0,69600.0,Rural,5.86,158600.0,Personal Loan,0,1
+Thomas Wilson,41,Female,Married,Not Graduate,Self-Employed,83800.0,6983.33,27400.0,355000.0,36,700,0,5600.0,Semiurban,85.0,621200.0,Home Loan,2,0
+Rahul Sharma,43,Male,Married,Post Graduate,Business,94700.0,7891.67,3900.0,41000.0,48,670,1,64300.0,Semiurban,14.05,62100.0,Auto Loan,2,1
+John Lopez,63,Female,Married,Graduate,Self-Employed,118000.0,9833.33,1300.0,86000.0,36,630,0,25500.0,Rural,24.03,77700.0,Auto Loan,0,1
+James Brown,36,Female,Married,Not Graduate,Salaried,33700.0,2808.33,17200.0,199000.0,60,532,1,60600.0,Semiurban,85.0,191300.0,Business Loan,3,0
+Rahul Verma,67,Male,Divorced,Not Graduate,Self-Employed,31400.0,2616.67,0.0,38000.0,360,789,1,19300.0,Semiurban,15.5,15300.0,Personal Loan,0,1
+Amit Smith,35,Male,Divorced,Post Graduate,Salaried,48200.0,4016.67,0.0,202000.0,48,721,2,78800.0,Semiurban,85.0,348400.0,Home Loan,3,1
+John Verma,45,Male,Married,Not Graduate,Salaried,33900.0,2825.0,32900.0,229000.0,60,850,1,7100.0,Semiurban,73.95,118700.0,Education Loan,2,0
+Sarah Rodriguez,56,Male,Single,Graduate,Business,79600.0,6633.33,0.0,243000.0,360,766,0,24300.0,Rural,10.18,44100.0,Personal Loan,4,1
+Elizabeth Sharma,31,Male,Single,Graduate,Salaried,65500.0,5458.33,0.0,226000.0,180,787,1,4000.0,Rural,28.5,25100.0,Personal Loan,0,1
+Priya Martinez,35,Female,Married,Graduate,Business,113600.0,9466.67,37900.0,132000.0,240,540,0,17800.0,Semiurban,5.0,141200.0,Business Loan,0,1
+John Davis,24,Female,Single,Not Graduate,Salaried,23900.0,1991.67,0.0,164000.0,48,539,0,25300.0,Semiurban,85.0,279000.0,Home Loan,2,0
+Susan Davis,41,Male,Married,Graduate,Self-Employed,131000.0,10916.67,8800.0,74000.0,240,683,1,27900.0,Urban,5.22,10000.0,Personal Loan,3,1
+Sarah Verma,33,Female,Married,Post Graduate,Salaried,35600.0,2966.67,35700.0,222000.0,48,588,0,13600.0,Rural,77.84,324300.0,Home Loan,0,1
+Joseph Garcia,42,Male,Married,Graduate,Self-Employed,50400.0,4200.0,38000.0,324000.0,360,625,1,2400.0,Semiurban,16.29,273200.0,Home Loan,0,1
+Amit Johnson,39,Female,Divorced,Graduate,Self-Employed,46000.0,3833.33,0.0,222000.0,120,850,1,32000.0,Semiurban,56.09,355400.0,Home Loan,0,1
+Elizabeth Johnson,54,Female,Married,Graduate,Self-Employed,84300.0,7025.0,1400.0,117000.0,180,775,2,20100.0,Urban,17.5,190600.0,Home Loan,2,1
+Thomas Davis,34,Female,Married,Not Graduate,Salaried,44500.0,3708.33,0.0,270000.0,36,605,2,4400.0,Rural,85.0,131600.0,Personal Loan,2,0
+James Rodriguez,24,Male,Married,Graduate,Salaried,149400.0,12450.0,14800.0,393000.0,48,491,0,82400.0,Urban,59.84,387500.0,Business Loan,0,0
+David Garcia,66,Male,Single,Graduate,Salaried,124800.0,10400.0,0.0,202000.0,36,598,0,93500.0,Urban,53.95,81200.0,Personal Loan,0,0
+Jessica Miller,47,Female,Married,Graduate,Self-Employed,112600.0,9383.33,117100.0,230000.0,60,635,0,58300.0,Semiurban,20.03,299800.0,Auto Loan,1,1
+Elizabeth Miller,49,Male,Single,Graduate,Business,23300.0,1941.67,0.0,241000.0,48,654,0,55700.0,Semiurban,85.0,113100.0,Personal Loan,0,0
+John Johnson,67,Female,Divorced,Graduate,Salaried,106700.0,8891.67,0.0,36000.0,240,578,0,3100.0,Urban,5.0,50600.0,Business Loan,2,1
+Carlos Davis,48,Male,Married,Not Graduate,Self-Employed,88500.0,7375.0,62100.0,143000.0,36,770,0,150700.0,Semiurban,31.65,187900.0,Business Loan,0,1
+Richard Lopez,55,Male,Single,Graduate,Business,24900.0,2075.0,0.0,134000.0,240,623,1,15300.0,Urban,41.37,126600.0,Business Loan,1,1
+Michael Rodriguez,28,Male,Married,Graduate,Salaried,25100.0,2091.67,7700.0,255000.0,12,732,1,5300.0,Urban,85.0,392500.0,Business Loan,2,1
+Patricia Gonzalez,36,Male,Married,Not Graduate,Self-Employed,24800.0,2066.67,3600.0,245000.0,48,684,1,50200.0,Urban,85.0,392900.0,Home Loan,1,1
+Karen Smith,62,Female,Single,Post Graduate,Business,20500.0,1708.33,0.0,169000.0,240,755,1,7700.0,Rural,58.78,98200.0,Personal Loan,0,0
+Linda Verma,56,Male,Divorced,Not Graduate,Salaried,55800.0,4650.0,0.0,128000.0,240,661,1,22400.0,Urban,17.92,41700.0,Personal Loan,2,1
+Susan Verma,50,Male,Single,Graduate,Salaried,183200.0,15266.67,0.0,28000.0,60,606,1,4100.0,Urban,5.02,10700.0,Personal Loan,0,1
+Susan Lopez,38,Male,Single,Post Graduate,Salaried,46000.0,3833.33,0.0,179000.0,12,632,1,19300.0,Semiurban,85.0,70200.0,Personal Loan,2,0
+Charles Miller,22,Male,Married,Post Graduate,Unemployed,55000.0,4583.33,47700.0,94000.0,180,633,0,24500.0,Urban,6.1,92200.0,Home Loan,0,1
+Joseph Lopez,33,Male,Married,Not Graduate,Business,174800.0,14566.67,10900.0,83000.0,60,845,1,17700.0,Semiurban,10.88,93000.0,Home Loan,2,1
+Mary Johnson,24,Male,Married,Graduate,Self-Employed,33300.0,2775.0,30600.0,263000.0,60,686,1,2200.0,Rural,85.0,121900.0,Education Loan,0,0
+Amit Sharma,46,Female,Married,Graduate,Salaried,108000.0,9000.0,6200.0,254000.0,180,680,0,19900.0,Rural,14.83,226600.0,Auto Loan,0,1
+Priya Williams,45,Male,Married,Not Graduate,Salaried,55600.0,4633.33,23900.0,136000.0,60,751,0,19000.0,Urban,34.21,144100.0,Home Loan,0,1
+Carlos Martinez,50,Male,Married,Graduate,Salaried,57900.0,4825.0,0.0,39000.0,24,680,0,9100.0,Semiurban,33.68,34600.0,Home Loan,3,1
+Priya Martinez,31,Male,Single,Graduate,Salaried,38900.0,3241.67,0.0,106000.0,360,770,1,76400.0,Semiurban,18.34,113800.0,Auto Loan,4,1
+Priya Smith,27,Male,Single,Not Graduate,Self-Employed,57100.0,4758.33,0.0,269000.0,240,650,2,16200.0,Urban,36.16,51200.0,Personal Loan,0,0
+Karen Martinez,51,Female,Single,Not Graduate,Unemployed,23400.0,1950.0,0.0,222000.0,24,642,0,59900.0,Urban,85.0,53700.0,Personal Loan,0,0
+Jennifer Sharma,64,Male,Single,Graduate,Business,85100.0,7091.67,0.0,138000.0,120,602,0,3500.0,Semiurban,16.22,170900.0,Home Loan,0,1
+Priya Hernandez,30,Male,Married,Not Graduate,Self-Employed,35100.0,2925.0,6200.0,185000.0,24,828,3,11500.0,Urban,85.0,180200.0,Home Loan,0,0
+Robert Smith,59,Female,Single,Graduate,Salaried,118400.0,9866.67,0.0,10000.0,360,674,0,5800.0,Rural,5.0,1200.0,Personal Loan,2,1
+Linda Jones,33,Male,Single,Graduate,Salaried,40600.0,3383.33,0.0,10000.0,180,586,0,15700.0,Semiurban,5.0,14300.0,Auto Loan,0,1
+Barbara Lopez,51,Male,Single,Not Graduate,Salaried,26900.0,2241.67,0.0,358000.0,36,696,0,3600.0,Urban,85.0,425000.0,Home Loan,2,1
+Robert Miller,27,Female,Divorced,Graduate,Self-Employed,73600.0,6133.33,0.0,226000.0,12,628,1,17500.0,Urban,85.0,193500.0,Home Loan,2,0
+Patricia Garcia,62,Female,Divorced,Graduate,Business,28100.0,2341.67,0.0,180000.0,12,649,1,13100.0,Rural,85.0,309600.0,Auto Loan,1,1
+Richard Verma,62,Female,Married,Post Graduate,Salaried,83100.0,6925.0,22100.0,144000.0,120,705,1,7600.0,Urban,17.11,173500.0,Business Loan,2,1
+Karen Wilson,56,Male,Divorced,Graduate,Salaried,175000.0,14583.33,0.0,21000.0,240,802,3,30800.0,Semiurban,6.77,29200.0,Home Loan,0,1
+Joseph Williams,40,Male,Married,Graduate,Salaried,88000.0,7333.33,27500.0,269000.0,36,688,1,90400.0,Urban,80.75,453400.0,Auto Loan,0,1
+Amit Davis,24,Male,Married,Post Graduate,Salaried,21000.0,1750.0,1100.0,78000.0,48,623,0,7000.0,Rural,85.0,18500.0,Education Loan,2,0
+Karen Verma,27,Male,Single,Not Graduate,Salaried,61200.0,5100.0,0.0,243000.0,60,640,1,37300.0,Semiurban,85.0,45600.0,Education Loan,0,0
+Richard Johnson,21,Female,Married,Not Graduate,Salaried,73500.0,6125.0,6000.0,192000.0,48,733,0,40700.0,Urban,60.38,329200.0,Business Loan,0,1
+Elizabeth Wilson,64,Male,Married,Post Graduate,Salaried,98600.0,8216.67,17700.0,175000.0,60,523,1,20700.0,Urban,33.19,170500.0,Auto Loan,3,1
+Charles Smith,65,Female,Married,Graduate,Business,22600.0,1883.33,6100.0,63000.0,120,597,0,68400.0,Semiurban,21.95,106600.0,Home Loan,1,1
+Ananya Sharma,62,Female,Married,Not Graduate,Self-Employed,49400.0,4116.67,83900.0,64000.0,180,697,1,101800.0,Rural,5.9,58900.0,Auto Loan,0,1
+Charles Lopez,67,Male,Married,Graduate,Salaried,54500.0,4541.67,7400.0,215000.0,360,543,0,13500.0,Urban,11.58,231200.0,Auto Loan,2,1
+Amit Martinez,33,Male,Married,Not Graduate,Salaried,28300.0,2358.33,5500.0,187000.0,360,655,2,31600.0,Semiurban,39.74,63600.0,Personal Loan,0,1
+Robert Martinez,42,Female,Divorced,Graduate,Salaried,37500.0,3125.0,0.0,184000.0,120,642,0,32600.0,Urban,49.07,96000.0,Personal Loan,3,1
+Rahul Wilson,41,Male,Single,Not Graduate,Salaried,46100.0,3841.67,0.0,206000.0,240,750,1,15500.0,Rural,30.15,305700.0,Auto Loan,0,1
+Amit Sharma,42,Female,Married,Graduate,Salaried,100600.0,8383.33,20200.0,10000.0,360,660,0,11400.0,Semiurban,5.0,5000.0,Education Loan,1,1
+William Lopez,48,Male,Married,Graduate,Salaried,139300.0,11608.33,26200.0,271000.0,24,775,3,81400.0,Urban,85.0,358500.0,Home Loan,2,1
+Rahul Smith,29,Male,Married,Not Graduate,Self-Employed,64500.0,5375.0,50000.0,148000.0,12,686,2,46800.0,Urban,85.0,203100.0,Home Loan,1,1
+James Sharma,46,Female,Married,Not Graduate,Self-Employed,42600.0,3550.0,48600.0,285000.0,12,822,0,3600.0,Urban,85.0,308300.0,Auto Loan,2,1
+Mary Verma,29,Female,Single,Not Graduate,Salaried,33200.0,2766.67,0.0,10000.0,120,569,3,3800.0,Semiurban,35.54,17900.0,Home Loan,3,1
+Priya Verma,35,Male,Married,Graduate,Business,201100.0,16758.33,4400.0,231000.0,240,809,0,76700.0,Urban,5.62,41400.0,Personal Loan,2,1
+Carlos Davis,30,Female,Single,Graduate,Salaried,203400.0,16950.0,0.0,230000.0,60,647,1,2500.0,Urban,24.39,232400.0,Home Loan,0,1
+Richard Jones,44,Male,Married,Not Graduate,Salaried,136500.0,11375.0,4600.0,46000.0,120,798,1,35000.0,Rural,5.81,16300.0,Personal Loan,1,1
+James Verma,62,Female,Married,Not Graduate,Self-Employed,89300.0,7441.67,27200.0,122000.0,120,775,0,7700.0,Semiurban,10.47,143800.0,Auto Loan,3,1
+Michael Verma,28,Female,Married,Not Graduate,Self-Employed,37700.0,3141.67,23100.0,85000.0,24,452,3,1100.0,Semiurban,85.0,126900.0,Home Loan,0,0
+Robert Garcia,44,Male,Single,Post Graduate,Business,96400.0,8033.33,0.0,258000.0,60,718,0,1800.0,Urban,53.53,266100.0,Home Loan,1,1
+Amit Williams,36,Male,Married,Not Graduate,Self-Employed,43700.0,3641.67,15200.0,208000.0,12,760,0,14000.0,Urban,85.0,326500.0,Home Loan,1,1
+Barbara Martinez,46,Female,Single,Graduate,Business,37800.0,3150.0,0.0,324000.0,36,786,2,2400.0,Urban,85.0,86300.0,Personal Loan,0,0
+Jessica Williams,47,Male,Married,Not Graduate,Business,81500.0,6791.67,61300.0,198000.0,360,586,1,27200.0,Semiurban,7.14,245600.0,Auto Loan,0,1
+Robert Garcia,57,Female,Divorced,Post Graduate,Self-Employed,23700.0,1975.0,0.0,246000.0,360,727,0,31300.0,Semiurban,34.6,30000.0,Personal Loan,3,1
+Carlos Gonzalez,24,Male,Divorced,Not Graduate,Salaried,22200.0,1850.0,0.0,285000.0,360,696,0,14000.0,Rural,42.79,33500.0,Personal Loan,1,0
+Susan Lopez,44,Female,Married,Not Graduate,Self-Employed,46700.0,3891.67,18900.0,230000.0,240,715,1,40700.0,Urban,23.02,72100.0,Personal Loan,0,0
+Robert Sharma,39,Female,Married,Not Graduate,Unemployed,46500.0,3875.0,66500.0,145000.0,240,760,0,20200.0,Urban,6.42,231800.0,Home Loan,2,1
+Thomas Wilson,56,Female,Single,Graduate,Self-Employed,121700.0,10141.67,0.0,129000.0,180,773,3,16900.0,Rural,15.94,180000.0,Business Loan,1,1
+Susan Wilson,59,Male,Single,Graduate,Salaried,26100.0,2175.0,0.0,173000.0,180,628,1,15700.0,Urban,57.98,226900.0,Home Loan,2,1
+Karen Jones,30,Female,Married,Graduate,Self-Employed,25900.0,2158.33,1100.0,252000.0,180,701,0,16900.0,Urban,62.22,412900.0,Business Loan,0,1
+Barbara Verma,45,Female,Married,Post Graduate,Salaried,27200.0,2266.67,1100.0,111000.0,120,683,0,103200.0,Urban,39.22,23700.0,Personal Loan,3,0
+Jessica Jones,38,Male,Divorced,Not Graduate,Salaried,21400.0,1783.33,0.0,239000.0,60,661,1,34300.0,Semiurban,85.0,74500.0,Personal Loan,1,0
+Michael Brown,39,Male,Single,Graduate,Salaried,23300.0,1941.67,0.0,209000.0,240,668,0,11400.0,Rural,44.85,311700.0,Auto Loan,2,1
+James Wilson,56,Male,Divorced,Post Graduate,Self-Employed,68500.0,5708.33,0.0,67000.0,48,696,2,39700.0,Urban,34.96,59000.0,Business Loan,0,1
+Robert Miller,30,Female,Married,Graduate,Business,45400.0,3783.33,14800.0,234000.0,120,632,4,12000.0,Urban,62.79,68200.0,Education Loan,0,0
+Elizabeth Garcia,53,Male,Married,Graduate,Salaried,84900.0,7075.0,30500.0,193000.0,60,751,1,4000.0,Semiurban,36.57,75700.0,Personal Loan,0,1
+Robert Brown,25,Male,Single,Not Graduate,Salaried,240800.0,20066.67,0.0,130000.0,48,782,1,19400.0,Rural,14.99,230200.0,Home Loan,3,1
+Mary Brown,67,Female,Single,Not Graduate,Salaried,68400.0,5700.0,0.0,191000.0,360,614,0,41700.0,Urban,9.31,258300.0,Business Loan,0,1
+Elizabeth Martinez,55,Male,Married,Graduate,Self-Employed,22300.0,1858.33,13500.0,134000.0,48,785,1,14200.0,Rural,85.0,143100.0,Home Loan,2,1
+Charles Martinez,64,Male,Married,Graduate,Salaried,25000.0,2083.33,2300.0,202000.0,60,615,1,61000.0,Urban,85.0,188400.0,Business Loan,0,0
+James Davis,54,Female,Single,Graduate,Salaried,115800.0,9650.0,0.0,165000.0,36,752,1,14700.0,Urban,50.6,283800.0,Auto Loan,0,1
+Robert Gonzalez,53,Female,Married,Graduate,Salaried,53700.0,4475.0,7600.0,42000.0,360,785,0,12900.0,Urban,5.0,20500.0,Education Loan,0,1
+Patricia Verma,41,Male,Married,Graduate,Salaried,98400.0,8200.0,700.0,168000.0,120,672,2,190300.0,Urban,24.22,185900.0,Business Loan,2,1
+Ananya Verma,37,Male,Married,Graduate,Salaried,107400.0,8950.0,2900.0,140000.0,180,615,0,19800.0,Urban,8.46,232100.0,Home Loan,2,1
+Amit Johnson,42,Female,Divorced,Graduate,Self-Employed,138200.0,11516.67,0.0,237000.0,360,633,1,49100.0,Rural,8.32,332800.0,Auto Loan,3,1
+Thomas Lopez,57,Male,Single,Graduate,Salaried,154700.0,12891.67,0.0,259000.0,60,709,2,49000.0,Urban,38.14,250900.0,Home Loan,3,1
+Karen Davis,35,Male,Single,Graduate,Self-Employed,56400.0,4700.0,0.0,134000.0,36,837,1,78300.0,Urban,85.0,163700.0,Home Loan,0,1
+Barbara Johnson,55,Male,Married,Graduate,Salaried,38800.0,3233.33,1800.0,109000.0,36,545,0,2700.0,Urban,85.0,27300.0,Personal Loan,2,0
+John Lopez,48,Male,Married,Post Graduate,Salaried,167000.0,13916.67,32100.0,29000.0,240,688,1,9500.0,Semiurban,5.0,49300.0,Home Loan,1,1
+James Smith,27,Female,Single,Not Graduate,Salaried,55700.0,4641.67,0.0,107000.0,180,673,0,43800.0,Rural,12.81,93100.0,Auto Loan,2,1
+Charles Hernandez,52,Male,Single,Graduate,Self-Employed,23000.0,1916.67,0.0,151000.0,48,643,2,24800.0,Urban,85.0,82000.0,Education Loan,0,0
+Robert Lopez,31,Female,Married,Graduate,Business,66300.0,5525.0,40400.0,59000.0,36,674,0,24600.0,Urban,18.43,26600.0,Personal Loan,2,1
+John Smith,30,Female,Single,Graduate,Business,59900.0,4991.67,0.0,260000.0,36,637,0,5500.0,Urban,85.0,346800.0,Home Loan,0,1
+James Davis,29,Male,Single,Graduate,Self-Employed,121800.0,10150.0,0.0,204000.0,180,779,0,9900.0,Semiurban,11.17,316200.0,Business Loan,0,1
+Elizabeth Hernandez,34,Female,Single,Graduate,Salaried,67700.0,5641.67,0.0,169000.0,12,787,2,22100.0,Urban,85.0,185100.0,Business Loan,0,1
+Barbara Gonzalez,33,Female,Single,Graduate,Business,39300.0,3275.0,0.0,178000.0,12,687,1,9700.0,Semiurban,85.0,277300.0,Auto Loan,0,1
+Richard Lopez,45,Male,Married,Graduate,Self-Employed,172500.0,14375.0,500.0,208000.0,60,669,1,7100.0,Semiurban,26.13,305500.0,Auto Loan,0,1
+Susan Johnson,22,Male,Married,Not Graduate,Salaried,92800.0,7733.33,40700.0,237000.0,180,641,1,2800.0,Semiurban,14.53,362200.0,Business Loan,2,1
+Charles Johnson,55,Female,Married,Graduate,Business,64800.0,5400.0,16200.0,253000.0,180,687,2,5100.0,Urban,29.71,442300.0,Home Loan,2,1
+John Miller,27,Female,Single,Graduate,Salaried,35600.0,2966.67,0.0,152000.0,60,828,0,43900.0,Urban,85.0,89800.0,Education Loan,0,0
+Thomas Martinez,41,Female,Single,Not Graduate,Salaried,41000.0,3416.67,0.0,167000.0,180,672,1,38100.0,Semiurban,35.93,88700.0,Education Loan,0,1
+Linda Gonzalez,38,Male,Married,Graduate,Salaried,69900.0,5825.0,21900.0,196000.0,120,613,1,1400.0,Semiurban,25.27,290800.0,Business Loan,0,1
+Elizabeth Martinez,23,Female,Married,Graduate,Salaried,23400.0,1950.0,23500.0,164000.0,360,648,0,6800.0,Urban,11.66,263600.0,Home Loan,2,1
+Mary Williams,62,Male,Married,Graduate,Salaried,33300.0,2775.0,30900.0,259000.0,36,740,0,24700.0,Rural,85.0,256800.0,Business Loan,0,0
+William Miller,59,Male,Single,Graduate,Salaried,76300.0,6358.33,0.0,290000.0,180,623,0,11700.0,Semiurban,25.34,136700.0,Personal Loan,1,0
+Patricia Martinez,61,Female,Divorced,Not Graduate,Salaried,49400.0,4116.67,0.0,211000.0,60,677,0,52000.0,Urban,85.0,85000.0,Personal Loan,0,0
+Rahul Johnson,31,Male,Single,Graduate,Salaried,43200.0,3600.0,0.0,98000.0,36,718,0,46100.0,Urban,75.62,79000.0,Business Loan,1,1
+Richard Hernandez,59,Male,Married,Graduate,Self-Employed,27400.0,2283.33,51300.0,226000.0,240,629,0,66700.0,Rural,14.36,216600.0,Home Loan,0,1
+Ananya Brown,44,Male,Married,Graduate,Self-Employed,46200.0,3850.0,43100.0,215000.0,48,539,1,24800.0,Urban,64.22,36400.0,Personal Loan,0,0
+Carlos Jones,66,Male,Married,Graduate,Salaried,86300.0,7191.67,12000.0,91000.0,60,594,0,13000.0,Rural,18.51,120400.0,Business Loan,0,1
+Carlos Brown,39,Male,Single,Post Graduate,Salaried,33800.0,2816.67,0.0,214000.0,60,611,0,27900.0,Urban,85.0,181200.0,Business Loan,0,0
+Elizabeth Jones,24,Female,Married,Not Graduate,Salaried,20200.0,1683.33,1000.0,131000.0,48,662,3,2800.0,Urban,85.0,235400.0,Business Loan,0,1
+William Davis,46,Male,Married,Graduate,Business,69700.0,5808.33,3200.0,247000.0,60,684,1,300.0,Semiurban,72.7,381600.0,Home Loan,1,1
+John Smith,58,Female,Single,Graduate,Salaried,181900.0,15158.33,0.0,225000.0,60,746,0,500.0,Urban,24.74,368600.0,Auto Loan,0,1
+John Verma,62,Female,Single,Graduate,Salaried,62000.0,5166.67,0.0,200000.0,240,582,1,15700.0,Urban,21.94,202600.0,Home Loan,0,1
+Patricia Johnson,52,Female,Single,Post Graduate,Salaried,25700.0,2141.67,0.0,183000.0,240,734,0,7800.0,Urban,35.6,165700.0,Business Loan,0,1
+Thomas Miller,59,Male,Married,Graduate,Self-Employed,37400.0,3116.67,8800.0,10000.0,36,650,0,5100.0,Rural,7.22,13200.0,Home Loan,2,1
+Ananya Miller,65,Female,Single,Graduate,Salaried,111000.0,9250.0,0.0,71000.0,120,537,0,28700.0,Semiurban,6.4,111600.0,Auto Loan,1,1
+Robert Lopez,66,Male,Divorced,Graduate,Salaried,31900.0,2658.33,0.0,168000.0,360,681,3,159500.0,Urban,51.41,51600.0,Personal Loan,2,0
+Thomas Miller,56,Female,Married,Graduate,Salaried,62100.0,5175.0,31600.0,317000.0,36,785,1,5900.0,Urban,85.0,152100.0,Education Loan,0,1
+Richard Miller,60,Female,Divorced,Graduate,Salaried,43200.0,3600.0,0.0,231000.0,60,751,2,23700.0,Semiurban,85.0,124100.0,Personal Loan,0,0
+Carlos Williams,57,Female,Divorced,Graduate,Business,30500.0,2541.67,0.0,343000.0,240,674,4,3800.0,Urban,85.0,352300.0,Auto Loan,0,1
+William Wilson,53,Male,Married,Graduate,Business,95500.0,7958.33,13400.0,187000.0,180,770,3,81700.0,Urban,21.37,67800.0,Personal Loan,1,1
+Thomas Smith,56,Female,Single,Graduate,Self-Employed,81100.0,6758.33,0.0,177000.0,36,695,1,10300.0,Urban,77.19,211000.0,Auto Loan,1,1
+Karen Verma,23,Male,Single,Graduate,Self-Employed,68800.0,5733.33,0.0,308000.0,60,758,1,63200.0,Semiurban,85.0,88500.0,Personal Loan,2,0
+Carlos Garcia,29,Female,Single,Post Graduate,Salaried,32100.0,2675.0,0.0,166000.0,120,547,0,10000.0,Urban,51.71,166400.0,Home Loan,2,1
+Richard Hernandez,28,Female,Married,Graduate,Self-Employed,24600.0,2050.0,19500.0,91000.0,360,580,0,49200.0,Semiurban,6.88,145100.0,Auto Loan,0,1
+Charles Smith,53,Male,Single,Graduate,Self-Employed,58600.0,4883.33,0.0,209000.0,36,738,1,7000.0,Semiurban,85.0,354400.0,Business Loan,0,1
+Patricia Lopez,26,Female,Single,Not Graduate,Salaried,56300.0,4691.67,0.0,281000.0,360,803,1,10400.0,Rural,23.03,304300.0,Home Loan,0,1
+William Williams,61,Male,Married,Graduate,Business,29400.0,2450.0,9900.0,106000.0,60,713,3,6400.0,Semiurban,81.42,105000.0,Home Loan,0,0
+Barbara Rodriguez,59,Male,Divorced,Not Graduate,Salaried,22600.0,1883.33,0.0,233000.0,48,640,1,9200.0,Urban,85.0,192600.0,Auto Loan,3,0
+Michael Lopez,24,Male,Single,Not Graduate,Salaried,23800.0,1983.33,0.0,172000.0,60,612,1,54000.0,Semiurban,85.0,300600.0,Business Loan,0,1
+Susan Sharma,33,Male,Single,Graduate,Self-Employed,241800.0,20150.0,0.0,221000.0,180,655,1,30600.0,Rural,7.58,327900.0,Home Loan,3,1
+Karen Williams,22,Female,Single,Post Graduate,Self-Employed,88900.0,7408.33,0.0,208000.0,48,777,0,15600.0,Semiurban,58.49,47100.0,Education Loan,1,0
+Joseph Verma,25,Male,Divorced,Graduate,Self-Employed,134800.0,11233.33,0.0,143000.0,48,653,1,106800.0,Urban,29.19,72200.0,Education Loan,1,1
+Rahul Jones,64,Male,Married,Graduate,Salaried,29800.0,2483.33,62400.0,170000.0,360,764,1,18800.0,Urban,10.05,193900.0,Home Loan,0,1
+John Lopez,47,Female,Single,Graduate,Business,165500.0,13791.67,0.0,148000.0,360,732,1,105000.0,Rural,5.16,135100.0,Home Loan,1,1
+Carlos Brown,52,Female,Single,Graduate,Salaried,26900.0,2241.67,0.0,191000.0,60,817,1,6600.0,Urban,85.0,248100.0,Auto Loan,1,1
+Rahul Brown,41,Female,Single,Not Graduate,Salaried,52000.0,4333.33,0.0,104000.0,36,696,0,70500.0,Urban,66.67,17900.0,Education Loan,0,0
+Rahul Miller,28,Female,Single,Not Graduate,Unemployed,99700.0,8308.33,0.0,125000.0,240,676,1,400.0,Semiurban,9.88,118700.0,Auto Loan,0,1
+Jessica Rodriguez,58,Female,Divorced,Not Graduate,Self-Employed,39400.0,3283.33,0.0,143000.0,180,768,1,23600.0,Rural,33.33,61400.0,Personal Loan,0,1
+Michael Gonzalez,28,Male,Married,Post Graduate,Salaried,44900.0,3741.67,18100.0,215000.0,36,605,1,16500.0,Urban,85.0,315100.0,Home Loan,1,1
+Rahul Martinez,23,Male,Married,Not Graduate,Self-Employed,26200.0,2183.33,8200.0,53000.0,360,644,1,22300.0,Semiurban,15.6,12300.0,Personal Loan,0,1
+Michael Wilson,64,Female,Married,Not Graduate,Salaried,25900.0,2158.33,33800.0,170000.0,24,546,0,24200.0,Rural,85.0,187400.0,Auto Loan,2,1
+Robert Williams,23,Male,Single,Graduate,Salaried,63500.0,5291.67,0.0,116000.0,180,580,0,14800.0,Semiurban,12.18,158300.0,Home Loan,2,1
+Amit Gonzalez,42,Female,Married,Graduate,Salaried,70700.0,5891.67,37400.0,143000.0,60,834,0,189600.0,Semiurban,26.46,77400.0,Personal Loan,0,1
+David Hernandez,26,Male,Married,Graduate,Unemployed,87600.0,7300.0,2500.0,121000.0,120,735,1,112500.0,Semiurban,17.43,188200.0,Home Loan,1,1
+Sarah Sharma,22,Male,Single,Not Graduate,Salaried,56600.0,4716.67,0.0,198000.0,48,570,1,97900.0,Rural,85.0,65900.0,Personal Loan,0,0
+Barbara Rodriguez,43,Male,Married,Graduate,Self-Employed,66700.0,5558.33,64200.0,166000.0,180,776,2,116000.0,Semiurban,13.95,168700.0,Home Loan,2,1
+Elizabeth Martinez,64,Female,Single,Graduate,Salaried,20600.0,1716.67,0.0,244000.0,360,624,0,47300.0,Rural,39.48,343200.0,Home Loan,0,1
+Barbara Smith,22,Female,Single,Graduate,Self-Employed,28000.0,2333.33,0.0,216000.0,60,731,0,134200.0,Urban,85.0,281500.0,Business Loan,0,0
+Jennifer Miller,58,Female,Single,Graduate,Salaried,208700.0,17391.67,0.0,42000.0,120,730,1,66900.0,Urban,5.0,36200.0,Home Loan,0,1
+Susan Gonzalez,37,Male,Married,Graduate,Self-Employed,23600.0,1966.67,98800.0,94000.0,48,813,1,16100.0,Urban,22.14,46900.0,Personal Loan,2,1
+Linda Martinez,55,Male,Married,Graduate,Salaried,71100.0,5925.0,16600.0,164000.0,360,637,1,46100.0,Semiurban,10.34,295100.0,Home Loan,0,1
+William Johnson,54,Female,Divorced,Not Graduate,Self-Employed,28700.0,2391.67,0.0,176000.0,360,621,2,72900.0,Rural,45.53,158300.0,Home Loan,0,0
+Mary Jones,43,Female,Married,Graduate,Unemployed,76800.0,6400.0,6800.0,102000.0,240,465,2,37400.0,Urban,14.71,54300.0,Personal Loan,0,1
+Robert Garcia,50,Male,Married,Not Graduate,Self-Employed,75100.0,6258.33,5900.0,297000.0,120,670,0,16500.0,Urban,36.67,489900.0,Home Loan,0,1
+Charles Davis,28,Female,Married,Graduate,Salaried,32000.0,2666.67,21800.0,258000.0,360,738,3,2000.0,Urban,36.06,284000.0,Home Loan,2,1
+Jessica Gonzalez,42,Male,Single,Graduate,Business,34100.0,2841.67,0.0,32000.0,36,749,0,49800.0,Urban,31.28,33900.0,Business Loan,1,1
+James Garcia,64,Male,Married,Graduate,Salaried,67900.0,5658.33,67300.0,211000.0,60,780,1,91600.0,Urban,33.88,356800.0,Home Loan,3,1
+Karen Smith,56,Male,Single,Graduate,Self-Employed,42200.0,3516.67,0.0,176000.0,120,703,1,13500.0,Urban,50.24,194500.0,Home Loan,0,1
+Michael Rodriguez,25,Female,Married,Graduate,Business,29700.0,2475.0,31400.0,292000.0,60,720,1,4900.0,Rural,85.0,423800.0,Business Loan,0,1
+Richard Brown,33,Female,Divorced,Graduate,Salaried,79200.0,6600.0,0.0,39000.0,360,685,0,11900.0,Urban,5.0,60100.0,Home Loan,2,1
+Patricia Garcia,49,Male,Single,Graduate,Salaried,27500.0,2291.67,0.0,365000.0,180,737,0,26200.0,Semiurban,85.0,579800.0,Auto Loan,1,1
+Charles Gonzalez,51,Female,Married,Graduate,Salaried,107100.0,8925.0,13400.0,104000.0,36,605,1,11400.0,Semiurban,31.76,186700.0,Home Loan,0,1
+Barbara Garcia,67,Male,Married,Graduate,Self-Employed,52500.0,4375.0,7600.0,214000.0,60,567,0,28300.0,Semiurban,71.21,343100.0,Home Loan,1,1
+Michael Hernandez,36,Male,Married,Not Graduate,Self-Employed,25000.0,2083.33,4500.0,125000.0,60,614,0,102200.0,Urban,84.75,22300.0,Personal Loan,2,0
+Elizabeth Martinez,62,Male,Single,Not Graduate,Salaried,73300.0,6108.33,0.0,146000.0,120,697,1,33300.0,Rural,24.83,86900.0,Education Loan,0,1
+Charles Miller,50,Male,Single,Graduate,Salaried,53000.0,4416.67,0.0,28000.0,48,576,1,13500.0,Semiurban,20.0,47800.0,Home Loan,2,1
+John Gonzalez,36,Male,Single,Post Graduate,Salaried,35900.0,2991.67,0.0,288000.0,36,629,1,82400.0,Urban,85.0,137000.0,Personal Loan,0,0
+Richard Johnson,32,Female,Single,Graduate,Salaried,44700.0,3725.0,0.0,156000.0,180,632,0,25000.0,Urban,23.27,245900.0,Home Loan,3,1
+Karen Lopez,37,Female,Single,Not Graduate,Salaried,35900.0,2991.67,0.0,162000.0,360,743,2,4100.0,Urban,35.1,161200.0,Home Loan,1,1
+Linda Gonzalez,36,Male,Married,Not Graduate,Business,33700.0,2808.33,145800.0,388000.0,360,733,0,20700.0,Semiurban,7.21,219800.0,Education Loan,0,1
+William Miller,32,Male,Single,Not Graduate,Salaried,28000.0,2333.33,0.0,266000.0,360,686,2,31800.0,Semiurban,57.38,232800.0,Home Loan,0,1
+James Williams,28,Male,Married,Graduate,Business,40300.0,3358.33,8000.0,120000.0,240,716,1,54700.0,Urban,19.88,134200.0,Business Loan,3,1
+Richard Lopez,40,Male,Married,Graduate,Self-Employed,33000.0,2750.0,21500.0,125000.0,36,718,1,82700.0,Urban,83.06,114500.0,Home Loan,2,1
+Carlos Sharma,23,Male,Married,Graduate,Salaried,71800.0,5983.33,7000.0,203000.0,360,651,2,11500.0,Rural,17.72,355200.0,Business Loan,0,1
+Thomas Rodriguez,36,Female,Married,Graduate,Self-Employed,71800.0,5983.33,4900.0,249000.0,60,637,0,5100.0,Rural,64.93,42600.0,Personal Loan,1,0
+Ananya Smith,50,Male,Married,Graduate,Salaried,51400.0,4283.33,3500.0,338000.0,240,803,0,2300.0,Semiurban,30.78,511500.0,Business Loan,1,1
+Jennifer Jones,65,Female,Divorced,Graduate,Salaried,87700.0,7308.33,0.0,35000.0,120,481,1,40200.0,Semiurban,8.1,48000.0,Home Loan,0,1
+Jennifer Martinez,43,Female,Single,Graduate,Salaried,102800.0,8566.67,0.0,245000.0,360,621,0,47600.0,Rural,7.94,222300.0,Business Loan,0,1
+Barbara Gonzalez,48,Male,Single,Graduate,Salaried,59000.0,4916.67,0.0,260000.0,60,664,1,15800.0,Semiurban,85.0,353900.0,Auto Loan,1,1
+Richard Gonzalez,60,Female,Married,Not Graduate,Salaried,63400.0,5283.33,32700.0,109000.0,24,725,0,15100.0,Urban,56.71,49200.0,Personal Loan,0,1
+Joseph Jones,25,Female,Single,Post Graduate,Salaried,35000.0,2916.67,0.0,148000.0,120,771,2,92500.0,Urban,62.86,248900.0,Business Loan,0,1
+Jessica Garcia,40,Female,Single,Post Graduate,Salaried,121400.0,10116.67,0.0,33000.0,36,829,1,74600.0,Semiurban,12.03,28700.0,Auto Loan,2,1
+Rahul Hernandez,60,Male,Single,Graduate,Salaried,21100.0,1758.33,0.0,135000.0,360,673,0,8000.0,Urban,21.33,147900.0,Business Loan,1,1
+Robert Brown,64,Male,Single,Not Graduate,Salaried,39300.0,3275.0,0.0,201000.0,120,678,2,45500.0,Urban,69.47,25200.0,Personal Loan,0,0
+John Williams,21,Male,Married,Post Graduate,Salaried,77600.0,6466.67,7400.0,323000.0,120,709,0,29200.0,Rural,38.0,109400.0,Personal Loan,0,0
+Karen Rodriguez,50,Male,Single,Graduate,Salaried,23800.0,1983.33,0.0,332000.0,360,638,0,5000.0,Semiurban,46.5,333200.0,Business Loan,1,1
+Sarah Sharma,41,Male,Married,Graduate,Salaried,29100.0,2425.0,26700.0,87000.0,180,585,0,13200.0,Rural,10.39,88600.0,Home Loan,1,1
+William Smith,40,Female,Married,Post Graduate,Unemployed,60000.0,5000.0,18400.0,311000.0,60,672,1,5900.0,Semiurban,83.93,72600.0,Personal Loan,1,0
+Susan Sharma,26,Male,Married,Graduate,Salaried,56900.0,4741.67,21300.0,10000.0,48,740,1,10500.0,Rural,7.8,5000.0,Education Loan,0,1
+James Jones,42,Female,Married,Graduate,Self-Employed,80400.0,6700.0,200.0,127000.0,120,661,1,28700.0,Urban,20.22,13300.0,Personal Loan,1,1
+Priya Garcia,38,Female,Married,Graduate,Salaried,95400.0,7950.0,52500.0,153000.0,360,713,0,14100.0,Semiurban,5.0,270100.0,Home Loan,3,1
+John Verma,28,Male,Single,Graduate,Business,26200.0,2183.33,0.0,203000.0,240,530,4,15000.0,Urban,85.0,82300.0,Personal Loan,0,0
+Amit Rodriguez,59,Male,Married,Not Graduate,Salaried,20800.0,1733.33,9100.0,190000.0,360,681,1,23300.0,Urban,33.22,215300.0,Business Loan,0,1
+David Lopez,52,Female,Married,Not Graduate,Unemployed,72700.0,6058.33,10300.0,213000.0,24,648,0,2700.0,Urban,85.0,104000.0,Education Loan,2,0
+Elizabeth Verma,53,Female,Married,Graduate,Self-Employed,36100.0,3008.33,0.0,164000.0,48,578,1,40300.0,Semiurban,85.0,80300.0,Education Loan,0,0
+Jessica Davis,36,Female,Married,Graduate,Salaried,64300.0,5358.33,13700.0,266000.0,24,733,1,15400.0,Urban,85.0,217000.0,Auto Loan,0,1
+Jennifer Lopez,32,Male,Single,Graduate,Business,27300.0,2275.0,0.0,242000.0,240,828,0,19600.0,Semiurban,44.32,131000.0,Personal Loan,0,0
+Ananya Lopez,58,Male,Married,Graduate,Salaried,48500.0,4041.67,34700.0,154000.0,36,759,0,109800.0,Urban,61.7,180100.0,Home Loan,0,1
+Rahul Davis,54,Male,Married,Graduate,Salaried,51600.0,4300.0,42300.0,256000.0,24,764,0,12700.0,Urban,85.0,349300.0,Home Loan,0,1
+Patricia Martinez,34,Male,Single,Post Graduate,Self-Employed,59600.0,4966.67,0.0,366000.0,120,737,2,31300.0,Semiurban,73.49,638300.0,Home Loan,0,1
+Linda Martinez,56,Female,Married,Graduate,Business,52400.0,4366.67,19900.0,119000.0,60,732,1,15000.0,Rural,37.9,208000.0,Home Loan,2,1
+Sarah Lopez,53,Female,Single,Graduate,Salaried,50800.0,4233.33,0.0,331000.0,240,536,0,67400.0,Urban,32.58,288000.0,Business Loan,1,1
+Robert Rodriguez,43,Female,Single,Not Graduate,Salaried,38200.0,3183.33,0.0,127000.0,60,670,0,56300.0,Semiurban,66.49,179700.0,Business Loan,1,1
+Patricia Verma,65,Female,Single,Graduate,Self-Employed,23300.0,1941.67,0.0,307000.0,60,721,1,8300.0,Rural,85.0,110600.0,Personal Loan,0,0
+Priya Sharma,22,Female,Single,Not Graduate,Self-Employed,24200.0,2016.67,0.0,131000.0,60,723,1,35300.0,Semiurban,85.0,34000.0,Education Loan,1,0
+Thomas Rodriguez,61,Male,Married,Not Graduate,Business,45600.0,3800.0,8000.0,249000.0,360,782,1,2000.0,Semiurban,22.2,118200.0,Education Loan,0,1
+James Jones,41,Male,Single,Not Graduate,Self-Employed,39800.0,3316.67,0.0,196000.0,60,597,3,99100.0,Urban,85.0,342300.0,Auto Loan,2,1
+Karen Gonzalez,22,Female,Divorced,Graduate,Salaried,52700.0,4391.67,0.0,19000.0,60,729,1,12900.0,Semiurban,14.04,4600.0,Personal Loan,2,1
+Jessica Gonzalez,47,Male,Married,Graduate,Business,36400.0,3033.33,46600.0,352000.0,60,595,1,53500.0,Urban,85.0,289500.0,Home Loan,1,0
+Richard Wilson,29,Female,Single,Graduate,Salaried,72400.0,6033.33,0.0,99000.0,36,663,0,11500.0,Semiurban,45.58,24100.0,Personal Loan,1,1
+John Gonzalez,21,Female,Married,Graduate,Salaried,109800.0,9150.0,79400.0,66000.0,360,675,2,30100.0,Rural,5.0,94800.0,Home Loan,2,1
+Jennifer Johnson,31,Male,Married,Not Graduate,Salaried,36000.0,3000.0,28500.0,122000.0,36,749,0,123300.0,Semiurban,63.05,58100.0,Personal Loan,1,1
+Charles Verma,23,Female,Married,Not Graduate,Self-Employed,29600.0,2466.67,14300.0,408000.0,360,740,0,62800.0,Urban,30.98,50200.0,Education Loan,0,0
+Robert Sharma,43,Female,Single,Not Graduate,Salaried,25600.0,2133.33,0.0,67000.0,48,690,1,5200.0,Rural,79.49,99000.0,Home Loan,0,1
+Carlos Johnson,46,Female,Married,Post Graduate,Self-Employed,63100.0,5258.33,2200.0,196000.0,360,508,0,23800.0,Semiurban,10.01,330200.0,Home Loan,3,1
+Elizabeth Davis,24,Female,Married,Not Graduate,Salaried,46400.0,3866.67,37200.0,79000.0,240,716,0,12900.0,Rural,5.0,40500.0,Personal Loan,0,1
+Sarah Hernandez,38,Female,Single,Graduate,Salaried,29400.0,2450.0,0.0,94000.0,120,659,1,17100.0,Semiurban,44.22,129300.0,Auto Loan,2,1
+Richard Jones,26,Male,Single,Graduate,Business,67600.0,5633.33,0.0,36000.0,180,791,0,12200.0,Urban,5.0,58500.0,Home Loan,0,1
+Amit Davis,55,Male,Married,Not Graduate,Salaried,27200.0,2266.67,20200.0,208000.0,60,772,0,12300.0,Semiurban,85.0,371700.0,Home Loan,0,1
+James Garcia,42,Female,Single,Graduate,Salaried,56400.0,4700.0,0.0,165000.0,120,605,1,23500.0,Semiurban,35.64,81400.0,Education Loan,1,0
+James Johnson,63,Female,Married,Graduate,Salaried,53700.0,4475.0,32200.0,78000.0,48,727,1,6400.0,Urban,26.89,71600.0,Home Loan,0,1
+Joseph Smith,35,Male,Single,Graduate,Unemployed,79600.0,6633.33,0.0,259000.0,60,728,0,23100.0,Semiurban,65.08,396600.0,Business Loan,2,1
+David Jones,42,Male,Divorced,Not Graduate,Salaried,22600.0,1883.33,0.0,268000.0,240,722,3,9800.0,Semiurban,85.0,134600.0,Personal Loan,1,0
+Carlos Garcia,57,Female,Married,Graduate,Salaried,118500.0,9875.0,11300.0,217000.0,48,712,0,10200.0,Semiurban,41.8,98300.0,Personal Loan,1,1
+Thomas Gonzalez,62,Female,Single,Not Graduate,Salaried,74600.0,6216.67,0.0,285000.0,360,730,1,40300.0,Urban,17.56,351000.0,Home Loan,1,1
+James Johnson,32,Female,Single,Not Graduate,Salaried,31000.0,2583.33,0.0,149000.0,60,800,0,900.0,Semiurban,85.0,128500.0,Business Loan,0,1
+William Williams,67,Female,Married,Graduate,Salaried,29100.0,2425.0,45000.0,209000.0,120,636,1,14400.0,Urban,33.06,329500.0,Business Loan,0,1
+James Jones,62,Male,Married,Graduate,Salaried,45400.0,3783.33,15600.0,149000.0,360,608,0,15700.0,Urban,8.14,260600.0,Home Loan,0,1
+Jessica Miller,58,Male,Married,Graduate,Salaried,96600.0,8050.0,76700.0,44000.0,180,743,0,19900.0,Urban,5.0,57200.0,Home Loan,0,1
+Jennifer Lopez,38,Female,Single,Not Graduate,Unemployed,103300.0,8608.33,0.0,200000.0,180,529,0,33200.0,Urban,12.91,241900.0,Home Loan,3,1
+Thomas Jones,65,Male,Single,Not Graduate,Salaried,53100.0,4425.0,0.0,194000.0,240,732,1,13800.0,Urban,25.05,331300.0,Business Loan,1,1
+Robert Garcia,55,Male,Single,Post Graduate,Salaried,108700.0,9058.33,0.0,177000.0,360,718,1,7200.0,Urban,8.74,69300.0,Personal Loan,2,1
+John Jones,50,Male,Married,Graduate,Salaried,20200.0,1683.33,14100.0,214000.0,48,492,0,64900.0,Urban,85.0,362000.0,Home Loan,1,0
+Amit Jones,44,Female,Single,Graduate,Salaried,21600.0,1800.0,0.0,307000.0,180,629,4,119000.0,Rural,85.0,366000.0,Home Loan,0,1
+Rahul Jones,62,Female,Married,Graduate,Self-Employed,129300.0,10775.0,8900.0,162000.0,60,806,0,600.0,Semiurban,23.44,82300.0,Personal Loan,1,1
+Elizabeth Martinez,50,Male,Married,Not Graduate,Salaried,87200.0,7266.67,9500.0,94000.0,12,563,1,23700.0,Semiurban,85.0,124900.0,Business Loan,2,1
+Charles Smith,34,Male,Divorced,Graduate,Salaried,47000.0,3916.67,0.0,158000.0,36,697,0,12500.0,Rural,85.0,223700.0,Auto Loan,0,1
+Rahul Wilson,26,Female,Single,Graduate,Self-Employed,83000.0,6916.67,0.0,168000.0,60,600,1,9700.0,Rural,44.82,292700.0,Home Loan,2,1
+William Wilson,23,Female,Single,Graduate,Salaried,160200.0,13350.0,0.0,269000.0,120,623,2,12300.0,Rural,21.29,471100.0,Home Loan,1,1
+James Williams,36,Male,Married,Graduate,Salaried,86500.0,7208.33,13700.0,190000.0,360,833,1,30600.0,Urban,9.91,78400.0,Personal Loan,0,1
+Richard Gonzalez,27,Male,Married,Graduate,Salaried,103100.0,8591.67,7300.0,77000.0,240,690,0,6300.0,Semiurban,5.0,76300.0,Home Loan,1,1
+Patricia Wilson,34,Male,Single,Graduate,Salaried,84300.0,7025.0,0.0,252000.0,120,721,0,73200.0,Rural,29.89,285600.0,Business Loan,0,1
+James Smith,29,Female,Divorced,Graduate,Salaried,28300.0,2358.33,0.0,238000.0,24,671,2,18800.0,Rural,85.0,132100.0,Personal Loan,0,0
+Linda Verma,35,Male,Married,Graduate,Salaried,100700.0,8391.67,10500.0,190000.0,48,559,0,11800.0,Semiurban,42.72,324000.0,Home Loan,2,1
+Mary Lopez,41,Male,Single,Not Graduate,Self-Employed,29800.0,2483.33,0.0,265000.0,60,585,0,43500.0,Urban,85.0,99200.0,Personal Loan,2,0
+Linda Miller,55,Female,Single,Not Graduate,Business,120400.0,10033.33,0.0,280000.0,180,774,0,500.0,Rural,15.5,497700.0,Auto Loan,2,1
+Mary Garcia,22,Female,Married,Graduate,Salaried,47600.0,3966.67,64700.0,146000.0,24,692,0,17000.0,Semiurban,65.0,35200.0,Personal Loan,2,1
+Priya Williams,47,Male,Married,Not Graduate,Salaried,70900.0,5908.33,13800.0,99000.0,120,618,0,13200.0,Urban,11.69,138500.0,Business Loan,3,1
+Sarah Lopez,22,Female,Single,Graduate,Salaried,50900.0,4241.67,0.0,179000.0,360,678,2,12400.0,Urban,25.87,300300.0,Auto Loan,3,1
+James Garcia,55,Male,Married,Graduate,Salaried,24400.0,2033.33,11600.0,228000.0,240,733,1,12300.0,Urban,41.67,410200.0,Business Loan,0,1
+Barbara Jones,38,Female,Married,Post Graduate,Salaried,35500.0,2958.33,13000.0,171000.0,240,716,1,1000.0,Urban,25.05,282100.0,Auto Loan,1,1
+Carlos Smith,34,Male,Single,Not Graduate,Business,205300.0,17108.33,0.0,91000.0,180,618,0,5000.0,Urban,5.0,132600.0,Home Loan,0,1
+Jessica Sharma,40,Female,Married,Not Graduate,Self-Employed,165700.0,13808.33,10000.0,195000.0,48,554,1,4600.0,Rural,29.8,320800.0,Home Loan,1,1
+Joseph Miller,38,Male,Divorced,Graduate,Unemployed,37400.0,3116.67,0.0,10000.0,36,647,1,134300.0,Urban,18.54,5500.0,Education Loan,3,1
+Joseph Jones,30,Female,Single,Graduate,Business,271900.0,22658.33,0.0,151000.0,360,769,1,700.0,Semiurban,5.0,67100.0,Education Loan,0,1
+Rahul Wilson,45,Female,Single,Post Graduate,Salaried,104100.0,8675.0,0.0,257000.0,180,748,0,5500.0,Rural,16.46,261200.0,Auto Loan,1,1
+Mary Hernandez,22,Female,Married,Graduate,Salaried,62500.0,5208.33,200.0,261000.0,120,713,4,109700.0,Semiurban,64.59,239100.0,Auto Loan,1,1
+Charles Miller,45,Female,Married,Graduate,Salaried,21800.0,1816.67,45800.0,10000.0,36,666,1,29700.0,Urban,10.26,16900.0,Home Loan,0,1
+Jennifer Verma,53,Female,Divorced,Not Graduate,Salaried,124300.0,10358.33,0.0,163000.0,180,639,3,18000.0,Semiurban,17.43,88600.0,Personal Loan,0,1
+Mary Garcia,56,Male,Married,Not Graduate,Business,56700.0,4725.0,64900.0,234000.0,12,668,0,2500.0,Urban,85.0,61200.0,Education Loan,1,0
+Sarah Johnson,51,Male,Married,Post Graduate,Salaried,111300.0,9275.0,300.0,74000.0,36,743,0,33200.0,Urban,22.1,87800.0,Business Loan,0,1
+Sarah Wilson,34,Female,Married,Graduate,Business,100900.0,8408.33,3800.0,147000.0,60,761,0,4400.0,Semiurban,28.08,260700.0,Home Loan,1,1
+Joseph Hernandez,21,Male,Married,Post Graduate,Salaried,100500.0,8375.0,21200.0,289000.0,60,659,2,33400.0,Rural,53.41,480400.0,Home Loan,1,1
+Charles Sharma,66,Female,Single,Graduate,Business,73900.0,6158.33,0.0,136000.0,36,850,0,116200.0,Semiurban,61.34,52000.0,Personal Loan,1,1
+Mary Brown,36,Female,Single,Graduate,Business,35500.0,2958.33,0.0,324000.0,36,687,2,22800.0,Urban,85.0,56600.0,Personal Loan,0,0
+Carlos Garcia,66,Male,Single,Not Graduate,Self-Employed,38400.0,3200.0,0.0,113000.0,240,652,2,7200.0,Urban,33.46,21200.0,Personal Loan,1,1
+James Davis,23,Female,Married,Graduate,Self-Employed,36600.0,3050.0,14400.0,307000.0,120,798,1,29400.0,Urban,67.25,459100.0,Auto Loan,0,1
+Joseph Lopez,55,Male,Single,Graduate,Salaried,20900.0,1741.67,0.0,183000.0,120,517,1,21600.0,Semiurban,85.0,276800.0,Home Loan,2,0
+Amit Martinez,61,Female,Divorced,Not Graduate,Business,59300.0,4941.67,0.0,101000.0,60,718,1,22900.0,Urban,40.13,172900.0,Business Loan,0,1
+Charles Smith,26,Male,Single,Graduate,Unemployed,74000.0,6166.67,0.0,307000.0,360,674,1,19500.0,Rural,18.69,517300.0,Auto Loan,2,1
+Robert Gonzalez,45,Male,Single,Graduate,Self-Employed,106500.0,8875.0,0.0,71000.0,12,796,0,33600.0,Urban,66.67,76800.0,Business Loan,2,1
+Patricia Martinez,33,Female,Married,Graduate,Self-Employed,26800.0,2233.33,18000.0,108000.0,36,728,1,25500.0,Urban,85.0,155900.0,Business Loan,2,1
+Ananya Smith,54,Female,Married,Graduate,Self-Employed,55400.0,4616.67,3200.0,224000.0,180,691,2,130300.0,Semiurban,37.77,58600.0,Personal Loan,0,0
+Elizabeth Smith,28,Female,Single,Graduate,Business,20400.0,1700.0,0.0,187000.0,36,733,0,52400.0,Urban,85.0,247900.0,Business Loan,0,1
+Karen Davis,41,Male,Single,Not Graduate,Salaried,24500.0,2041.67,0.0,205000.0,120,596,3,9200.0,Semiurban,85.0,89200.0,Personal Loan,0,0
+Robert Johnson,54,Male,Divorced,Not Graduate,Business,22500.0,1875.0,0.0,147000.0,120,757,0,38800.0,Rural,65.33,88100.0,Education Loan,0,0
+Jennifer Jones,24,Female,Single,Graduate,Salaried,78200.0,6516.67,0.0,72000.0,360,572,0,7200.0,Urban,5.0,91000.0,Home Loan,3,1
+Mary Gonzalez,45,Male,Single,Not Graduate,Salaried,23800.0,1983.33,0.0,121000.0,360,709,0,45700.0,Urban,16.95,17400.0,Education Loan,0,1
+David Hernandez,35,Female,Married,Graduate,Salaried,76700.0,6391.67,10000.0,299000.0,360,683,0,4800.0,Rural,11.5,420900.0,Home Loan,4,1
+Jessica Hernandez,24,Female,Single,Graduate,Salaried,32900.0,2741.67,0.0,60000.0,36,539,2,19200.0,Semiurban,82.67,93500.0,Home Loan,2,1
+Charles Sharma,65,Female,Married,Not Graduate,Salaried,114600.0,9550.0,10800.0,328000.0,360,686,3,46900.0,Rural,17.33,101200.0,Personal Loan,0,1
+Carlos Miller,32,Female,Single,Graduate,Salaried,95500.0,7958.33,0.0,208000.0,36,703,2,9900.0,Urban,80.14,369800.0,Auto Loan,1,1
+Amit Verma,52,Male,Single,Post Graduate,Salaried,162500.0,13541.67,0.0,126000.0,180,628,4,54400.0,Urban,14.03,108000.0,Home Loan,0,1
+David Garcia,52,Female,Single,Graduate,Salaried,116800.0,9733.33,0.0,10000.0,240,599,0,31000.0,Urban,5.0,5600.0,Personal Loan,0,1
+Jessica Davis,48,Male,Single,Not Graduate,Salaried,141900.0,11825.0,0.0,12000.0,36,719,0,15200.0,Urban,5.0,16600.0,Business Loan,0,1
+Patricia Davis,33,Female,Single,Graduate,Self-Employed,108100.0,9008.33,0.0,148000.0,180,709,1,16500.0,Semiurban,12.46,123800.0,Home Loan,3,1
+Patricia Davis,51,Male,Single,Graduate,Unemployed,73200.0,6100.0,0.0,137000.0,24,698,2,78100.0,Urban,85.0,31800.0,Personal Loan,1,0
+Carlos Williams,34,Female,Married,Graduate,Self-Employed,28400.0,2366.67,200.0,191000.0,48,681,0,7400.0,Semiurban,85.0,325800.0,Home Loan,1,1
+John Hernandez,40,Female,Single,Not Graduate,Unemployed,34300.0,2858.33,0.0,335000.0,360,635,4,35500.0,Urban,74.54,179100.0,Personal Loan,0,0
+Sarah Gonzalez,38,Male,Married,Graduate,Self-Employed,30800.0,2566.67,100.0,228000.0,36,850,1,36900.0,Rural,85.0,281900.0,Auto Loan,1,1
+Charles Williams,49,Male,Married,Post Graduate,Salaried,61600.0,5133.33,9400.0,168000.0,24,656,4,76700.0,Urban,85.0,81800.0,Personal Loan,0,0
+Rahul Jones,26,Female,Married,Graduate,Self-Employed,51500.0,4291.67,1300.0,290000.0,60,611,0,37500.0,Urban,85.0,113200.0,Education Loan,0,0
+Sarah Lopez,52,Male,Single,Graduate,Self-Employed,110800.0,9233.33,0.0,194000.0,360,684,1,26300.0,Semiurban,9.09,102900.0,Personal Loan,0,1
+Elizabeth Gonzalez,49,Male,Divorced,Graduate,Salaried,157300.0,13108.33,0.0,324000.0,24,666,2,69800.0,Urban,85.0,537600.0,Business Loan,0,1
+Priya Jones,63,Male,Single,Not Graduate,Salaried,43400.0,3616.67,0.0,120000.0,60,654,2,53000.0,Semiurban,71.89,133100.0,Auto Loan,1,1
+Jennifer Smith,22,Male,Single,Post Graduate,Self-Employed,51800.0,4316.67,0.0,77000.0,360,830,0,37800.0,Urban,5.0,102500.0,Business Loan,0,1
+Robert Rodriguez,43,Female,Married,Graduate,Salaried,180100.0,15008.33,19800.0,10000.0,36,590,3,1000.0,Rural,7.07,9400.0,Home Loan,3,1
+Barbara Martinez,39,Female,Married,Not Graduate,Self-Employed,34500.0,2875.0,30700.0,171000.0,60,683,2,14000.0,Semiurban,63.5,277900.0,Home Loan,0,1
+Susan Johnson,51,Male,Married,Graduate,Salaried,90700.0,7558.33,20900.0,69000.0,240,595,0,30000.0,Semiurban,5.0,9900.0,Personal Loan,1,1
+Thomas Wilson,25,Male,Single,Not Graduate,Self-Employed,31500.0,2625.0,0.0,68000.0,120,637,0,22200.0,Rural,21.59,90400.0,Business Loan,0,1
+Richard Hernandez,39,Male,Married,Post Graduate,Salaried,71500.0,5958.33,47300.0,273000.0,360,819,1,11500.0,Rural,10.69,225500.0,Home Loan,0,1
+William Martinez,54,Male,Single,Graduate,Salaried,33200.0,2766.67,0.0,25000.0,36,703,1,4700.0,Semiurban,35.94,14400.0,Education Loan,3,1
+Carlos Sharma,30,Male,Divorced,Graduate,Salaried,116800.0,9733.33,0.0,189000.0,360,702,1,24200.0,Semiurban,8.48,193800.0,Home Loan,2,1
+Carlos Garcia,45,Male,Single,Post Graduate,Self-Employed,57100.0,4758.33,0.0,173000.0,360,605,0,10100.0,Semiurban,10.1,209900.0,Home Loan,1,1
+Joseph Davis,22,Male,Married,Post Graduate,Business,29300.0,2441.67,20300.0,188000.0,36,646,1,8000.0,Urban,85.0,311400.0,Home Loan,2,1
+David Sharma,31,Female,Married,Graduate,Business,31400.0,2616.67,14100.0,305000.0,12,826,1,15300.0,Rural,85.0,127700.0,Personal Loan,2,0
+Jessica Gonzalez,51,Male,Married,Graduate,Salaried,50600.0,4216.67,25300.0,106000.0,360,720,0,46200.0,Semiurban,5.0,26900.0,Education Loan,1,1
+Thomas Martinez,35,Female,Married,Graduate,Self-Employed,166700.0,13891.67,35800.0,305000.0,60,653,1,20100.0,Urban,31.9,544400.0,Home Loan,2,1
+Patricia Smith,29,Female,Married,Graduate,Salaried,86100.0,7175.0,27200.0,22000.0,120,715,0,7300.0,Urban,5.0,11800.0,Personal Loan,0,1
+Linda Smith,43,Female,Single,Not Graduate,Salaried,50200.0,4183.33,0.0,239000.0,180,701,0,3700.0,Urban,31.74,317600.0,Home Loan,1,1
+John Gonzalez,39,Female,Single,Not Graduate,Salaried,38500.0,3208.33,0.0,313000.0,240,613,1,20700.0,Urban,50.0,416300.0,Auto Loan,2,1
+Karen Sharma,29,Male,Single,Graduate,Self-Employed,55900.0,4658.33,0.0,10000.0,360,650,4,47400.0,Urban,26.36,17000.0,Home Loan,0,1
+Joseph Sharma,55,Female,Married,Graduate,Salaried,82100.0,6841.67,6000.0,177000.0,36,850,0,31700.0,Urban,66.97,78700.0,Personal Loan,2,1
+Ananya Garcia,41,Female,Married,Graduate,Salaried,88900.0,7408.33,46200.0,169000.0,48,711,0,7900.0,Urban,31.27,225900.0,Auto Loan,0,1
+Susan Martinez,29,Male,Married,Graduate,Self-Employed,37700.0,3141.67,34700.0,186000.0,360,554,0,17200.0,Semiurban,8.56,70900.0,Personal Loan,2,1
+Amit Wilson,48,Female,Single,Graduate,Self-Employed,77500.0,6458.33,0.0,334000.0,360,721,0,58000.0,Urban,14.37,345700.0,Home Loan,0,1
+Ananya Johnson,66,Female,Single,Graduate,Salaried,68300.0,5691.67,0.0,111000.0,180,784,1,5900.0,Urban,16.11,186300.0,Home Loan,0,1
+Richard Martinez,27,Male,Married,Graduate,Salaried,163900.0,13658.33,25900.0,73000.0,360,608,1,22800.0,Semiurban,5.0,97200.0,Auto Loan,0,1
+Susan Hernandez,36,Male,Married,Graduate,Salaried,140400.0,11700.0,57200.0,187000.0,240,643,0,13200.0,Rural,5.0,262500.0,Business Loan,2,1
+Ananya Williams,36,Male,Married,Graduate,Salaried,90100.0,7508.33,35700.0,281000.0,48,796,3,4000.0,Semiurban,64.43,62300.0,Education Loan,0,0
+Michael Williams,53,Female,Divorced,Graduate,Self-Employed,77800.0,6483.33,0.0,230000.0,360,683,0,1500.0,Urban,9.85,255200.0,Business Loan,1,1
+Joseph Miller,24,Female,Single,Graduate,Salaried,34400.0,2866.67,0.0,183000.0,60,669,2,24300.0,Semiurban,85.0,91800.0,Education Loan,1,1
+Susan Hernandez,24,Female,Married,Graduate,Self-Employed,104200.0,8683.33,4800.0,159000.0,12,573,2,600.0,Urban,85.0,76300.0,Personal Loan,0,0
+Joseph Lopez,59,Female,Married,Graduate,Business,45100.0,3758.33,21400.0,10000.0,60,766,1,3300.0,Urban,8.42,15800.0,Home Loan,4,1
+Richard Johnson,60,Male,Single,Graduate,Salaried,34300.0,2858.33,0.0,233000.0,240,665,0,12800.0,Urban,33.97,252200.0,Home Loan,0,1
+Jennifer Williams,37,Male,Single,Graduate,Unemployed,41800.0,3483.33,0.0,243000.0,360,506,1,1300.0,Semiurban,27.99,41300.0,Personal Loan,1,0
+Charles Sharma,57,Female,Single,Not Graduate,Salaried,101300.0,8441.67,0.0,118000.0,48,554,1,15300.0,Semiurban,32.68,163100.0,Auto Loan,1,1
+Carlos Miller,59,Female,Married,Post Graduate,Salaried,27200.0,2266.67,14300.0,138000.0,48,635,2,4200.0,Semiurban,85.0,195300.0,Business Loan,0,1
+Robert Lopez,49,Female,Married,Not Graduate,Salaried,47400.0,3950.0,75800.0,86000.0,120,594,1,12900.0,Urban,9.9,79300.0,Home Loan,0,1
+Elizabeth Miller,56,Male,Married,Graduate,Salaried,50500.0,4208.33,6600.0,258000.0,360,607,1,47000.0,Semiurban,21.37,54600.0,Personal Loan,2,0
+Carlos Smith,58,Male,Divorced,Post Graduate,Salaried,21700.0,1808.33,0.0,147000.0,240,850,2,29500.0,Urban,67.05,252500.0,Auto Loan,3,1
+Michael Garcia,59,Female,Married,Not Graduate,Salaried,29800.0,2483.33,11900.0,167000.0,120,737,4,17700.0,Urban,74.58,22700.0,Personal Loan,0,1
+Barbara Rodriguez,57,Female,Single,Graduate,Self-Employed,98900.0,8241.67,0.0,237000.0,180,474,1,2900.0,Urban,19.62,402400.0,Home Loan,0,1
+Thomas Gonzalez,55,Female,Married,Graduate,Business,99900.0,8325.0,11100.0,209000.0,48,655,2,29000.0,Semiurban,53.56,250600.0,Business Loan,4,1
+Karen Rodriguez,27,Female,Married,Post Graduate,Self-Employed,35600.0,2966.67,6800.0,231000.0,60,673,1,5400.0,Urban,85.0,335700.0,Home Loan,0,0
+Patricia Martinez,47,Male,Married,Graduate,Salaried,113500.0,9458.33,3500.0,196000.0,48,562,1,2400.0,Semiurban,44.96,38400.0,Education Loan,1,0
+John Rodriguez,48,Female,Married,Graduate,Self-Employed,86500.0,7208.33,6600.0,198000.0,360,723,1,32700.0,Rural,10.96,105100.0,Education Loan,1,1
+Richard Johnson,42,Female,Married,Not Graduate,Self-Employed,44400.0,3700.0,5300.0,197000.0,36,517,1,72900.0,Urban,85.0,31000.0,Personal Loan,0,0
+Joseph Brown,34,Female,Single,Not Graduate,Business,82100.0,6841.67,0.0,221000.0,180,768,0,18500.0,Semiurban,17.95,118200.0,Personal Loan,1,1
+Joseph Garcia,27,Female,Married,Graduate,Business,166400.0,13866.67,600.0,225000.0,48,795,1,1300.0,Urban,35.84,233600.0,Auto Loan,3,1
+Mary Sharma,57,Male,Single,Graduate,Business,47600.0,3966.67,0.0,70000.0,60,850,1,63700.0,Urban,36.97,36700.0,Personal Loan,1,1
+Linda Davis,42,Male,Single,Graduate,Salaried,32300.0,2691.67,0.0,126000.0,48,554,0,2100.0,Urban,85.0,209000.0,Home Loan,2,1
+Thomas Lopez,25,Female,Single,Not Graduate,Self-Employed,148000.0,12333.33,0.0,162000.0,60,570,0,60600.0,Rural,21.89,64500.0,Education Loan,1,1
+Charles Martinez,22,Male,Single,Graduate,Salaried,61700.0,5141.67,0.0,221000.0,48,735,2,14900.0,Urban,85.0,123500.0,Personal Loan,1,0
+William Jones,47,Female,Single,Graduate,Unemployed,25000.0,2083.33,0.0,324000.0,240,775,1,13600.0,Semiurban,79.2,509800.0,Home Loan,0,1
+Jennifer Brown,41,Male,Married,Not Graduate,Salaried,58300.0,4858.33,27600.0,107000.0,60,745,0,23500.0,Urban,24.91,48800.0,Personal Loan,2,1
+Mary Hernandez,58,Female,Divorced,Graduate,Salaried,51200.0,4266.67,0.0,259000.0,240,766,2,94500.0,Rural,39.36,368800.0,Home Loan,0,1
+Ananya Hernandez,35,Female,Single,Not Graduate,Salaried,107100.0,8925.0,0.0,129000.0,60,790,2,68700.0,Rural,30.81,222800.0,Home Loan,0,1
+Richard Garcia,41,Female,Single,Graduate,Self-Employed,54000.0,4500.0,0.0,303000.0,120,696,1,19100.0,Semiurban,62.78,155200.0,Personal Loan,3,0
+Robert Rodriguez,30,Male,Single,Graduate,Salaried,33300.0,2775.0,0.0,352000.0,120,663,0,35700.0,Rural,85.0,64500.0,Personal Loan,2,0
+James Jones,43,Female,Single,Not Graduate,Salaried,70700.0,5891.67,0.0,23000.0,360,571,3,26100.0,Urban,16.36,8900.0,Personal Loan,3,1
+Priya Jones,59,Male,Single,Graduate,Unemployed,55200.0,4600.0,0.0,151000.0,60,656,2,35500.0,Semiurban,67.75,82800.0,Education Loan,0,0
+Jennifer Garcia,25,Male,Divorced,Graduate,Business,31900.0,2658.33,0.0,10000.0,48,668,0,53000.0,Semiurban,7.84,12100.0,Business Loan,2,1
+Amit Verma,21,Female,Single,Graduate,Salaried,58400.0,4866.67,0.0,28000.0,360,604,0,1100.0,Semiurban,5.0,26800.0,Home Loan,1,1
+Patricia Wilson,33,Female,Married,Not Graduate,Salaried,97600.0,8133.33,26700.0,34000.0,36,677,1,11800.0,Rural,12.01,37100.0,Home Loan,4,1
+David Wilson,41,Female,Single,Post Graduate,Business,21300.0,1775.0,0.0,236000.0,360,595,1,96100.0,Urban,53.83,314000.0,Auto Loan,3,0
+Ananya Miller,46,Male,Married,Post Graduate,Business,64800.0,5400.0,32800.0,219000.0,36,769,0,89500.0,Urban,74.8,201800.0,Auto Loan,4,1
+William Miller,65,Male,Married,Graduate,Salaried,39400.0,3283.33,5800.0,252000.0,180,714,1,300.0,Urban,45.13,202500.0,Business Loan,3,1
+John Williams,41,Male,Divorced,Graduate,Self-Employed,35600.0,2966.67,0.0,235000.0,36,643,1,6700.0,Rural,85.0,403600.0,Auto Loan,0,1
+Linda Jones,38,Male,Married,Graduate,Salaried,42400.0,3533.33,17900.0,224000.0,360,695,2,152400.0,Rural,24.32,247500.0,Home Loan,2,1
+Patricia Davis,57,Male,Single,Not Graduate,Business,38800.0,3233.33,0.0,190000.0,120,592,1,20400.0,Semiurban,58.25,37200.0,Personal Loan,0,0
+Jennifer Johnson,65,Female,Single,Graduate,Self-Employed,100300.0,8358.33,0.0,168000.0,60,600,1,25500.0,Semiurban,37.09,251700.0,Business Loan,2,1
+Karen Lopez,52,Male,Married,Post Graduate,Salaried,34500.0,2875.0,6000.0,272000.0,36,629,3,5500.0,Semiurban,85.0,44200.0,Education Loan,4,0
+David Brown,56,Female,Single,Graduate,Salaried,79400.0,6616.67,0.0,181000.0,60,665,0,67400.0,Semiurban,45.59,259200.0,Home Loan,0,1
+Joseph Garcia,37,Female,Married,Post Graduate,Business,24400.0,2033.33,47600.0,227000.0,240,691,0,7900.0,Urban,15.76,63700.0,Personal Loan,1,1
+Priya Smith,55,Female,Single,Not Graduate,Self-Employed,156100.0,13008.33,0.0,10000.0,60,692,2,6300.0,Semiurban,5.89,16600.0,Home Loan,2,1
+Ananya Garcia,31,Female,Single,Not Graduate,Salaried,63800.0,5316.67,0.0,74000.0,48,574,0,7800.0,Semiurban,29.0,26200.0,Personal Loan,0,1
+Charles Wilson,41,Female,Married,Graduate,Self-Employed,75200.0,6266.67,800.0,268000.0,120,674,2,75600.0,Semiurban,44.74,316600.0,Home Loan,0,1
+Carlos Johnson,46,Male,Married,Graduate,Self-Employed,35900.0,2991.67,15300.0,120000.0,60,615,0,36400.0,Urban,46.87,67400.0,Education Loan,0,0
+Joseph Hernandez,24,Male,Married,Graduate,Salaried,43900.0,3658.33,24400.0,54000.0,36,407,0,43900.0,Semiurban,26.35,81000.0,Auto Loan,0,1
+Linda Martinez,54,Male,Single,Graduate,Self-Employed,31400.0,2616.67,0.0,238000.0,36,850,3,14200.0,Rural,85.0,331700.0,Business Loan,1,1
+Charles Gonzalez,38,Female,Married,Graduate,Self-Employed,141300.0,11775.0,2400.0,180000.0,240,616,1,72000.0,Semiurban,8.77,62800.0,Education Loan,1,1
+Barbara Jones,60,Female,Single,Graduate,Business,50100.0,4175.0,0.0,143000.0,360,621,1,46700.0,Semiurban,16.7,204200.0,Home Loan,0,1
+Jennifer Martinez,55,Male,Single,Graduate,Salaried,64800.0,5400.0,0.0,316000.0,48,572,0,41700.0,Semiurban,85.0,530400.0,Auto Loan,3,1
+Priya Brown,61,Female,Married,Not Graduate,Salaried,79600.0,6633.33,8700.0,300000.0,240,595,0,106200.0,Semiurban,16.99,416100.0,Business Loan,1,1
+Charles Brown,49,Female,Single,Not Graduate,Salaried,40900.0,3408.33,0.0,163000.0,24,665,2,13700.0,Urban,85.0,85500.0,Personal Loan,1,1
+James Brown,49,Male,Single,Graduate,Self-Employed,77300.0,6441.67,0.0,245000.0,60,788,0,28300.0,Semiurban,63.39,326400.0,Auto Loan,0,1
+Thomas Lopez,58,Female,Single,Post Graduate,Self-Employed,70700.0,5891.67,0.0,10000.0,120,664,1,72200.0,Semiurban,6.51,4700.0,Personal Loan,1,1
+Joseph Smith,62,Male,Single,Graduate,Business,75000.0,6250.0,0.0,278000.0,48,654,0,46900.0,Semiurban,85.0,286400.0,Auto Loan,0,0
+Susan Verma,41,Male,Single,Graduate,Self-Employed,50200.0,4183.33,0.0,82000.0,120,776,0,24900.0,Semiurban,16.33,38900.0,Personal Loan,2,1
+Jennifer Jones,62,Female,Single,Graduate,Salaried,41700.0,3475.0,0.0,49000.0,360,638,2,2400.0,Semiurban,21.18,27100.0,Personal Loan,1,1
+David Sharma,33,Male,Single,Not Graduate,Unemployed,31300.0,2608.33,0.0,19000.0,360,682,2,31700.0,Semiurban,25.03,18400.0,Home Loan,0,1
+Patricia Gonzalez,61,Female,Single,Graduate,Salaried,98300.0,8191.67,0.0,12000.0,36,606,1,22400.0,Semiurban,7.73,14900.0,Home Loan,3,1
+David Williams,37,Male,Married,Graduate,Business,62200.0,5183.33,2400.0,277000.0,48,815,1,6100.0,Rural,85.0,260900.0,Home Loan,1,0
+James Garcia,29,Male,Single,Not Graduate,Salaried,46400.0,3866.67,0.0,237000.0,360,764,1,64200.0,Semiurban,24.78,392400.0,Home Loan,0,1
+Sarah Davis,61,Female,Single,Graduate,Self-Employed,149700.0,12475.0,0.0,111000.0,48,668,1,12600.0,Rural,20.94,58900.0,Personal Loan,3,1
+Elizabeth Jones,21,Male,Single,Not Graduate,Self-Employed,22200.0,1850.0,0.0,257000.0,180,648,1,14700.0,Semiurban,85.0,373700.0,Home Loan,0,0
+Amit Martinez,22,Male,Married,Post Graduate,Self-Employed,105400.0,8783.33,19800.0,126000.0,48,677,0,33500.0,Urban,25.16,177300.0,Home Loan,2,1
+Barbara Johnson,49,Male,Married,Post Graduate,Salaried,291100.0,24258.33,8800.0,209000.0,60,669,0,20100.0,Rural,13.94,266000.0,Business Loan,1,1
+Richard Davis,53,Female,Married,Graduate,Salaried,118100.0,9841.67,7800.0,137000.0,36,556,3,2800.0,Semiurban,44.85,147700.0,Business Loan,0,1
+Mary Brown,30,Male,Married,Graduate,Self-Employed,94800.0,7900.0,500.0,169000.0,360,767,0,14700.0,Rural,5.91,203500.0,Business Loan,4,1
+James Sharma,60,Male,Married,Graduate,Business,41100.0,3425.0,13900.0,98000.0,360,662,0,3000.0,Semiurban,5.94,37200.0,Education Loan,1,0
+Robert Rodriguez,41,Male,Married,Graduate,Salaried,31800.0,2650.0,13200.0,112000.0,48,832,1,6300.0,Urban,70.22,174900.0,Home Loan,0,1
+Thomas Rodriguez,48,Male,Married,Graduate,Business,79700.0,6641.67,3400.0,229000.0,360,714,1,200.0,Urban,13.52,352400.0,Home Loan,3,1
+David Sharma,31,Female,Single,Graduate,Salaried,36300.0,3025.0,0.0,243000.0,60,478,1,6000.0,Semiurban,85.0,376600.0,Home Loan,1,0
+Ananya Garcia,54,Female,Single,Post Graduate,Salaried,28700.0,2391.67,0.0,143000.0,24,577,0,12000.0,Rural,85.0,31900.0,Education Loan,2,0
+Amit Williams,28,Male,Single,Post Graduate,Self-Employed,89500.0,7458.33,0.0,43000.0,240,508,4,23200.0,Semiurban,18.49,38700.0,Business Loan,2,1
+Thomas Jones,42,Female,Divorced,Graduate,Self-Employed,36900.0,3075.0,0.0,402000.0,120,576,1,75500.0,Urban,85.0,667900.0,Home Loan,0,0
+Barbara Johnson,28,Male,Married,Graduate,Unemployed,130600.0,10883.33,16100.0,183000.0,48,549,2,23300.0,Semiurban,36.09,299600.0,Home Loan,0,1
+Susan Jones,35,Female,Married,Graduate,Self-Employed,102600.0,8550.0,28000.0,208000.0,48,700,0,36700.0,Semiurban,39.82,308100.0,Auto Loan,0,1
+Ananya Hernandez,37,Female,Single,Graduate,Salaried,104700.0,8725.0,0.0,66000.0,360,655,0,13300.0,Urban,5.0,92800.0,Home Loan,2,1
+William Johnson,43,Male,Married,Not Graduate,Salaried,86400.0,7200.0,4900.0,289000.0,360,739,0,41800.0,Urban,10.55,75500.0,Personal Loan,0,1
+Barbara Williams,44,Female,Single,Not Graduate,Salaried,115700.0,9641.67,0.0,303000.0,360,677,0,29100.0,Urban,8.73,140800.0,Education Loan,0,1
+John Smith,65,Female,Single,Post Graduate,Salaried,93700.0,7808.33,0.0,26000.0,36,661,0,18500.0,Urban,9.25,5600.0,Personal Loan,0,1
+Linda Verma,39,Male,Married,Not Graduate,Self-Employed,61500.0,5125.0,22000.0,171000.0,240,840,0,6500.0,Urban,10.24,53700.0,Education Loan,0,1
+Priya Lopez,25,Male,Married,Graduate,Salaried,35800.0,2983.33,18600.0,164000.0,48,698,1,10900.0,Urban,81.99,89400.0,Personal Loan,1,0
+Linda Hernandez,52,Male,Single,Not Graduate,Salaried,118600.0,9883.33,0.0,395000.0,360,674,1,29100.0,Rural,14.14,435800.0,Auto Loan,3,1
+William Jones,64,Female,Married,Graduate,Salaried,102600.0,8550.0,700.0,310000.0,24,612,2,16700.0,Urban,85.0,331900.0,Business Loan,0,0
+Susan Lopez,21,Female,Single,Graduate,Salaried,48800.0,4066.67,0.0,49000.0,60,586,0,66100.0,Urban,20.08,11400.0,Personal Loan,0,1
+John Jones,43,Female,Divorced,Graduate,Salaried,21800.0,1816.67,0.0,114000.0,60,742,1,8000.0,Urban,85.0,150500.0,Auto Loan,2,1
+Robert Jones,57,Female,Single,Graduate,Business,65800.0,5483.33,0.0,100000.0,360,737,0,2300.0,Semiurban,5.07,178800.0,Auto Loan,0,1
+Charles Hernandez,28,Female,Single,Graduate,Self-Employed,22300.0,1858.33,0.0,213000.0,240,806,1,26700.0,Semiurban,63.9,344000.0,Business Loan,3,1
+Susan Martinez,33,Female,Single,Graduate,Self-Employed,137300.0,11441.67,0.0,321000.0,60,718,1,65200.0,Urban,49.38,544900.0,Home Loan,1,1
+Patricia Rodriguez,28,Female,Single,Post Graduate,Self-Employed,166700.0,13891.67,0.0,190000.0,120,649,1,13600.0,Semiurban,13.56,270000.0,Home Loan,0,1
+Richard Martinez,43,Male,Single,Graduate,Salaried,29500.0,2458.33,0.0,225000.0,360,721,2,31300.0,Semiurban,49.83,75000.0,Personal Loan,4,0
+Carlos Johnson,63,Female,Married,Graduate,Business,70800.0,5900.0,19700.0,120000.0,12,674,2,7900.0,Urban,85.0,20600.0,Education Loan,0,0
+Linda Davis,21,Female,Married,Graduate,Salaried,24400.0,2033.33,7200.0,225000.0,360,749,1,24500.0,Semiurban,35.13,112500.0,Education Loan,0,1
+Michael Davis,65,Male,Married,Not Graduate,Salaried,78800.0,6566.67,68900.0,138000.0,360,787,2,46400.0,Semiurban,7.99,236900.0,Home Loan,0,1
+Susan Verma,44,Female,Single,Graduate,Self-Employed,39200.0,3266.67,0.0,32000.0,12,667,1,60500.0,Urban,85.0,50000.0,Home Loan,4,1
+Charles Gonzalez,55,Male,Married,Post Graduate,Salaried,71400.0,5950.0,2900.0,219000.0,12,821,2,3300.0,Semiurban,85.0,42900.0,Education Loan,2,0
+Jennifer Smith,44,Male,Single,Post Graduate,Self-Employed,41000.0,3416.67,0.0,179000.0,60,775,1,13200.0,Rural,85.0,233200.0,Home Loan,0,1
+Amit Sharma,37,Female,Single,Graduate,Salaried,27100.0,2258.33,0.0,81000.0,24,681,1,30600.0,Semiurban,85.0,95900.0,Home Loan,2,0
+Joseph Smith,25,Male,Married,Not Graduate,Self-Employed,43400.0,3616.67,15300.0,328000.0,60,734,1,1100.0,Urban,85.0,307100.0,Home Loan,1,0
+Carlos Smith,40,Male,Married,Graduate,Salaried,25400.0,2116.67,36900.0,111000.0,240,704,0,35200.0,Rural,8.91,128400.0,Home Loan,0,1
+James Sharma,41,Male,Single,Graduate,Salaried,58700.0,4891.67,0.0,235000.0,120,682,1,22500.0,Semiurban,46.17,396900.0,Auto Loan,2,1
+Amit Johnson,60,Female,Single,Not Graduate,Self-Employed,21900.0,1825.0,0.0,147000.0,36,833,3,10200.0,Urban,85.0,21700.0,Personal Loan,2,0
+Susan Jones,51,Male,Divorced,Graduate,Salaried,53700.0,4475.0,0.0,319000.0,180,721,1,50600.0,Urban,46.31,181900.0,Personal Loan,1,0
+Linda Davis,66,Female,Single,Graduate,Salaried,117900.0,9825.0,0.0,159000.0,180,613,0,10300.0,Semiurban,8.99,67200.0,Education Loan,0,1
+Charles Miller,56,Male,Married,Graduate,Salaried,101900.0,8491.67,30300.0,29000.0,360,598,0,142700.0,Rural,5.0,41100.0,Home Loan,0,1
+Charles Garcia,31,Female,Married,Graduate,Self-Employed,116500.0,9708.33,22000.0,253000.0,36,601,2,50800.0,Urban,66.09,307700.0,Home Loan,2,1
+Jennifer Williams,35,Female,Single,Post Graduate,Self-Employed,134800.0,11233.33,0.0,319000.0,180,719,3,36900.0,Urban,23.79,415700.0,Business Loan,2,1
+Michael Williams,39,Male,Single,Graduate,Salaried,25000.0,2083.33,0.0,142000.0,360,653,0,1900.0,Semiurban,18.93,212700.0,Business Loan,1,1
+Linda Martinez,27,Male,Single,Not Graduate,Unemployed,26200.0,2183.33,0.0,241000.0,120,707,2,70400.0,Rural,85.0,305400.0,Home Loan,2,1
+Karen Sharma,48,Male,Married,Graduate,Business,56600.0,4716.67,30600.0,192000.0,60,755,2,46800.0,Urban,52.29,190300.0,Home Loan,2,1
+Joseph Gonzalez,63,Female,Married,Not Graduate,Self-Employed,121000.0,10083.33,8700.0,146000.0,36,842,0,7800.0,Rural,37.52,192800.0,Home Loan,2,1
+James Brown,25,Male,Married,Graduate,Self-Employed,184800.0,15400.0,7100.0,256000.0,360,655,2,14900.0,Semiurban,8.2,296000.0,Auto Loan,0,1
+Michael Hernandez,25,Male,Divorced,Graduate,Salaried,22100.0,1841.67,0.0,108000.0,60,567,0,9400.0,Semiurban,85.0,117800.0,Home Loan,0,0
+Patricia Gonzalez,50,Male,Married,Post Graduate,Self-Employed,39800.0,3316.67,200.0,183000.0,360,823,1,124800.0,Semiurban,24.25,74800.0,Personal Loan,1,0
+Jennifer Rodriguez,52,Male,Married,Graduate,Salaried,30800.0,2566.67,1700.0,203000.0,360,563,1,57800.0,Urban,31.9,251500.0,Home Loan,0,1
+James Gonzalez,28,Male,Married,Graduate,Salaried,83500.0,6958.33,2700.0,200000.0,60,560,1,79900.0,Semiurban,50.58,337300.0,Business Loan,2,1
+Robert Hernandez,30,Female,Married,Graduate,Unemployed,66000.0,5500.0,4100.0,110000.0,120,821,1,46600.0,Rural,20.83,39100.0,Personal Loan,3,1
+Amit Smith,58,Female,Married,Not Graduate,Self-Employed,25700.0,2141.67,14300.0,365000.0,12,765,1,18300.0,Urban,85.0,126000.0,Personal Loan,0,0
+Patricia Garcia,67,Male,Married,Graduate,Salaried,49700.0,4141.67,97200.0,294000.0,48,719,2,6900.0,Semiurban,54.94,373800.0,Home Loan,3,1
+Mary Martinez,52,Female,Married,Post Graduate,Salaried,72000.0,6000.0,21100.0,269000.0,240,676,2,7000.0,Urban,22.18,215700.0,Home Loan,1,1
+Robert Hernandez,48,Male,Single,Graduate,Self-Employed,87900.0,7325.0,0.0,309000.0,180,661,2,4900.0,Urban,31.63,352400.0,Auto Loan,1,1
+Elizabeth Smith,37,Female,Married,Graduate,Salaried,20900.0,1741.67,14900.0,186000.0,60,628,1,23700.0,Semiurban,85.0,300100.0,Business Loan,1,1
+Priya Garcia,51,Female,Single,Not Graduate,Salaried,119500.0,9958.33,0.0,147000.0,360,657,0,75800.0,Urban,5.0,174700.0,Auto Loan,0,1
+Richard Sharma,28,Female,Single,Not Graduate,Salaried,57900.0,4825.0,0.0,82000.0,48,676,1,144100.0,Semiurban,41.62,111800.0,Auto Loan,0,1
+Joseph Brown,60,Female,Single,Post Graduate,Salaried,95200.0,7933.33,0.0,117000.0,60,570,2,10200.0,Urban,32.14,117600.0,Home Loan,1,1
+Richard Davis,45,Male,Married,Post Graduate,Self-Employed,94200.0,7850.0,11600.0,89000.0,60,614,0,35900.0,Rural,16.82,152700.0,Auto Loan,3,1
+Karen Davis,29,Female,Married,Graduate,Salaried,29500.0,2458.33,104300.0,132000.0,60,511,4,27300.0,Urban,30.49,227500.0,Home Loan,1,1
+Joseph Gonzalez,22,Female,Single,Graduate,Self-Employed,25300.0,2108.33,0.0,205000.0,360,686,2,20100.0,Urban,55.47,193900.0,Home Loan,0,0
+Linda Jones,35,Male,Married,Graduate,Salaried,77500.0,6458.33,18700.0,262000.0,180,686,1,32900.0,Urban,21.9,399300.0,Business Loan,0,1
+Joseph Brown,23,Female,Married,Not Graduate,Self-Employed,27700.0,2308.33,2200.0,260000.0,120,822,1,13900.0,Rural,85.0,227600.0,Business Loan,4,1
+Barbara Gonzalez,56,Male,Single,Post Graduate,Unemployed,105400.0,8783.33,0.0,75000.0,120,710,1,86700.0,Urban,10.53,104900.0,Auto Loan,1,1
+Mary Hernandez,24,Female,Married,Graduate,Self-Employed,78300.0,6525.0,5500.0,242000.0,36,636,1,36700.0,Urban,85.0,236800.0,Business Loan,3,0
+Charles Williams,34,Male,Married,Graduate,Business,103000.0,8583.33,36100.0,283000.0,60,664,1,42100.0,Rural,43.28,100100.0,Education Loan,1,0
+Patricia Brown,61,Male,Married,Graduate,Business,36000.0,3000.0,30600.0,157000.0,180,719,2,8300.0,Rural,26.53,126200.0,Home Loan,1,1
+David Hernandez,61,Female,Married,Not Graduate,Salaried,37100.0,3091.67,34800.0,288000.0,360,698,1,5500.0,Rural,18.36,66900.0,Education Loan,2,1
+Robert Brown,45,Female,Married,Graduate,Self-Employed,70100.0,5841.67,25700.0,259000.0,360,726,2,15000.0,Urban,16.53,422000.0,Auto Loan,0,1
+David Wilson,30,Male,Single,Graduate,Business,21400.0,1783.33,0.0,66000.0,60,710,2,43700.0,Urban,85.0,57900.0,Business Loan,1,1
+Elizabeth Davis,41,Male,Single,Graduate,Salaried,78300.0,6525.0,0.0,377000.0,60,660,0,83800.0,Semiurban,85.0,527600.0,Auto Loan,1,1
+Jennifer Garcia,56,Female,Single,Not Graduate,Salaried,101300.0,8441.67,0.0,116000.0,24,637,0,16700.0,Semiurban,57.26,67900.0,Personal Loan,1,1
+Linda Miller,32,Male,Divorced,Not Graduate,Business,44100.0,3675.0,0.0,266000.0,36,633,2,44600.0,Urban,85.0,283000.0,Auto Loan,2,0
+Joseph Martinez,47,Male,Single,Not Graduate,Self-Employed,85100.0,7091.67,0.0,263000.0,60,606,0,19100.0,Urban,61.81,440300.0,Home Loan,0,1
+Susan Hernandez,60,Female,Single,Graduate,Salaried,28600.0,2383.33,0.0,70000.0,120,593,1,10500.0,Rural,37.06,38500.0,Education Loan,1,1
+Barbara Martinez,22,Female,Married,Graduate,Salaried,37500.0,3125.0,5100.0,196000.0,48,827,1,40300.0,Urban,85.0,274700.0,Home Loan,0,1
+Richard Davis,33,Male,Divorced,Not Graduate,Self-Employed,184800.0,15400.0,0.0,262000.0,180,690,0,48000.0,Semiurban,9.45,314700.0,Home Loan,0,1
+Sarah Rodriguez,52,Female,Married,Post Graduate,Salaried,213200.0,17766.67,49700.0,69000.0,240,668,0,6800.0,Semiurban,5.0,68400.0,Home Loan,1,1
+James Sharma,51,Female,Single,Graduate,Self-Employed,52300.0,4358.33,0.0,189000.0,48,640,2,10900.0,Semiurban,85.0,236600.0,Home Loan,0,1
+Linda Lopez,36,Female,Single,Graduate,Self-Employed,142500.0,11875.0,0.0,269000.0,240,714,1,20500.0,Semiurban,11.96,468200.0,Home Loan,1,1
+David Lopez,52,Male,Single,Graduate,Self-Employed,53300.0,4441.67,0.0,275000.0,48,776,1,6200.0,Urban,85.0,434900.0,Home Loan,0,1
+Barbara Brown,52,Male,Single,Graduate,Salaried,35500.0,2958.33,0.0,144000.0,120,738,3,79300.0,Urban,70.99,62900.0,Personal Loan,0,0
+Jessica Brown,54,Male,Single,Not Graduate,Self-Employed,34000.0,2833.33,0.0,319000.0,360,754,0,26800.0,Semiurban,31.27,60300.0,Personal Loan,0,0
+Robert Davis,31,Male,Married,Graduate,Self-Employed,139400.0,11616.67,34000.0,297000.0,120,633,0,3900.0,Urban,17.13,516000.0,Home Loan,0,1
+Robert Davis,30,Female,Divorced,Graduate,Self-Employed,28500.0,2375.0,0.0,202000.0,360,680,2,6100.0,Semiurban,48.89,217500.0,Home Loan,2,1
+Elizabeth Smith,35,Male,Single,Graduate,Salaried,59000.0,4916.67,0.0,121000.0,24,634,2,92600.0,Semiurban,85.0,49900.0,Education Loan,1,0
+William Garcia,37,Female,Married,Graduate,Salaried,56500.0,4708.33,49100.0,75000.0,120,689,1,40200.0,Semiurban,10.51,69500.0,Home Loan,3,1
+Charles Gonzalez,60,Male,Married,Graduate,Unemployed,80600.0,6716.67,15800.0,214000.0,120,782,3,39800.0,Urban,33.4,245000.0,Home Loan,0,1
+Susan Davis,38,Male,Single,Graduate,Salaried,51100.0,4258.33,0.0,312000.0,180,715,3,2300.0,Urban,61.84,459600.0,Home Loan,2,1
+William Garcia,29,Female,Married,Graduate,Salaried,34300.0,2858.33,100.0,167000.0,360,810,0,67700.0,Semiurban,16.18,179000.0,Home Loan,1,1
+David Miller,45,Male,Single,Not Graduate,Salaried,28400.0,2366.67,0.0,103000.0,240,657,0,17600.0,Urban,18.13,83100.0,Auto Loan,0,1
+James Wilson,60,Male,Single,Graduate,Business,63600.0,5300.0,0.0,254000.0,240,615,2,32300.0,Rural,31.29,145000.0,Personal Loan,2,0
+Robert Jones,34,Female,Married,Graduate,Salaried,77100.0,6425.0,10200.0,196000.0,48,721,0,96300.0,Rural,56.13,58500.0,Personal Loan,2,1
+Susan Brown,45,Male,Single,Post Graduate,Salaried,57900.0,4825.0,0.0,226000.0,60,690,0,3200.0,Urban,78.07,308800.0,Home Loan,1,1
+Priya Miller,42,Female,Divorced,Not Graduate,Salaried,80300.0,6691.67,0.0,133000.0,180,706,2,19700.0,Urban,20.01,197300.0,Auto Loan,1,1
+Carlos Smith,50,Female,Single,Not Graduate,Self-Employed,26900.0,2241.67,0.0,147000.0,120,694,1,1500.0,Urban,68.03,126700.0,Business Loan,0,0
+Priya Miller,40,Male,Married,Graduate,Salaried,116300.0,9691.67,37800.0,132000.0,360,641,1,20800.0,Rural,5.19,167600.0,Home Loan,0,1
+Charles Davis,41,Female,Married,Graduate,Salaried,59300.0,4941.67,7100.0,225000.0,36,696,0,8700.0,Urban,85.0,239900.0,Home Loan,1,1
+Joseph Jones,64,Male,Single,Graduate,Salaried,26100.0,2175.0,0.0,149000.0,60,758,1,72600.0,Urban,85.0,260400.0,Home Loan,2,1
+Joseph Rodriguez,52,Male,Single,Graduate,Business,47900.0,3991.67,0.0,233000.0,120,766,1,15200.0,Semiurban,56.16,270300.0,Auto Loan,0,1
+Rahul Rodriguez,66,Male,Married,Graduate,Salaried,103800.0,8650.0,1100.0,124000.0,360,641,0,30100.0,Urban,5.0,111600.0,Home Loan,0,1
+Elizabeth Brown,41,Male,Married,Post Graduate,Salaried,122500.0,10208.33,57000.0,225000.0,360,698,0,59000.0,Urban,5.0,118400.0,Personal Loan,1,1
+Carlos Jones,55,Female,Married,Graduate,Salaried,33800.0,2816.67,15000.0,243000.0,60,798,1,123500.0,Urban,85.0,258900.0,Home Loan,2,1
+William Williams,52,Male,Married,Graduate,Unemployed,75900.0,6325.0,7900.0,210000.0,24,643,3,21000.0,Semiurban,85.0,205600.0,Home Loan,2,1
+Karen Rodriguez,50,Male,Married,Graduate,Self-Employed,24700.0,2058.33,3400.0,263000.0,60,628,3,18300.0,Urban,85.0,381300.0,Home Loan,0,0
+David Garcia,59,Male,Married,Graduate,Unemployed,21500.0,1791.67,8300.0,137000.0,60,744,0,2400.0,Semiurban,85.0,225600.0,Home Loan,1,1
+Mary Miller,32,Female,Married,Not Graduate,Business,57000.0,4750.0,400.0,242000.0,360,730,1,400.0,Rural,20.33,269200.0,Home Loan,1,1
+Sarah Hernandez,61,Male,Married,Graduate,Salaried,73400.0,6116.67,9000.0,201000.0,60,613,2,28200.0,Semiurban,57.52,102000.0,Personal Loan,1,1
+Mary Hernandez,67,Male,Married,Not Graduate,Self-Employed,91500.0,7625.0,15200.0,107000.0,60,568,2,2000.0,Semiurban,26.8,43600.0,Personal Loan,1,1
+Thomas Verma,38,Female,Married,Post Graduate,Salaried,38700.0,3225.0,41100.0,10000.0,60,697,1,14400.0,Urban,7.02,1500.0,Personal Loan,2,1
+David Hernandez,41,Male,Single,Graduate,Self-Employed,20300.0,1691.67,0.0,28000.0,60,647,0,100.0,Urban,27.59,24300.0,Auto Loan,2,1
+Barbara Hernandez,33,Male,Married,Graduate,Salaried,49400.0,4116.67,2400.0,10000.0,360,545,2,28700.0,Urban,14.54,10300.0,Auto Loan,1,1
+Charles Garcia,41,Male,Married,Post Graduate,Salaried,20700.0,1725.0,3200.0,218000.0,24,625,0,16600.0,Semiurban,85.0,366900.0,Auto Loan,1,1
+Ananya Rodriguez,28,Male,Single,Not Graduate,Business,24300.0,2025.0,0.0,151000.0,60,728,0,4100.0,Urban,85.0,36500.0,Education Loan,0,0
+Michael Brown,66,Female,Single,Graduate,Salaried,37800.0,3150.0,0.0,188000.0,360,668,1,10500.0,Urban,26.1,166700.0,Home Loan,0,1
+Jennifer Jones,60,Male,Single,Post Graduate,Business,45900.0,3825.0,0.0,164000.0,36,805,4,25300.0,Urban,85.0,167900.0,Home Loan,3,1
+Ananya Smith,66,Male,Married,Graduate,Salaried,34700.0,2891.67,32700.0,232000.0,240,513,0,32100.0,Urban,17.21,364000.0,Auto Loan,1,1
+Thomas Gonzalez,27,Male,Married,Post Graduate,Salaried,59200.0,4933.33,400.0,235000.0,60,787,1,18600.0,Semiurban,84.9,86300.0,Personal Loan,1,0
+David Garcia,43,Female,Single,Graduate,Business,22600.0,1883.33,0.0,184000.0,120,652,0,48900.0,Semiurban,81.42,83100.0,Personal Loan,2,0
+Sarah Jones,64,Female,Married,Graduate,Self-Employed,27000.0,2250.0,3100.0,189000.0,24,641,2,3600.0,Urban,85.0,191100.0,Home Loan,0,0
+Thomas Miller,52,Male,Married,Post Graduate,Self-Employed,73500.0,6125.0,73500.0,193000.0,60,556,1,2700.0,Semiurban,28.71,53800.0,Personal Loan,2,0
+Thomas Brown,31,Female,Single,Graduate,Salaried,26900.0,2241.67,0.0,305000.0,120,717,0,1400.0,Semiurban,85.0,89300.0,Education Loan,2,0
+William Smith,42,Female,Married,Graduate,Salaried,65900.0,5491.67,26600.0,10000.0,48,534,0,23000.0,Semiurban,5.0,10000.0,Home Loan,2,1
+Karen Garcia,42,Female,Divorced,Graduate,Self-Employed,22500.0,1875.0,0.0,120000.0,120,745,1,36700.0,Rural,69.33,67500.0,Education Loan,0,0
+Priya Lopez,63,Female,Married,Post Graduate,Self-Employed,43500.0,3625.0,39600.0,258000.0,48,559,0,4200.0,Urban,77.62,122000.0,Personal Loan,1,0
+Linda Smith,45,Male,Married,Not Graduate,Salaried,28800.0,2400.0,36600.0,280000.0,180,572,0,30600.0,Urban,28.54,325200.0,Home Loan,0,1
+Michael Smith,42,Male,Divorced,Not Graduate,Unemployed,25200.0,2100.0,0.0,218000.0,360,585,1,19400.0,Semiurban,43.12,58500.0,Personal Loan,1,0
+Richard Wilson,48,Male,Married,Graduate,Self-Employed,57700.0,4808.33,14000.0,163000.0,24,623,1,131100.0,Rural,85.0,59000.0,Personal Loan,2,0
+Amit Williams,49,Male,Single,Not Graduate,Business,138600.0,11550.0,0.0,348000.0,48,755,1,37900.0,Semiurban,65.37,507000.0,Auto Loan,0,1
+Ananya Williams,33,Female,Married,Graduate,Self-Employed,22500.0,1875.0,100.0,196000.0,360,800,0,32100.0,Rural,28.91,20500.0,Personal Loan,1,0
+Thomas Gonzalez,38,Male,Married,Graduate,Self-Employed,44600.0,3716.67,18000.0,183000.0,180,631,1,25400.0,Semiurban,25.24,83300.0,Personal Loan,0,1
+Jessica Davis,22,Male,Married,Not Graduate,Salaried,75300.0,6275.0,37600.0,300000.0,24,676,1,178200.0,Semiurban,85.0,347900.0,Home Loan,2,1
+Charles Johnson,49,Female,Single,Graduate,Salaried,48000.0,4000.0,0.0,223000.0,60,719,0,118100.0,Semiurban,85.0,354700.0,Home Loan,1,1
+James Wilson,41,Male,Married,Graduate,Business,93900.0,7825.0,2300.0,265000.0,48,654,1,23200.0,Urban,72.61,248200.0,Home Loan,0,0
+Charles Sharma,35,Male,Single,Graduate,Salaried,28900.0,2408.33,0.0,275000.0,36,716,0,18200.0,Semiurban,85.0,150800.0,Education Loan,0,0
+Sarah Johnson,47,Male,Divorced,Graduate,Salaried,164400.0,13700.0,0.0,146000.0,360,680,2,18600.0,Semiurban,7.34,184500.0,Home Loan,2,1
+Priya Lopez,51,Male,Single,Post Graduate,Salaried,41900.0,3491.67,0.0,339000.0,240,660,1,16800.0,Semiurban,49.05,414900.0,Business Loan,1,1
+Thomas Johnson,35,Female,Single,Graduate,Salaried,38800.0,3233.33,0.0,10000.0,180,566,1,22700.0,Urban,11.0,12300.0,Home Loan,0,1
+Jennifer Williams,43,Male,Married,Not Graduate,Business,113400.0,9450.0,3200.0,10000.0,48,692,0,9600.0,Urban,5.0,12400.0,Home Loan,0,1
+Patricia Smith,44,Male,Single,Graduate,Business,57300.0,4775.0,0.0,119000.0,36,757,0,78400.0,Semiurban,69.23,212900.0,Home Loan,0,1
+Linda Gonzalez,64,Male,Married,Graduate,Salaried,52700.0,4391.67,1300.0,142000.0,360,618,1,20200.0,Semiurban,15.43,141000.0,Home Loan,2,1
+Amit Miller,33,Male,Divorced,Graduate,Salaried,78400.0,6533.33,0.0,213000.0,12,523,1,55400.0,Rural,85.0,52900.0,Education Loan,2,0
+John Verma,42,Female,Married,Not Graduate,Self-Employed,59000.0,4916.67,9100.0,118000.0,60,654,0,19300.0,Urban,34.65,159500.0,Auto Loan,0,1
+Elizabeth Martinez,63,Male,Single,Not Graduate,Self-Employed,28000.0,2333.33,0.0,179000.0,48,801,0,38000.0,Urban,85.0,92300.0,Education Loan,0,0
+Charles Wilson,57,Male,Single,Post Graduate,Unemployed,70500.0,5875.0,0.0,162000.0,120,777,0,12300.0,Urban,22.98,232200.0,Business Loan,0,1
+Mary Lopez,53,Female,Married,Not Graduate,Self-Employed,26400.0,2200.0,2400.0,360000.0,48,634,1,29400.0,Semiurban,85.0,37200.0,Personal Loan,3,0
+James Miller,23,Female,Divorced,Graduate,Salaried,93800.0,7816.67,0.0,108000.0,60,716,0,20700.0,Urban,23.03,136800.0,Auto Loan,1,1
+Amit Lopez,39,Male,Married,Not Graduate,Salaried,226100.0,18841.67,33200.0,29000.0,360,729,1,13700.0,Rural,5.0,48300.0,Auto Loan,2,1
+Sarah Miller,43,Female,Married,Post Graduate,Unemployed,41300.0,3441.67,6200.0,281000.0,180,799,0,64000.0,Urban,39.44,251200.0,Auto Loan,2,1
+Linda Smith,49,Female,Single,Not Graduate,Self-Employed,46500.0,3875.0,0.0,116000.0,36,556,1,3600.0,Rural,85.0,168600.0,Home Loan,2,0
+Carlos Miller,50,Female,Married,Graduate,Self-Employed,22100.0,1841.67,34900.0,172000.0,240,594,0,20000.0,Semiurban,15.09,67400.0,Personal Loan,3,1
+John Davis,59,Male,Married,Graduate,Salaried,20600.0,1716.67,87000.0,122000.0,48,519,1,6500.0,Rural,31.69,50000.0,Personal Loan,0,1
+Amit Hernandez,64,Female,Single,Not Graduate,Self-Employed,134500.0,11208.33,0.0,246000.0,60,626,0,59200.0,Urban,36.58,337300.0,Home Loan,4,1
+Linda Garcia,67,Male,Single,Not Graduate,Self-Employed,26200.0,2183.33,0.0,56000.0,180,765,0,8800.0,Semiurban,14.25,32700.0,Personal Loan,2,1
+Carlos Sharma,45,Male,Married,Graduate,Salaried,46600.0,3883.33,10200.0,10000.0,48,635,1,30100.0,Urban,10.74,11800.0,Business Loan,0,1
+Robert Williams,57,Male,Single,Post Graduate,Salaried,96000.0,8000.0,0.0,297000.0,60,575,0,5400.0,Urban,61.88,122200.0,Personal Loan,2,0
+Charles Smith,67,Male,Single,Post Graduate,Salaried,119000.0,9916.67,0.0,202000.0,240,698,0,15600.0,Urban,8.49,39200.0,Personal Loan,2,1
+Joseph Davis,28,Female,Married,Graduate,Salaried,53000.0,4416.67,29700.0,277000.0,360,700,2,68900.0,Semiurban,19.87,361600.0,Home Loan,2,1
+Mary Williams,62,Male,Single,Post Graduate,Salaried,57500.0,4791.67,0.0,294000.0,120,599,2,5400.0,Urban,63.65,330300.0,Business Loan,0,1
+Ananya Wilson,36,Male,Single,Graduate,Salaried,69800.0,5816.67,0.0,98000.0,12,640,0,32600.0,Rural,85.0,54700.0,Personal Loan,1,0
+Ananya Wilson,28,Female,Married,Graduate,Self-Employed,166400.0,13866.67,16500.0,185000.0,60,692,2,6900.0,Urban,24.17,33200.0,Education Loan,0,1
+David Verma,21,Male,Married,Graduate,Salaried,61500.0,5125.0,4800.0,225000.0,60,740,1,16100.0,Urban,73.3,130800.0,Education Loan,2,0
+Patricia Brown,64,Male,Married,Graduate,Salaried,56900.0,4741.67,8300.0,170000.0,60,628,0,23300.0,Urban,52.15,44100.0,Education Loan,3,0
+Robert Garcia,25,Male,Married,Not Graduate,Business,20700.0,1725.0,30700.0,152000.0,60,617,4,25800.0,Semiurban,85.0,161400.0,Home Loan,1,1
+Rahul Wilson,23,Male,Married,Graduate,Self-Employed,23800.0,1983.33,4300.0,161000.0,180,833,2,27700.0,Urban,63.82,167300.0,Home Loan,1,0
+Amit Verma,21,Male,Married,Graduate,Self-Employed,58700.0,4891.67,20300.0,278000.0,36,658,4,30700.0,Rural,85.0,113400.0,Education Loan,2,0
+Sarah Miller,24,Female,Single,Graduate,Salaried,143900.0,11991.67,0.0,157000.0,48,700,0,9500.0,Semiurban,27.28,247100.0,Business Loan,0,1
+Elizabeth Miller,60,Male,Married,Graduate,Self-Employed,110700.0,9225.0,61600.0,234000.0,120,732,0,15400.0,Rural,13.58,75100.0,Education Loan,1,1
+James Miller,55,Male,Divorced,Graduate,Salaried,202300.0,16858.33,0.0,211000.0,60,537,1,1100.0,Urban,22.64,71300.0,Personal Loan,2,1
+Rahul Williams,52,Female,Single,Not Graduate,Business,53800.0,4483.33,0.0,93000.0,360,679,1,43900.0,Semiurban,12.45,38300.0,Personal Loan,0,1
+Jessica Gonzalez,62,Female,Single,Graduate,Salaried,89800.0,7483.33,0.0,207000.0,60,548,0,54400.0,Semiurban,46.1,218000.0,Home Loan,0,1
+Charles Brown,54,Male,Married,Post Graduate,Self-Employed,102600.0,8550.0,4100.0,42000.0,360,670,2,6700.0,Rural,8.06,72200.0,Business Loan,2,1
+Sarah Johnson,63,Male,Single,Not Graduate,Salaried,67000.0,5583.33,0.0,216000.0,360,790,1,6700.0,Urban,16.12,359500.0,Auto Loan,0,1
+James Sharma,45,Male,Single,Graduate,Self-Employed,38600.0,3216.67,0.0,260000.0,360,600,1,1300.0,Rural,31.78,411200.0,Home Loan,2,1
+Robert Brown,30,Male,Married,Post Graduate,Salaried,48600.0,4050.0,22700.0,281000.0,12,547,1,105600.0,Urban,85.0,353400.0,Home Loan,0,0
+David Martinez,41,Male,Divorced,Graduate,Salaried,107800.0,8983.33,0.0,94000.0,360,831,1,49400.0,Semiurban,6.25,24400.0,Personal Loan,0,1
+Mary Williams,66,Male,Married,Graduate,Salaried,36000.0,3000.0,10000.0,132000.0,36,588,0,13400.0,Urban,85.0,222000.0,Auto Loan,1,1
+Amit Miller,59,Female,Single,Graduate,Self-Employed,135800.0,11316.67,0.0,206000.0,12,560,4,19700.0,Urban,85.0,300200.0,Home Loan,1,1
+Barbara Brown,47,Male,Single,Graduate,Unemployed,31800.0,2650.0,0.0,137000.0,60,810,0,10400.0,Urban,85.0,150100.0,Home Loan,1,1
+Robert Jones,47,Female,Married,Graduate,Business,82300.0,6858.33,23700.0,10000.0,36,585,0,27300.0,Rural,5.0,12600.0,Home Loan,1,1
+Jennifer Verma,22,Male,Married,Not Graduate,Salaried,64800.0,5400.0,20700.0,131000.0,36,812,2,37900.0,Rural,59.49,220300.0,Home Loan,1,1
+William Johnson,61,Female,Single,Graduate,Salaried,82300.0,6858.33,0.0,205000.0,48,702,4,17800.0,Urban,79.77,49300.0,Education Loan,1,0
+Rahul Lopez,33,Female,Married,Not Graduate,Business,45900.0,3825.0,9300.0,276000.0,48,783,2,62000.0,Rural,85.0,402800.0,Auto Loan,0,1
+John Brown,29,Female,Single,Graduate,Salaried,141400.0,11783.33,0.0,332000.0,180,695,2,21800.0,Semiurban,20.74,508800.0,Auto Loan,0,1
+Priya Lopez,56,Male,Married,Not Graduate,Self-Employed,65000.0,5416.67,28500.0,191000.0,36,766,1,4700.0,Semiurban,71.94,160300.0,Business Loan,0,0
+Ananya Smith,42,Female,Married,Graduate,Business,35300.0,2941.67,29700.0,231000.0,120,607,3,29200.0,Urban,52.15,44400.0,Personal Loan,0,0
+Elizabeth Wilson,62,Male,Married,Graduate,Business,65800.0,5483.33,12200.0,266000.0,360,631,0,18600.0,Semiurban,11.37,396100.0,Business Loan,0,1
+Ananya Hernandez,46,Female,Married,Graduate,Salaried,35200.0,2933.33,18900.0,10000.0,60,511,2,82300.0,Urban,17.01,3700.0,Education Loan,0,1
+Susan Miller,32,Male,Single,Graduate,Salaried,35600.0,2966.67,0.0,88000.0,180,758,1,14900.0,Urban,26.59,144700.0,Auto Loan,4,1
+Thomas Johnson,37,Male,Married,Graduate,Salaried,43000.0,3583.33,24200.0,189000.0,360,714,0,15500.0,Semiurban,9.38,39500.0,Personal Loan,0,1
+Charles Smith,34,Male,Married,Not Graduate,Self-Employed,106100.0,8841.67,36100.0,320000.0,36,599,1,31600.0,Rural,77.54,332100.0,Auto Loan,0,1
+Susan Rodriguez,34,Male,Single,Graduate,Salaried,51200.0,4266.67,0.0,237000.0,60,540,1,22500.0,Semiurban,85.0,132000.0,Education Loan,2,0
+Linda Johnson,54,Male,Married,Not Graduate,Salaried,71100.0,5925.0,14400.0,210000.0,360,703,1,14100.0,Rural,12.4,307800.0,Home Loan,0,1
+Richard Rodriguez,40,Male,Single,Not Graduate,Salaried,42400.0,3533.33,0.0,159000.0,360,814,0,137500.0,Rural,12.5,219500.0,Home Loan,0,1
+Michael Rodriguez,31,Female,Married,Post Graduate,Salaried,33800.0,2816.67,20600.0,218000.0,180,669,2,10800.0,Urban,39.95,33200.0,Education Loan,0,0
+Priya Garcia,36,Female,Married,Graduate,Self-Employed,159200.0,13266.67,22800.0,126000.0,36,627,0,9800.0,Urban,23.08,29400.0,Education Loan,0,1
+David Wilson,51,Female,Divorced,Graduate,Self-Employed,61600.0,5133.33,0.0,110000.0,360,605,1,59900.0,Semiurban,11.8,40500.0,Personal Loan,0,0
+Patricia Martinez,26,Male,Single,Post Graduate,Salaried,142300.0,11858.33,0.0,118000.0,36,780,2,100.0,Rural,32.7,60900.0,Personal Loan,0,1
+Richard Johnson,39,Female,Married,Not Graduate,Salaried,30200.0,2516.67,2000.0,301000.0,60,618,1,6700.0,Rural,85.0,477800.0,Home Loan,2,1
+Amit Jones,57,Female,Married,Graduate,Business,27100.0,2258.33,60600.0,104000.0,60,650,0,26800.0,Semiurban,23.72,42700.0,Personal Loan,0,1
+David Garcia,24,Female,Married,Graduate,Salaried,107200.0,8933.33,31300.0,144000.0,60,763,0,5300.0,Semiurban,20.79,48900.0,Education Loan,0,1
+Sarah Verma,67,Female,Single,Graduate,Self-Employed,71400.0,5950.0,0.0,222000.0,240,731,1,127600.0,Semiurban,20.59,262300.0,Home Loan,1,1
+Rahul Martinez,24,Male,Married,Graduate,Business,29300.0,2441.67,16500.0,101000.0,360,653,4,18700.0,Urban,38.79,35900.0,Personal Loan,0,1
+Patricia Rodriguez,40,Female,Married,Not Graduate,Salaried,34100.0,2841.67,1000.0,200000.0,240,624,3,27300.0,Urban,59.26,36800.0,Education Loan,0,0
+Jennifer Johnson,30,Male,Single,Graduate,Self-Employed,92600.0,7716.67,0.0,200000.0,12,797,1,5200.0,Semiurban,85.0,182100.0,Home Loan,2,1
+Thomas Jones,44,Male,Single,Graduate,Business,47200.0,3933.33,0.0,124000.0,120,591,0,10200.0,Rural,26.27,195900.0,Business Loan,3,1
+Carlos Garcia,55,Male,Married,Graduate,Salaried,70000.0,5833.33,23400.0,157000.0,240,663,0,28600.0,Rural,8.4,73100.0,Personal Loan,2,1
+Barbara Miller,46,Female,Married,Graduate,Salaried,37200.0,3100.0,38200.0,95000.0,60,560,0,23900.0,Urban,25.2,164100.0,Business Loan,0,1
+Rahul Martinez,57,Female,Single,Not Graduate,Salaried,41600.0,3466.67,0.0,304000.0,360,775,0,46000.0,Semiurban,24.36,182100.0,Education Loan,4,1
+Priya Jones,58,Female,Single,Not Graduate,Salaried,230600.0,19216.67,0.0,203000.0,360,642,0,9400.0,Rural,5.0,103900.0,Personal Loan,0,1
+Carlos Sharma,41,Female,Single,Graduate,Business,32800.0,2733.33,0.0,86000.0,180,624,0,31800.0,Semiurban,17.48,74700.0,Business Loan,0,1
+Jennifer Hernandez,60,Male,Married,Post Graduate,Business,51800.0,4316.67,3500.0,191000.0,24,733,1,10300.0,Urban,85.0,59800.0,Education Loan,1,0
+Linda Johnson,59,Male,Married,Graduate,Self-Employed,103700.0,8641.67,2500.0,195000.0,180,566,0,26500.0,Semiurban,12.24,44800.0,Education Loan,2,1
+Barbara Gonzalez,41,Male,Married,Graduate,Salaried,32300.0,2691.67,28600.0,10000.0,360,731,1,27900.0,Semiurban,6.46,4800.0,Personal Loan,0,1
+Carlos Jones,30,Male,Divorced,Graduate,Salaried,44100.0,3675.0,0.0,301000.0,60,651,3,3900.0,Semiurban,85.0,87400.0,Personal Loan,1,0
+Michael Martinez,58,Male,Married,Graduate,Self-Employed,63000.0,5250.0,12300.0,91000.0,360,584,1,23900.0,Semiurban,8.81,114000.0,Home Loan,2,1
+Richard Smith,66,Male,Single,Graduate,Salaried,49500.0,4125.0,0.0,368000.0,60,601,2,400.0,Rural,85.0,625600.0,Home Loan,0,0
+Rahul Lopez,24,Male,Single,Graduate,Self-Employed,47700.0,3975.0,0.0,252000.0,120,625,2,20900.0,Urban,67.92,42300.0,Personal Loan,1,0
+Susan Verma,65,Female,Single,Not Graduate,Salaried,40300.0,3358.33,0.0,79000.0,180,644,0,35900.0,Urban,13.07,138300.0,Home Loan,0,1
+Mary Lopez,40,Male,Divorced,Graduate,Self-Employed,59800.0,4983.33,0.0,152000.0,180,584,0,2300.0,Semiurban,16.95,137500.0,Auto Loan,0,1
+Priya Hernandez,37,Female,Married,Not Graduate,Self-Employed,64100.0,5341.67,19200.0,263000.0,360,704,0,83800.0,Urban,10.52,105300.0,Personal Loan,0,1
+James Williams,27,Female,Single,Graduate,Salaried,67700.0,5641.67,0.0,159000.0,48,582,0,18400.0,Rural,58.71,282000.0,Business Loan,1,1
+Rahul Brown,24,Male,Single,Post Graduate,Salaried,23300.0,1941.67,0.0,286000.0,48,491,1,83600.0,Urban,85.0,251700.0,Business Loan,0,0
+Charles Martinez,49,Male,Married,Not Graduate,Salaried,64900.0,5408.33,23000.0,146000.0,240,834,3,3400.0,Semiurban,20.59,173200.0,Home Loan,2,1
+Rahul Hernandez,34,Male,Married,Graduate,Salaried,157800.0,13150.0,31700.0,173000.0,36,696,3,89800.0,Rural,36.13,36000.0,Personal Loan,3,1
+Linda Hernandez,23,Male,Single,Not Graduate,Self-Employed,55000.0,4583.33,0.0,266000.0,60,841,0,3500.0,Urban,85.0,446900.0,Business Loan,3,1
+Patricia Smith,44,Female,Divorced,Graduate,Self-Employed,76500.0,6375.0,0.0,234000.0,12,597,4,18600.0,Rural,85.0,246800.0,Home Loan,0,0
+Michael Davis,57,Male,Married,Not Graduate,Self-Employed,56600.0,4716.67,2100.0,97000.0,36,718,0,83400.0,Semiurban,55.08,80400.0,Home Loan,0,1
+John Garcia,36,Male,Single,Graduate,Unemployed,106800.0,8900.0,0.0,219000.0,180,752,2,7900.0,Urban,20.41,289400.0,Business Loan,0,1
+Mary Miller,24,Male,Married,Not Graduate,Salaried,139400.0,11616.67,14200.0,195000.0,240,665,0,1100.0,Rural,6.35,247900.0,Home Loan,2,1
+Joseph Davis,44,Female,Single,Not Graduate,Salaried,29200.0,2433.33,0.0,98000.0,36,564,0,47300.0,Urban,85.0,108500.0,Business Loan,4,1
+Priya Garcia,54,Female,Divorced,Graduate,Salaried,45800.0,3816.67,0.0,55000.0,48,659,0,27200.0,Semiurban,30.02,18300.0,Education Loan,2,1
+Robert Davis,50,Female,Divorced,Graduate,Self-Employed,42400.0,3533.33,0.0,10000.0,24,730,2,21600.0,Urban,28.77,5900.0,Personal Loan,1,1
+James Martinez,38,Male,Married,Not Graduate,Salaried,43400.0,3616.67,800.0,154000.0,60,727,0,1000.0,Urban,69.68,255300.0,Business Loan,0,1
+Patricia Sharma,39,Female,Married,Graduate,Business,26000.0,2166.67,6600.0,175000.0,36,680,0,31800.0,Rural,85.0,33400.0,Personal Loan,2,0
+Karen Williams,51,Female,Single,Graduate,Salaried,95600.0,7966.67,0.0,225000.0,60,752,3,5600.0,Semiurban,58.37,335800.0,Business Loan,0,1
+John Brown,39,Female,Divorced,Graduate,Business,21600.0,1800.0,0.0,254000.0,240,748,3,80300.0,Urban,85.0,450900.0,Business Loan,0,1
+David Smith,66,Female,Married,Graduate,Business,53800.0,4483.33,400.0,143000.0,180,638,0,34700.0,Semiurban,17.59,201900.0,Home Loan,2,1
+Richard Hernandez,39,Male,Married,Post Graduate,Salaried,68800.0,5733.33,14700.0,173000.0,48,558,1,36800.0,Semiurban,56.11,79700.0,Personal Loan,1,0
+Mary Rodriguez,42,Female,Divorced,Graduate,Salaried,30500.0,2541.67,0.0,112000.0,180,695,0,7900.0,Rural,24.48,201100.0,Auto Loan,0,1
+Mary Jones,44,Female,Divorced,Graduate,Self-Employed,126300.0,10525.0,0.0,188000.0,360,620,0,63800.0,Semiurban,5.0,249700.0,Home Loan,0,1
+William Rodriguez,65,Male,Married,Not Graduate,Salaried,102100.0,8508.33,24200.0,267000.0,60,691,1,23100.0,Rural,45.13,107500.0,Education Loan,0,1
+Linda Smith,32,Male,Single,Not Graduate,Salaried,48700.0,4058.33,0.0,189000.0,60,788,1,58400.0,Semiurban,85.0,112000.0,Personal Loan,1,0
+James Rodriguez,50,Female,Divorced,Graduate,Self-Employed,43800.0,3650.0,0.0,285000.0,120,715,1,9500.0,Semiurban,73.29,69700.0,Personal Loan,0,1
+David Davis,58,Male,Married,Graduate,Salaried,32100.0,2675.0,3000.0,266000.0,48,784,1,42300.0,Rural,85.0,455600.0,Home Loan,2,1
+Elizabeth Rodriguez,51,Male,Divorced,Post Graduate,Self-Employed,78900.0,6575.0,0.0,311000.0,180,599,1,25600.0,Urban,30.84,414300.0,Auto Loan,0,0
+Michael Williams,56,Female,Married,Not Graduate,Self-Employed,26400.0,2200.0,11100.0,192000.0,360,767,1,1500.0,Urban,26.67,209000.0,Business Loan,1,1
+John Johnson,39,Female,Single,Graduate,Salaried,71300.0,5941.67,0.0,132000.0,60,814,1,15600.0,Urban,42.08,77600.0,Personal Loan,0,1
+Robert Lopez,65,Male,Single,Graduate,Salaried,103200.0,8600.0,0.0,236000.0,180,685,1,6100.0,Urban,18.73,258600.0,Business Loan,0,1
+Barbara Williams,56,Female,Married,Graduate,Salaried,31700.0,2641.67,13500.0,146000.0,180,850,0,13300.0,Urban,21.53,168600.0,Auto Loan,1,1
+Jennifer Johnson,50,Male,Married,Graduate,Self-Employed,110600.0,9216.67,14600.0,233000.0,12,611,1,14500.0,Semiurban,85.0,351800.0,Home Loan,2,1
+Barbara Williams,53,Male,Single,Graduate,Salaried,21500.0,1791.67,0.0,120000.0,36,629,2,19300.0,Semiurban,85.0,15000.0,Personal Loan,0,0
+Robert Lopez,38,Male,Married,Post Graduate,Business,129800.0,10816.67,95800.0,105000.0,360,732,1,27500.0,Urban,5.0,95100.0,Home Loan,1,1
+Thomas Gonzalez,48,Female,Single,Graduate,Salaried,25700.0,2141.67,0.0,289000.0,360,684,1,25400.0,Urban,51.49,343000.0,Home Loan,2,1
+Thomas Martinez,67,Male,Married,Not Graduate,Salaried,66700.0,5558.33,7400.0,89000.0,240,621,0,1200.0,Urban,6.01,112000.0,Home Loan,0,1
+Carlos Miller,31,Female,Married,Graduate,Salaried,33000.0,2750.0,2400.0,272000.0,360,730,1,41700.0,Urban,35.78,91100.0,Education Loan,0,1
+Thomas Sharma,65,Female,Single,Not Graduate,Salaried,101500.0,8458.33,0.0,233000.0,60,708,0,89400.0,Semiurban,45.91,103800.0,Education Loan,0,1
+Barbara Wilson,53,Male,Single,Not Graduate,Salaried,52300.0,4358.33,0.0,188000.0,48,633,3,12900.0,Urban,85.0,317600.0,Home Loan,1,1
+Jessica Davis,37,Female,Single,Graduate,Self-Employed,26500.0,2208.33,0.0,10000.0,60,695,1,5900.0,Rural,21.13,10900.0,Home Loan,0,1
+Charles Davis,26,Male,Married,Graduate,Salaried,58100.0,4841.67,8900.0,314000.0,24,741,0,23300.0,Urban,85.0,417200.0,Home Loan,0,1
+Rahul Smith,24,Female,Single,Graduate,Salaried,43600.0,3633.33,0.0,96000.0,360,631,1,36600.0,Rural,15.6,111900.0,Business Loan,1,1
+Amit Jones,40,Male,Single,Post Graduate,Salaried,68700.0,5725.0,0.0,266000.0,360,721,2,34100.0,Urban,23.39,140500.0,Personal Loan,3,1
+Priya Verma,67,Female,Divorced,Post Graduate,Self-Employed,116100.0,9675.0,0.0,118000.0,360,611,0,28400.0,Semiurban,5.0,162800.0,Auto Loan,0,1
+Jennifer Davis,47,Male,Married,Graduate,Self-Employed,43700.0,3641.67,17400.0,111000.0,120,626,1,4700.0,Semiurban,24.06,12300.0,Personal Loan,0,1
+Carlos Johnson,35,Male,Married,Graduate,Salaried,35400.0,2950.0,57700.0,240000.0,48,769,1,54400.0,Rural,68.31,200700.0,Auto Loan,1,1
+Carlos Lopez,26,Female,Divorced,Graduate,Business,20700.0,1725.0,0.0,228000.0,36,729,2,16600.0,Semiurban,85.0,183200.0,Home Loan,0,0
+Joseph Hernandez,67,Male,Single,Not Graduate,Salaried,58500.0,4875.0,0.0,77000.0,60,529,0,7500.0,Rural,26.32,117600.0,Home Loan,0,1
+William Gonzalez,34,Male,Married,Graduate,Self-Employed,43200.0,3600.0,26700.0,309000.0,180,650,1,2700.0,Semiurban,34.62,458500.0,Home Loan,1,1
+Joseph Verma,31,Female,Married,Graduate,Salaried,41100.0,3425.0,3900.0,161000.0,60,719,3,16200.0,Semiurban,85.0,95900.0,Personal Loan,3,0
+Elizabeth Verma,59,Female,Married,Graduate,Salaried,29100.0,2425.0,34800.0,186000.0,360,691,3,28900.0,Rural,26.6,72200.0,Education Loan,2,1
+Michael Smith,29,Female,Single,Graduate,Business,45300.0,3775.0,0.0,153000.0,360,729,1,32800.0,Semiurban,19.21,268300.0,Home Loan,0,1
+Amit Martinez,46,Male,Married,Not Graduate,Salaried,207300.0,17275.0,53300.0,81000.0,36,689,4,98700.0,Semiurban,15.89,84900.0,Home Loan,2,1
+Rahul Garcia,36,Female,Married,Graduate,Self-Employed,35900.0,2991.67,9100.0,246000.0,36,669,1,5000.0,Urban,85.0,46700.0,Education Loan,0,0
+Michael Wilson,25,Male,Married,Not Graduate,Salaried,61200.0,5100.0,39000.0,206000.0,180,667,1,127600.0,Rural,17.3,203200.0,Home Loan,0,1
+Joseph Jones,30,Female,Single,Graduate,Self-Employed,87400.0,7283.33,0.0,108000.0,48,767,1,31900.0,Semiurban,35.01,164600.0,Home Loan,3,1
+Michael Rodriguez,23,Female,Single,Graduate,Business,82200.0,6850.0,0.0,265000.0,240,736,0,18200.0,Semiurban,16.12,305600.0,Business Loan,3,1
+Charles Verma,33,Male,Single,Not Graduate,Salaried,37900.0,3158.33,0.0,185000.0,120,712,1,65700.0,Urban,58.31,330900.0,Auto Loan,0,1
+Linda Johnson,63,Male,Single,Post Graduate,Business,62500.0,5208.33,0.0,187000.0,48,687,1,35600.0,Semiurban,80.56,69500.0,Personal Loan,0,0
+Amit Gonzalez,50,Male,Married,Not Graduate,Self-Employed,112200.0,9350.0,36200.0,340000.0,60,636,2,12900.0,Semiurban,50.67,396900.0,Business Loan,0,1
+Sarah Sharma,65,Male,Single,Graduate,Self-Employed,20700.0,1725.0,0.0,35000.0,60,655,2,64600.0,Semiurban,68.6,33200.0,Auto Loan,1,1
+Karen Miller,26,Male,Married,Graduate,Salaried,45800.0,3816.67,14800.0,34000.0,360,765,1,33000.0,Urban,7.81,47300.0,Home Loan,2,1
+John Johnson,37,Male,Single,Post Graduate,Business,31400.0,2616.67,0.0,54000.0,12,758,0,36000.0,Urban,85.0,59100.0,Auto Loan,0,1
+Elizabeth Miller,65,Female,Single,Graduate,Salaried,42100.0,3508.33,0.0,213000.0,360,628,0,68000.0,Urban,16.86,363300.0,Auto Loan,0,1
+Thomas Wilson,39,Male,Married,Graduate,Salaried,44200.0,3683.33,24400.0,148000.0,180,688,0,17800.0,Semiurban,14.38,50000.0,Education Loan,0,1
+Ananya Williams,62,Female,Single,Post Graduate,Business,81800.0,6816.67,0.0,155000.0,240,720,1,32100.0,Urban,13.88,69100.0,Education Loan,0,1
+Barbara Lopez,55,Male,Married,Not Graduate,Self-Employed,24400.0,2033.33,31700.0,95000.0,12,715,0,41000.0,Semiurban,85.0,18800.0,Personal Loan,2,0
+Richard Johnson,66,Female,Married,Post Graduate,Salaried,52300.0,4358.33,27500.0,330000.0,180,714,1,18200.0,Semiurban,32.08,194900.0,Personal Loan,2,1
+John Jones,46,Female,Single,Post Graduate,Salaried,57400.0,4783.33,0.0,360000.0,120,591,0,2600.0,Rural,62.72,490200.0,Home Loan,0,1
+David Davis,25,Male,Single,Post Graduate,Salaried,50700.0,4225.0,0.0,261000.0,120,586,2,44300.0,Urban,65.68,223400.0,Home Loan,0,0
+Amit Miller,49,Male,Single,Graduate,Salaried,79200.0,6600.0,0.0,44000.0,240,774,2,1500.0,Urban,11.87,17600.0,Personal Loan,0,1
+Barbara Miller,57,Female,Single,Graduate,Salaried,41800.0,3483.33,0.0,136000.0,120,801,1,38000.0,Semiurban,41.15,180900.0,Auto Loan,1,1
+Joseph Davis,40,Male,Single,Graduate,Self-Employed,150500.0,12541.67,0.0,254000.0,360,561,0,72500.0,Semiurban,5.63,105900.0,Personal Loan,0,1
+Thomas Brown,41,Female,Single,Graduate,Salaried,49600.0,4133.33,0.0,176000.0,48,678,1,12800.0,Urban,85.0,20100.0,Personal Loan,1,0
+Priya Rodriguez,30,Male,Single,Graduate,Self-Employed,58100.0,4841.67,0.0,261000.0,360,745,0,3200.0,Rural,14.97,220400.0,Business Loan,0,1
+Richard Johnson,25,Female,Married,Graduate,Business,98600.0,8216.67,700.0,292000.0,36,504,0,8000.0,Semiurban,85.0,367800.0,Business Loan,0,0
+James Verma,56,Male,Married,Graduate,Salaried,34500.0,2875.0,2200.0,352000.0,360,594,0,24800.0,Urban,31.97,437900.0,Auto Loan,2,0
+Richard Martinez,26,Female,Married,Graduate,Salaried,23500.0,1958.33,18400.0,121000.0,360,673,0,85800.0,Urban,9.63,152400.0,Home Loan,0,1
+Barbara Wilson,46,Female,Single,Graduate,Salaried,75400.0,6283.33,0.0,187000.0,60,632,0,21500.0,Rural,49.6,332800.0,Business Loan,2,1
+Mary Miller,24,Female,Single,Graduate,Salaried,49700.0,4141.67,0.0,140000.0,120,697,0,3600.0,Urban,28.17,51000.0,Education Loan,1,1
+John Martinez,59,Male,Married,Graduate,Self-Employed,122100.0,10175.0,12000.0,10000.0,180,798,0,29600.0,Urban,5.0,14900.0,Home Loan,2,1
+Mary Wilson,59,Female,Married,Not Graduate,Salaried,202500.0,16875.0,48400.0,243000.0,24,612,1,39600.0,Urban,49.86,52100.0,Personal Loan,0,1
+Amit Gonzalez,55,Male,Married,Graduate,Self-Employed,42900.0,3575.0,33700.0,231000.0,60,684,4,15000.0,Semiurban,79.11,104300.0,Education Loan,2,0
+Richard Johnson,21,Female,Single,Graduate,Salaried,44200.0,3683.33,0.0,131000.0,60,652,2,38400.0,Rural,75.57,29600.0,Personal Loan,0,0
+John Hernandez,44,Male,Married,Not Graduate,Salaried,43600.0,3633.33,29500.0,36000.0,360,691,0,11800.0,Urban,5.0,20000.0,Personal Loan,3,1
+Michael Wilson,56,Female,Married,Graduate,Salaried,37700.0,3141.67,14800.0,145000.0,360,680,1,46700.0,Urban,16.06,226700.0,Home Loan,2,1
+Karen Gonzalez,26,Male,Single,Graduate,Salaried,88500.0,7375.0,0.0,246000.0,240,850,2,12500.0,Urban,22.03,131700.0,Personal Loan,0,1
+Thomas Gonzalez,61,Female,Married,Graduate,Salaried,84000.0,7000.0,2700.0,300000.0,180,799,0,8900.0,Semiurban,23.07,73600.0,Personal Loan,0,1
+Rahul Lopez,66,Female,Married,Graduate,Salaried,49300.0,4108.33,4200.0,116000.0,240,554,2,63400.0,Urban,24.3,178900.0,Home Loan,2,1
+Carlos Verma,64,Female,Single,Post Graduate,Business,22100.0,1841.67,0.0,280000.0,60,608,1,23900.0,Rural,85.0,43900.0,Personal Loan,3,0
+Ananya Lopez,51,Male,Single,Graduate,Self-Employed,36700.0,3058.33,0.0,236000.0,60,618,3,10100.0,Urban,85.0,370700.0,Home Loan,2,1
+Joseph Rodriguez,40,Male,Married,Not Graduate,Salaried,35600.0,2966.67,32200.0,217000.0,120,581,2,82000.0,Urban,42.63,209800.0,Auto Loan,2,0
+Elizabeth Wilson,44,Female,Divorced,Graduate,Salaried,95000.0,7916.67,0.0,64000.0,360,571,1,35200.0,Urban,6.04,21400.0,Education Loan,2,1
+Carlos Sharma,45,Male,Single,Graduate,Salaried,24100.0,2008.33,0.0,67000.0,240,666,1,7500.0,Rural,28.84,12300.0,Personal Loan,1,0
+Michael Brown,56,Male,Single,Graduate,Salaried,93700.0,7808.33,0.0,105000.0,120,621,0,28600.0,Semiurban,11.21,155900.0,Auto Loan,0,1
+Robert Smith,41,Female,Single,Graduate,Salaried,69800.0,5816.67,0.0,151000.0,240,609,0,61300.0,Rural,10.82,65400.0,Personal Loan,0,1
+Thomas Williams,50,Female,Married,Graduate,Salaried,79300.0,6608.33,32500.0,342000.0,60,842,1,35700.0,Urban,64.4,413300.0,Home Loan,1,1
+Richard Wilson,44,Male,Single,Graduate,Salaried,45500.0,3791.67,0.0,120000.0,240,626,0,8400.0,Urban,13.19,49300.0,Education Loan,0,0
+Ananya Wilson,64,Female,Divorced,Graduate,Salaried,71200.0,5933.33,0.0,249000.0,60,645,0,31400.0,Semiurban,69.94,415100.0,Home Loan,1,1
+Sarah Brown,62,Female,Single,Not Graduate,Salaried,62300.0,5191.67,0.0,138000.0,48,739,0,29000.0,Semiurban,55.38,132700.0,Home Loan,0,1
+Sarah Wilson,50,Male,Single,Graduate,Salaried,85900.0,7158.33,0.0,223000.0,180,644,2,51600.0,Semiurban,25.69,114900.0,Personal Loan,1,1
+Robert Rodriguez,42,Female,Married,Post Graduate,Self-Employed,46600.0,3883.33,10300.0,174000.0,180,587,0,5900.0,Urban,20.39,299800.0,Auto Loan,0,1
+Jessica Smith,48,Male,Married,Not Graduate,Salaried,48800.0,4066.67,20700.0,196000.0,60,659,0,36100.0,Urban,56.4,52600.0,Personal Loan,1,0
+Rahul Wilson,27,Male,Married,Graduate,Salaried,66400.0,5533.33,16000.0,213000.0,120,841,1,800.0,Urban,30.22,212100.0,Home Loan,1,1
+Joseph Rodriguez,55,Male,Married,Graduate,Self-Employed,25100.0,2091.67,5800.0,158000.0,180,641,1,35700.0,Semiurban,45.74,150500.0,Business Loan,0,0
+Joseph Smith,48,Male,Divorced,Graduate,Business,45800.0,3816.67,0.0,214000.0,240,607,0,96900.0,Semiurban,23.36,116500.0,Personal Loan,2,1
+Carlos Davis,34,Female,Single,Not Graduate,Business,180800.0,15066.67,0.0,291000.0,360,714,3,5700.0,Rural,11.34,346700.0,Home Loan,1,1
+Patricia Lopez,30,Male,Married,Graduate,Self-Employed,21700.0,1808.33,42400.0,112000.0,60,656,1,11200.0,Urban,40.56,56800.0,Personal Loan,2,1
+Robert Gonzalez,36,Male,Single,Not Graduate,Salaried,37100.0,3091.67,0.0,287000.0,360,850,1,26200.0,Rural,35.49,458600.0,Home Loan,0,1
+Robert Hernandez,36,Male,Married,Graduate,Self-Employed,37000.0,3083.33,44700.0,156000.0,180,617,0,39500.0,Urban,12.73,71600.0,Personal Loan,0,0
+Jennifer Miller,51,Female,Married,Not Graduate,Self-Employed,65200.0,5433.33,25400.0,147000.0,240,819,1,12700.0,Urban,12.09,255200.0,Auto Loan,0,1
+Ananya Sharma,62,Female,Single,Graduate,Salaried,25000.0,2083.33,0.0,243000.0,180,773,2,32700.0,Rural,85.0,399100.0,Business Loan,0,1
+Susan Davis,45,Male,Married,Post Graduate,Salaried,64600.0,5383.33,23400.0,149000.0,48,649,0,68900.0,Semiurban,42.33,254600.0,Home Loan,0,1
+David Wilson,33,Male,Single,Graduate,Business,24500.0,2041.67,0.0,209000.0,24,680,0,38900.0,Semiurban,85.0,228700.0,Home Loan,0,0
+Richard Johnson,26,Female,Single,Graduate,Salaried,24500.0,2041.67,0.0,200000.0,240,598,0,37200.0,Semiurban,40.82,274700.0,Home Loan,2,1
+Carlos Miller,64,Male,Married,Graduate,Salaried,78600.0,6550.0,15300.0,10000.0,120,637,4,14400.0,Urban,16.4,11200.0,Home Loan,3,1
+Karen Brown,29,Male,Single,Graduate,Salaried,37600.0,3133.33,0.0,218000.0,240,649,0,72700.0,Semiurban,28.99,230400.0,Home Loan,3,1
+Linda Brown,65,Male,Married,Post Graduate,Salaried,190600.0,15883.33,22700.0,50000.0,60,693,2,9700.0,Rural,8.06,70400.0,Home Loan,3,1
+Priya Jones,56,Female,Single,Graduate,Salaried,21700.0,1808.33,0.0,57000.0,60,567,0,6900.0,Urban,52.53,92200.0,Home Loan,1,1
+Charles Gonzalez,63,Male,Single,Graduate,Self-Employed,46500.0,3875.0,0.0,213000.0,48,705,1,13600.0,Semiurban,85.0,91700.0,Personal Loan,1,0
+Susan Martinez,40,Male,Single,Graduate,Self-Employed,25400.0,2116.67,0.0,228000.0,240,668,1,31500.0,Semiurban,59.06,119400.0,Personal Loan,0,0
+David Johnson,38,Male,Single,Graduate,Salaried,39500.0,3291.67,0.0,288000.0,48,712,0,59300.0,Urban,85.0,289500.0,Home Loan,0,0
+Carlos Martinez,63,Female,Married,Graduate,Business,305000.0,25416.67,31500.0,82000.0,240,724,1,4200.0,Urban,5.0,20900.0,Personal Loan,2,1
+William Smith,41,Male,Married,Not Graduate,Salaried,118900.0,9908.33,8900.0,113000.0,60,662,0,50400.0,Urban,17.68,195900.0,Home Loan,2,1
+John Davis,24,Female,Divorced,Graduate,Salaried,22200.0,1850.0,0.0,222000.0,240,719,0,50300.0,Semiurban,50.0,195300.0,Auto Loan,2,0
+Jennifer Jones,53,Male,Married,Post Graduate,Self-Employed,57300.0,4775.0,15300.0,290000.0,36,673,2,26500.0,Rural,85.0,172400.0,Personal Loan,2,0
+Robert Garcia,47,Male,Single,Graduate,Self-Employed,67000.0,5583.33,0.0,197000.0,48,739,0,42900.0,Semiurban,73.51,337800.0,Home Loan,0,1
+Joseph Miller,27,Female,Married,Graduate,Self-Employed,30600.0,2550.0,600.0,101000.0,180,705,1,6000.0,Urban,33.12,115600.0,Home Loan,1,1
+Thomas Rodriguez,26,Male,Single,Not Graduate,Business,27100.0,2258.33,0.0,316000.0,120,694,0,5600.0,Semiurban,85.0,478000.0,Home Loan,1,1
+John Brown,35,Female,Single,Not Graduate,Self-Employed,125600.0,10466.67,0.0,156000.0,48,672,0,59600.0,Rural,31.05,140500.0,Business Loan,4,1
+Thomas Gonzalez,38,Female,Married,Graduate,Business,176100.0,14675.0,10900.0,159000.0,360,784,1,20700.0,Urban,5.0,20000.0,Education Loan,3,1
+Elizabeth Williams,52,Female,Single,Not Graduate,Salaried,236700.0,19725.0,0.0,51000.0,48,712,1,8500.0,Rural,6.91,66500.0,Home Loan,1,1
+Sarah Johnson,31,Male,Single,Graduate,Self-Employed,90200.0,7516.67,0.0,245000.0,60,574,0,35000.0,Semiurban,54.32,381600.0,Auto Loan,0,1
+Thomas Davis,40,Female,Divorced,Graduate,Unemployed,69000.0,5750.0,0.0,257000.0,48,642,1,66700.0,Urban,85.0,279800.0,Home Loan,0,0
+John Verma,44,Male,Married,Post Graduate,Self-Employed,39100.0,3258.33,30700.0,116000.0,60,662,0,30000.0,Urban,33.24,123400.0,Home Loan,0,1
+John Garcia,35,Female,Married,Graduate,Salaried,28500.0,2375.0,4100.0,338000.0,60,680,2,12800.0,Semiurban,85.0,372800.0,Home Loan,2,0
+Richard Davis,27,Female,Single,Graduate,Salaried,23700.0,1975.0,0.0,127000.0,48,694,0,19800.0,Semiurban,85.0,172200.0,Business Loan,0,1
+Joseph Rodriguez,41,Female,Single,Not Graduate,Self-Employed,73200.0,6100.0,0.0,236000.0,240,604,0,41900.0,Rural,16.12,121300.0,Personal Loan,0,1
+William Brown,62,Male,Married,Post Graduate,Salaried,89100.0,7425.0,20500.0,200000.0,60,675,2,2100.0,Semiurban,43.07,42200.0,Education Loan,0,1
+Susan Jones,46,Male,Single,Graduate,Unemployed,98800.0,8233.33,0.0,10000.0,240,655,0,7300.0,Urban,5.0,2000.0,Personal Loan,3,1
+Mary Hernandez,64,Male,Married,Graduate,Salaried,130300.0,10858.33,21300.0,229000.0,48,767,0,18600.0,Urban,37.76,384500.0,Home Loan,1,1
+William Davis,34,Female,Single,Graduate,Salaried,115400.0,9616.67,0.0,221000.0,60,600,0,27800.0,Semiurban,38.3,197800.0,Business Loan,1,1
+John Hernandez,57,Male,Married,Post Graduate,Business,391700.0,32641.67,7700.0,21000.0,12,679,2,12400.0,Urban,7.06,10400.0,Education Loan,0,1
+William Williams,41,Male,Single,Post Graduate,Salaried,32600.0,2716.67,0.0,317000.0,240,625,3,10600.0,Semiurban,81.75,496200.0,Business Loan,0,1
+Carlos Johnson,38,Female,Married,Graduate,Salaried,84800.0,7066.67,16300.0,221000.0,180,829,1,1300.0,Urban,18.13,194800.0,Auto Loan,0,1
+Barbara Martinez,25,Female,Married,Graduate,Self-Employed,59700.0,4975.0,2300.0,292000.0,360,781,1,1000.0,Urban,21.51,245400.0,Home Loan,2,1
+William Sharma,23,Male,Married,Graduate,Self-Employed,33600.0,2800.0,54200.0,26000.0,60,549,1,9800.0,Urban,10.02,29400.0,Home Loan,2,1
+Linda Rodriguez,43,Female,Single,Not Graduate,Salaried,200500.0,16708.33,0.0,143000.0,240,616,1,22700.0,Urban,5.36,218800.0,Home Loan,1,1
+Robert Hernandez,46,Male,Married,Not Graduate,Unemployed,122700.0,10225.0,4900.0,286000.0,180,750,0,24400.0,Semiurban,14.94,98300.0,Personal Loan,0,1
+Mary Davis,57,Male,Married,Not Graduate,Salaried,26200.0,2183.33,13700.0,39000.0,12,717,3,20400.0,Urban,85.0,6100.0,Education Loan,2,0
+Joseph Garcia,44,Male,Single,Post Graduate,Self-Employed,21200.0,1766.67,0.0,146000.0,48,714,0,15800.0,Rural,85.0,235500.0,Auto Loan,1,1
+Linda Hernandez,39,Male,Married,Graduate,Salaried,72500.0,6041.67,15300.0,217000.0,60,695,0,8700.0,Semiurban,49.43,340000.0,Business Loan,0,1
+Robert Verma,45,Male,Single,Graduate,Self-Employed,61700.0,5141.67,0.0,10000.0,180,756,2,15400.0,Semiurban,12.75,15900.0,Home Loan,0,1
+Sarah Garcia,41,Female,Single,Graduate,Salaried,143600.0,11966.67,0.0,61000.0,24,742,1,4500.0,Urban,23.75,76800.0,Auto Loan,1,1
+Robert Lopez,32,Male,Married,Graduate,Salaried,32000.0,2666.67,6200.0,304000.0,240,657,0,3700.0,Semiurban,39.79,249100.0,Business Loan,1,0
+Jessica Gonzalez,61,Male,Single,Graduate,Salaried,24000.0,2000.0,0.0,185000.0,120,584,0,10700.0,Urban,77.08,77800.0,Personal Loan,4,0
+Robert Gonzalez,53,Female,Married,Graduate,Business,33500.0,2791.67,600.0,286000.0,120,545,1,161100.0,Rural,85.0,68400.0,Personal Loan,2,0
+Thomas Johnson,24,Male,Single,Not Graduate,Salaried,20900.0,1741.67,0.0,196000.0,48,672,1,11900.0,Semiurban,85.0,304400.0,Auto Loan,0,1
+Linda Gonzalez,62,Male,Married,Post Graduate,Self-Employed,21600.0,1800.0,19400.0,401000.0,120,533,1,82700.0,Urban,85.0,44500.0,Personal Loan,2,0
+Charles Martinez,27,Female,Divorced,Graduate,Business,130900.0,10908.33,0.0,219000.0,12,700,0,14900.0,Semiurban,85.0,46400.0,Education Loan,0,0
+John Davis,42,Female,Married,Graduate,Salaried,39500.0,3291.67,15800.0,294000.0,24,655,4,17300.0,Urban,85.0,118200.0,Personal Loan,1,0
+Linda Johnson,53,Female,Single,Graduate,Salaried,43800.0,3650.0,0.0,158000.0,240,836,0,47800.0,Urban,18.04,148300.0,Home Loan,1,1
+Linda Hernandez,37,Female,Single,Not Graduate,Salaried,20800.0,1733.33,0.0,199000.0,60,707,1,2900.0,Rural,85.0,33200.0,Personal Loan,1,0
+Richard Gonzalez,44,Female,Married,Not Graduate,Self-Employed,34200.0,2850.0,200.0,238000.0,60,678,1,6000.0,Urban,85.0,316200.0,Home Loan,2,1
+James Garcia,54,Male,Single,Graduate,Salaried,93500.0,7791.67,0.0,253000.0,48,551,0,109300.0,Semiurban,67.65,69000.0,Personal Loan,2,0
+Ananya Williams,48,Female,Single,Graduate,Salaried,63000.0,5250.0,0.0,176000.0,60,579,0,21200.0,Rural,55.87,244500.0,Home Loan,2,1
+Jessica Davis,63,Male,Married,Graduate,Self-Employed,83100.0,6925.0,3700.0,180000.0,24,735,3,1400.0,Urban,85.0,50800.0,Education Loan,0,0
+James Hernandez,61,Female,Married,Graduate,Self-Employed,46700.0,3891.67,4000.0,225000.0,60,655,2,1500.0,Urban,85.0,331500.0,Business Loan,0,0
+Jessica Rodriguez,59,Male,Divorced,Graduate,Salaried,36700.0,3058.33,0.0,225000.0,120,850,0,71300.0,Urban,61.31,196600.0,Home Loan,1,1
+Richard Hernandez,42,Female,Single,Not Graduate,Salaried,49700.0,4141.67,0.0,88000.0,60,673,2,62000.0,Urban,49.9,142200.0,Home Loan,3,1
+Richard Rodriguez,37,Male,Single,Post Graduate,Self-Employed,37600.0,3133.33,0.0,200000.0,360,694,0,18400.0,Urban,17.73,95800.0,Personal Loan,0,1
+Rahul Martinez,54,Female,Single,Graduate,Business,102200.0,8516.67,0.0,209000.0,60,575,1,5300.0,Rural,44.42,203000.0,Business Loan,0,1
+Patricia Sharma,26,Male,Divorced,Not Graduate,Business,35900.0,2991.67,0.0,92000.0,60,756,0,53200.0,Rural,51.25,131600.0,Home Loan,0,1
+Jennifer Lopez,66,Female,Married,Post Graduate,Self-Employed,68500.0,5708.33,83000.0,262000.0,120,606,2,11800.0,Semiurban,22.05,365800.0,Home Loan,1,1
+Michael Jones,26,Female,Married,Graduate,Salaried,26600.0,2216.67,35600.0,217000.0,36,722,0,16300.0,Urban,85.0,90900.0,Personal Loan,2,0
+David Gonzalez,54,Male,Divorced,Graduate,Salaried,72300.0,6025.0,0.0,390000.0,360,745,1,34400.0,Rural,22.96,416100.0,Auto Loan,2,1
+Carlos Williams,21,Female,Married,Post Graduate,Salaried,130000.0,10833.33,16200.0,178000.0,120,688,2,13100.0,Semiurban,17.1,212000.0,Home Loan,3,1
+Amit Martinez,30,Female,Married,Graduate,Salaried,62200.0,5183.33,37100.0,282000.0,36,821,0,29700.0,Urban,85.0,294700.0,Auto Loan,2,1
+Elizabeth Verma,41,Female,Single,Post Graduate,Self-Employed,56900.0,4741.67,0.0,229000.0,240,631,1,65000.0,Urban,26.45,107700.0,Education Loan,0,0
+David Jones,25,Male,Married,Post Graduate,Salaried,166100.0,13841.67,4600.0,353000.0,12,814,0,47900.0,Urban,85.0,484700.0,Home Loan,1,1
+Michael Sharma,22,Male,Married,Not Graduate,Salaried,64400.0,5366.67,35300.0,93000.0,360,578,1,14400.0,Rural,6.72,10500.0,Personal Loan,1,1
+Sarah Brown,42,Male,Married,Not Graduate,Unemployed,33500.0,2791.67,15400.0,135000.0,360,744,0,10200.0,Semiurban,9.2,198100.0,Home Loan,4,1
+Mary Wilson,22,Male,Divorced,Not Graduate,Salaried,35600.0,2966.67,0.0,96000.0,120,669,1,10100.0,Semiurban,37.08,168600.0,Home Loan,0,1
+Richard Gonzalez,30,Female,Divorced,Not Graduate,Salaried,75000.0,6250.0,0.0,173000.0,36,623,3,12900.0,Semiurban,85.0,252700.0,Home Loan,0,1
+Barbara Miller,54,Male,Married,Graduate,Salaried,79800.0,6650.0,10700.0,79000.0,48,547,0,20400.0,Semiurban,21.82,20200.0,Personal Loan,0,1
+Mary Verma,36,Female,Married,Graduate,Self-Employed,36300.0,3025.0,41900.0,43000.0,48,659,0,16200.0,Urban,13.75,70800.0,Business Loan,1,1
+Richard Wilson,59,Male,Married,Graduate,Self-Employed,39100.0,3258.33,2700.0,10000.0,48,654,1,4300.0,Semiurban,14.59,3100.0,Personal Loan,0,1
+Thomas Rodriguez,42,Male,Single,Not Graduate,Salaried,232300.0,19358.33,0.0,10000.0,60,694,2,5400.0,Rural,5.0,9700.0,Home Loan,1,1
+Thomas Davis,32,Female,Single,Graduate,Salaried,24800.0,2066.67,0.0,239000.0,360,738,3,12600.0,Urban,75.67,266400.0,Home Loan,2,0
+Mary Lopez,44,Female,Married,Graduate,Self-Employed,43300.0,3608.33,10400.0,139000.0,60,615,0,24800.0,Rural,51.77,16200.0,Personal Loan,0,0
+Ananya Gonzalez,67,Male,Married,Graduate,Business,22900.0,1908.33,3500.0,69000.0,180,821,0,26900.0,Urban,17.42,106100.0,Home Loan,1,1
+John Verma,60,Male,Single,Not Graduate,Unemployed,97400.0,8116.67,0.0,121000.0,180,637,2,20000.0,Urban,15.67,216200.0,Home Loan,3,1
+Jennifer Williams,58,Male,Divorced,Post Graduate,Business,24400.0,2033.33,0.0,132000.0,360,728,2,40300.0,Semiurban,47.54,36800.0,Personal Loan,1,1
+Michael Martinez,30,Male,Single,Post Graduate,Self-Employed,70400.0,5866.67,0.0,93000.0,12,687,1,40100.0,Rural,85.0,44800.0,Education Loan,0,0
+William Verma,55,Male,Single,Graduate,Salaried,22600.0,1883.33,0.0,324000.0,60,664,0,16700.0,Semiurban,85.0,276900.0,Home Loan,0,0
+Mary Sharma,52,Male,Married,Post Graduate,Salaried,70300.0,5858.33,16200.0,308000.0,240,683,0,4000.0,Semiurban,17.8,420800.0,Auto Loan,1,1
+Joseph Wilson,27,Male,Single,Not Graduate,Salaried,103300.0,8608.33,0.0,323000.0,360,605,0,22700.0,Semiurban,10.42,555500.0,Home Loan,0,1
+Robert Gonzalez,41,Female,Single,Graduate,Self-Employed,42900.0,3575.0,0.0,196000.0,360,649,3,14400.0,Semiurban,40.4,213100.0,Auto Loan,1,0
+Priya Brown,40,Male,Single,Graduate,Business,53200.0,4433.33,0.0,205000.0,240,573,0,4500.0,Urban,19.27,106900.0,Personal Loan,4,1
+Karen Verma,46,Male,Married,Graduate,Salaried,43100.0,3591.67,18200.0,121000.0,48,636,1,120200.0,Urban,55.22,139200.0,Business Loan,1,1
+Patricia Johnson,24,Male,Married,Post Graduate,Salaried,36100.0,3008.33,7700.0,104000.0,120,643,1,13800.0,Urban,31.96,34400.0,Personal Loan,0,1
+Patricia Hernandez,66,Female,Married,Graduate,Salaried,93200.0,7766.67,12000.0,182000.0,12,748,0,29500.0,Urban,85.0,39900.0,Personal Loan,0,0
+Thomas Lopez,42,Female,Married,Graduate,Business,34300.0,2858.33,5700.0,239000.0,180,653,0,20200.0,Urban,39.83,334700.0,Home Loan,3,1
+Priya Smith,35,Male,Single,Not Graduate,Self-Employed,77800.0,6483.33,0.0,288000.0,120,644,1,4600.0,Semiurban,41.65,269500.0,Home Loan,2,0
+Elizabeth Garcia,60,Female,Divorced,Graduate,Business,30400.0,2533.33,0.0,131000.0,180,698,0,1700.0,Semiurban,28.73,26900.0,Personal Loan,1,0
+James Garcia,41,Male,Single,Graduate,Business,32900.0,2741.67,0.0,67000.0,360,694,0,29500.0,Urban,6.79,118300.0,Business Loan,0,1
+Ananya Hernandez,35,Male,Divorced,Not Graduate,Business,38500.0,3208.33,0.0,246000.0,180,633,0,8500.0,Urban,42.6,54400.0,Personal Loan,2,0
+Sarah Johnson,42,Male,Married,Graduate,Self-Employed,60000.0,5000.0,6900.0,16000.0,60,712,2,8400.0,Urban,15.55,13300.0,Auto Loan,0,1
+Susan Verma,48,Male,Divorced,Not Graduate,Self-Employed,47300.0,3941.67,0.0,176000.0,36,666,3,94400.0,Urban,85.0,216000.0,Home Loan,0,1
+Joseph Gonzalez,34,Female,Single,Graduate,Salaried,81500.0,6791.67,0.0,188000.0,360,633,1,18600.0,Urban,12.11,72700.0,Personal Loan,0,1
+Barbara Brown,47,Female,Married,Not Graduate,Salaried,30800.0,2566.67,13900.0,146000.0,36,640,2,900.0,Semiurban,85.0,160200.0,Home Loan,0,0
+John Brown,61,Male,Single,Not Graduate,Salaried,20500.0,1708.33,0.0,41000.0,36,756,1,12500.0,Urban,84.23,55000.0,Home Loan,0,1
+Barbara Miller,60,Female,Single,Graduate,Salaried,87400.0,7283.33,0.0,147000.0,48,643,1,26300.0,Semiurban,46.17,43400.0,Personal Loan,0,1
+David Smith,48,Female,Married,Graduate,Unemployed,97600.0,8133.33,5900.0,328000.0,120,701,4,12000.0,Semiurban,45.6,364700.0,Business Loan,0,1
+Jennifer Sharma,46,Male,Single,Not Graduate,Salaried,22800.0,1900.0,0.0,233000.0,36,577,1,800.0,Urban,85.0,82800.0,Personal Loan,1,0
+Joseph Verma,22,Male,Married,Not Graduate,Business,62500.0,5208.33,2100.0,285000.0,360,769,0,17600.0,Urban,14.71,365600.0,Auto Loan,1,1
+Charles Hernandez,45,Male,Single,Not Graduate,Salaried,41400.0,3450.0,0.0,70000.0,360,633,3,3400.0,Urban,31.72,92100.0,Business Loan,0,1
+Amit Martinez,23,Male,Single,Post Graduate,Salaried,91100.0,7591.67,0.0,203000.0,360,712,2,29000.0,Urban,15.33,162700.0,Home Loan,3,1
+Mary Wilson,28,Male,Married,Graduate,Business,113400.0,9450.0,1100.0,188000.0,12,660,0,29000.0,Urban,85.0,266200.0,Business Loan,0,1
+Mary Gonzalez,64,Male,Married,Graduate,Salaried,105700.0,8808.33,31900.0,190000.0,360,711,4,1200.0,Semiurban,15.07,341500.0,Home Loan,0,1
+Patricia Smith,53,Male,Married,Post Graduate,Salaried,87600.0,7300.0,3300.0,230000.0,360,715,0,10300.0,Urban,8.43,251200.0,Home Loan,0,1
+John Gonzalez,62,Female,Married,Graduate,Salaried,34100.0,2841.67,19600.0,193000.0,360,668,0,16000.0,Rural,11.98,276100.0,Home Loan,1,1
+William Miller,55,Female,Married,Graduate,Self-Employed,95200.0,7933.33,8300.0,73000.0,180,531,1,24000.0,Urban,8.18,58700.0,Home Loan,0,1
+Joseph Miller,26,Female,Single,Graduate,Salaried,54300.0,4525.0,0.0,235000.0,240,767,0,10500.0,Semiurban,21.64,330000.0,Auto Loan,0,1
+David Brown,59,Male,Married,Graduate,Self-Employed,22400.0,1866.67,10700.0,256000.0,36,669,1,10200.0,Semiurban,85.0,319200.0,Business Loan,1,0
+Mary Sharma,43,Female,Divorced,Graduate,Self-Employed,47500.0,3958.33,0.0,299000.0,360,709,0,122300.0,Urban,20.98,397800.0,Home Loan,1,1
+Susan Brown,45,Female,Married,Post Graduate,Self-Employed,148300.0,12358.33,36800.0,303000.0,24,735,0,1300.0,Urban,81.85,407200.0,Home Loan,2,1
+Priya Hernandez,63,Female,Married,Graduate,Self-Employed,118500.0,9875.0,14400.0,223000.0,60,643,1,135400.0,Semiurban,36.27,217900.0,Home Loan,2,1
+John Smith,39,Male,Married,Graduate,Salaried,24900.0,2075.0,3000.0,77000.0,360,721,1,1500.0,Rural,22.1,120900.0,Auto Loan,3,1
+Barbara Davis,25,Female,Married,Post Graduate,Salaried,81300.0,6775.0,5400.0,42000.0,60,620,0,10200.0,Urban,9.69,7800.0,Personal Loan,0,1
+Rahul Sharma,31,Male,Married,Post Graduate,Business,93700.0,7808.33,11900.0,160000.0,36,711,3,20400.0,Urban,60.73,45000.0,Personal Loan,0,0
+Jessica Jones,32,Male,Single,Graduate,Salaried,34200.0,2850.0,0.0,263000.0,360,682,1,4600.0,Urban,36.16,456900.0,Auto Loan,4,1
+Karen Garcia,30,Male,Single,Graduate,Salaried,48700.0,4058.33,0.0,257000.0,360,646,0,4300.0,Urban,17.59,86900.0,Personal Loan,1,1
+Charles Rodriguez,28,Female,Married,Not Graduate,Salaried,75900.0,6325.0,15300.0,205000.0,36,684,0,8900.0,Rural,74.93,114900.0,Education Loan,2,1
+Robert Williams,44,Male,Single,Not Graduate,Business,46000.0,3833.33,0.0,177000.0,360,596,2,108900.0,Semiurban,28.48,209100.0,Home Loan,0,1
+James Martinez,48,Female,Married,Not Graduate,Salaried,25400.0,2116.67,10300.0,351000.0,60,705,1,14300.0,Urban,85.0,74900.0,Education Loan,0,0
+Jennifer Sharma,61,Female,Single,Post Graduate,Salaried,75100.0,6258.33,0.0,232000.0,60,713,0,25000.0,Urban,61.78,253200.0,Home Loan,0,1
+Mary Gonzalez,56,Male,Married,Not Graduate,Self-Employed,129200.0,10766.67,41900.0,172000.0,48,708,0,36600.0,Urban,25.13,192900.0,Home Loan,0,1
+John Verma,57,Female,Single,Graduate,Self-Employed,67600.0,5633.33,0.0,122000.0,12,800,1,40700.0,Rural,85.0,99500.0,Business Loan,0,0
+Thomas Rodriguez,41,Male,Single,Not Graduate,Salaried,86900.0,7241.67,0.0,89000.0,48,672,0,34900.0,Rural,25.6,136200.0,Auto Loan,0,1
+Ananya Lopez,28,Female,Divorced,Graduate,Salaried,40000.0,3333.33,0.0,80000.0,24,678,1,12300.0,Urban,85.0,120900.0,Business Loan,1,1
+Sarah Sharma,29,Male,Married,Not Graduate,Self-Employed,29100.0,2425.0,8800.0,89000.0,360,586,3,3600.0,Urban,36.32,129400.0,Home Loan,0,1
+Barbara Verma,67,Male,Married,Not Graduate,Unemployed,66300.0,5525.0,91200.0,205000.0,180,806,0,9900.0,Rural,8.68,89500.0,Education Loan,0,1
+Linda Lopez,35,Female,Married,Graduate,Self-Employed,37900.0,3158.33,6100.0,178000.0,360,560,2,7100.0,Urban,29.85,302800.0,Home Loan,0,1
+Susan Rodriguez,66,Female,Married,Graduate,Salaried,108500.0,9041.67,5900.0,151000.0,240,698,3,4400.0,Urban,16.04,204800.0,Home Loan,0,1
+Thomas Gonzalez,60,Female,Married,Graduate,Salaried,25900.0,2158.33,29600.0,246000.0,36,631,3,700.0,Urban,85.0,365300.0,Home Loan,0,1
+Rahul Davis,38,Female,Married,Graduate,Business,45600.0,3800.0,11400.0,343000.0,360,685,3,82300.0,Urban,39.01,278200.0,Business Loan,0,1
+Joseph Hernandez,62,Female,Single,Not Graduate,Business,42700.0,3558.33,0.0,106000.0,360,575,2,76200.0,Urban,25.14,174500.0,Auto Loan,0,1
+Susan Johnson,40,Female,Married,Graduate,Salaried,145200.0,12100.0,3900.0,119000.0,60,751,1,1600.0,Rural,18.38,34500.0,Personal Loan,2,1
+Karen Miller,26,Female,Married,Not Graduate,Salaried,27500.0,2291.67,29000.0,10000.0,36,604,1,5700.0,Semiurban,12.27,8200.0,Home Loan,0,1
+John Gonzalez,32,Female,Divorced,Graduate,Self-Employed,20400.0,1700.0,0.0,178000.0,240,773,1,4500.0,Urban,61.27,239000.0,Home Loan,2,1
+Barbara Jones,22,Male,Single,Not Graduate,Salaried,32200.0,2683.33,0.0,169000.0,240,606,2,9900.0,Urban,48.6,288400.0,Home Loan,2,1
+Ananya Lopez,27,Female,Married,Not Graduate,Salaried,97200.0,8100.0,63100.0,260000.0,360,758,0,6800.0,Semiurban,5.41,103200.0,Personal Loan,1,1
+John Brown,36,Male,Married,Not Graduate,Salaried,30600.0,2550.0,7700.0,172000.0,24,614,0,87500.0,Urban,85.0,198300.0,Auto Loan,0,0
+Susan Sharma,23,Female,Married,Graduate,Salaried,32400.0,2700.0,5000.0,127000.0,36,631,0,2600.0,Urban,85.0,143600.0,Auto Loan,0,1
+Carlos Wilson,65,Female,Single,Post Graduate,Salaried,26300.0,2191.67,0.0,197000.0,120,680,2,7100.0,Urban,85.0,81800.0,Education Loan,1,0
+Susan Miller,23,Female,Married,Graduate,Self-Employed,76600.0,6383.33,28400.0,230000.0,180,612,2,2500.0,Semiurban,21.46,193600.0,Home Loan,4,1
+Thomas Wilson,47,Female,Single,Graduate,Salaried,23200.0,1933.33,0.0,34000.0,12,610,1,117900.0,Urban,85.0,36700.0,Home Loan,3,1
+Barbara Brown,63,Female,Single,Graduate,Salaried,38100.0,3175.0,0.0,271000.0,60,613,0,75200.0,Urban,85.0,101200.0,Personal Loan,0,0
+Patricia Rodriguez,60,Male,Married,Graduate,Salaried,34900.0,2908.33,33300.0,298000.0,120,706,1,37800.0,Urban,48.97,496400.0,Auto Loan,1,1
+Jennifer Verma,58,Female,Married,Post Graduate,Salaried,56500.0,4708.33,75000.0,229000.0,240,680,0,16700.0,Urban,8.71,133000.0,Personal Loan,2,1
+Carlos Lopez,53,Male,Married,Graduate,Salaried,79000.0,6583.33,20700.0,96000.0,60,684,1,6300.0,Rural,22.87,29900.0,Education Loan,2,1
+Priya Garcia,48,Male,Divorced,Not Graduate,Salaried,54300.0,4525.0,0.0,151000.0,60,654,0,7500.0,Semiurban,55.62,178300.0,Auto Loan,1,1
+Rahul Jones,21,Male,Single,Not Graduate,Self-Employed,140300.0,11691.67,0.0,286000.0,360,724,4,17600.0,Urban,17.06,263300.0,Home Loan,0,1
+Mary Davis,28,Male,Single,Graduate,Salaried,156100.0,13008.33,0.0,92000.0,360,764,1,43900.0,Urban,5.0,164700.0,Home Loan,0,1
+Linda Hernandez,57,Male,Married,Not Graduate,Salaried,40200.0,3350.0,14400.0,237000.0,48,726,1,9200.0,Semiurban,85.0,385300.0,Business Loan,1,1
+Richard Smith,52,Female,Single,Graduate,Salaried,87700.0,7308.33,0.0,175000.0,48,663,1,11200.0,Urban,53.99,234700.0,Auto Loan,2,1
+Linda Jones,63,Male,Single,Graduate,Salaried,80400.0,6700.0,0.0,194000.0,360,582,1,27500.0,Semiurban,12.52,247600.0,Home Loan,3,1
+Sarah Wilson,57,Male,Single,Graduate,Business,120600.0,10050.0,0.0,105000.0,60,522,0,8100.0,Semiurban,17.41,152200.0,Home Loan,2,1
+Sarah Wilson,24,Male,Single,Post Graduate,Salaried,46700.0,3891.67,0.0,210000.0,240,675,1,26300.0,Urban,30.19,94700.0,Personal Loan,0,1
+Joseph Sharma,50,Male,Married,Post Graduate,Business,54000.0,4500.0,20600.0,203000.0,180,521,3,14700.0,Rural,32.62,172600.0,Auto Loan,2,1
+Jennifer Verma,26,Female,Single,Graduate,Salaried,44200.0,3683.33,0.0,44000.0,48,664,1,1000.0,Urban,33.03,53000.0,Home Loan,0,1
+David Gonzalez,66,Male,Married,Graduate,Business,105500.0,8791.67,12600.0,180000.0,180,792,1,15500.0,Urban,13.21,34900.0,Personal Loan,1,1
+Carlos Smith,39,Male,Single,Not Graduate,Salaried,31700.0,2641.67,0.0,235000.0,180,588,4,75600.0,Semiurban,85.0,230900.0,Home Loan,1,0
+Jennifer Rodriguez,52,Male,Married,Graduate,Self-Employed,32300.0,2691.67,31700.0,145000.0,120,577,2,10400.0,Rural,33.91,59800.0,Education Loan,0,0
+Linda Hernandez,29,Male,Single,Post Graduate,Salaried,41000.0,3416.67,0.0,10000.0,24,731,1,11700.0,Semiurban,20.98,8100.0,Home Loan,0,1
+Priya Williams,32,Male,Married,Graduate,Salaried,31800.0,2650.0,12600.0,170000.0,360,456,1,2000.0,Semiurban,20.87,156700.0,Auto Loan,0,0
+Ananya Rodriguez,31,Male,Married,Graduate,Business,57000.0,4750.0,17100.0,312000.0,60,711,3,28600.0,Urban,85.0,100000.0,Personal Loan,0,0
+Thomas Lopez,66,Female,Single,Not Graduate,Self-Employed,26500.0,2208.33,0.0,149000.0,180,797,3,56800.0,Semiurban,78.24,163500.0,Home Loan,2,1
+Carlos Wilson,36,Female,Married,Graduate,Salaried,37400.0,3116.67,22100.0,309000.0,360,610,3,13100.0,Urban,35.46,174100.0,Personal Loan,0,0
+Joseph Verma,21,Male,Single,Post Graduate,Salaried,130100.0,10841.67,0.0,107000.0,60,596,1,8200.0,Semiurban,19.22,129100.0,Home Loan,0,1
+Priya Garcia,65,Female,Married,Post Graduate,Salaried,43700.0,3641.67,400.0,76000.0,240,727,0,94100.0,Urban,8.62,76600.0,Auto Loan,0,1
+Karen Smith,41,Male,Single,Graduate,Business,82100.0,6841.67,0.0,180000.0,360,586,0,41000.0,Urban,7.31,41100.0,Personal Loan,2,1
+Elizabeth Davis,50,Male,Divorced,Graduate,Salaried,25400.0,2116.67,0.0,106000.0,60,745,0,25100.0,Rural,83.46,169100.0,Home Loan,0,1
+Sarah Lopez,33,Female,Single,Post Graduate,Salaried,32800.0,2733.33,0.0,210000.0,60,593,3,10900.0,Urban,85.0,172100.0,Home Loan,0,0
+James Johnson,54,Male,Married,Post Graduate,Self-Employed,94100.0,7841.67,31300.0,146000.0,360,821,2,7500.0,Urban,9.62,190600.0,Business Loan,2,1
+James Smith,24,Female,Single,Graduate,Business,84800.0,7066.67,0.0,313000.0,36,733,1,37700.0,Urban,85.0,492500.0,Home Loan,0,1
+William Gonzalez,48,Male,Single,Not Graduate,Self-Employed,42000.0,3500.0,0.0,140000.0,12,683,1,22100.0,Urban,85.0,54700.0,Personal Loan,0,0
+James Gonzalez,58,Male,Married,Graduate,Self-Employed,159000.0,13250.0,1300.0,188000.0,360,817,0,22100.0,Semiurban,5.0,320100.0,Home Loan,2,1
+Karen Martinez,51,Male,Divorced,Graduate,Self-Employed,128700.0,10725.0,0.0,234000.0,360,763,1,2300.0,Urban,8.86,127300.0,Education Loan,0,1
+Priya Miller,47,Female,Single,Post Graduate,Salaried,167500.0,13958.33,0.0,266000.0,360,709,1,21500.0,Urban,7.44,128900.0,Personal Loan,2,1
+Mary Garcia,25,Female,Single,Graduate,Salaried,45100.0,3758.33,0.0,313000.0,24,531,1,51900.0,Urban,85.0,434800.0,Auto Loan,1,0
+Michael Martinez,45,Female,Single,Post Graduate,Business,29900.0,2491.67,0.0,159000.0,36,624,0,88000.0,Urban,85.0,155000.0,Home Loan,1,1
+Susan Martinez,23,Male,Single,Graduate,Salaried,64300.0,5358.33,0.0,144000.0,36,767,1,3400.0,Urban,80.25,213100.0,Home Loan,0,1
+Sarah Sharma,53,Male,Single,Not Graduate,Business,72000.0,6000.0,0.0,10000.0,180,576,0,29900.0,Urban,5.0,12900.0,Home Loan,2,1
+Mary Martinez,24,Male,Married,Graduate,Salaried,26000.0,2166.67,8500.0,364000.0,180,619,4,25200.0,Urban,85.0,331200.0,Home Loan,1,1
+Amit Lopez,45,Male,Single,Graduate,Salaried,89500.0,7458.33,0.0,212000.0,60,598,0,66300.0,Urban,47.37,363000.0,Auto Loan,0,1
+Thomas Davis,40,Female,Single,Not Graduate,Business,20800.0,1733.33,0.0,248000.0,24,712,3,41700.0,Rural,85.0,82800.0,Personal Loan,0,0
+David Gonzalez,54,Male,Married,Graduate,Self-Employed,49700.0,4141.67,46900.0,230000.0,180,757,0,100800.0,Rural,15.87,75300.0,Personal Loan,1,1
+John Hernandez,46,Female,Single,Graduate,Salaried,38100.0,3175.0,0.0,184000.0,120,757,0,96600.0,Urban,48.29,216100.0,Auto Loan,2,1
+Jennifer Rodriguez,25,Female,Single,Graduate,Self-Employed,80700.0,6725.0,0.0,212000.0,36,612,1,7700.0,Urban,85.0,198200.0,Home Loan,3,1
+Jennifer Rodriguez,55,Male,Single,Graduate,Self-Employed,36900.0,3075.0,0.0,130000.0,360,711,2,38800.0,Semiurban,31.26,196000.0,Home Loan,1,1
+Michael Sharma,48,Female,Married,Not Graduate,Salaried,98900.0,8241.67,59000.0,153000.0,36,608,1,22700.0,Semiurban,34.58,246900.0,Business Loan,1,1
+William Johnson,49,Male,Single,Graduate,Salaried,60700.0,5058.33,0.0,94000.0,240,663,0,7200.0,Rural,7.74,53700.0,Personal Loan,0,1
+Barbara Davis,29,Male,Married,Graduate,Business,91100.0,7591.67,5800.0,320000.0,360,722,0,6500.0,Urban,11.01,414300.0,Auto Loan,1,1
+Linda Johnson,58,Male,Single,Graduate,Business,224400.0,18700.0,0.0,231000.0,120,765,1,2500.0,Semiurban,11.9,296800.0,Home Loan,4,1
+Karen Wilson,26,Female,Married,Graduate,Salaried,71200.0,5933.33,13800.0,358000.0,48,508,0,47600.0,Rural,85.0,207900.0,Personal Loan,1,0
+Joseph Hernandez,39,Male,Single,Graduate,Business,208800.0,17400.0,0.0,387000.0,60,688,0,11800.0,Urban,37.07,615100.0,Home Loan,0,1
+Michael Hernandez,64,Male,Married,Graduate,Business,21300.0,1775.0,12400.0,54000.0,360,793,1,58300.0,Urban,16.02,48600.0,Business Loan,0,1
+Karen Verma,31,Male,Married,Graduate,Salaried,38600.0,3216.67,1500.0,269000.0,48,699,0,28100.0,Urban,85.0,71600.0,Personal Loan,0,0
+Patricia Garcia,22,Male,Married,Not Graduate,Self-Employed,25100.0,2091.67,75800.0,58000.0,240,687,0,33600.0,Urban,5.0,46500.0,Home Loan,1,1
+Priya Martinez,67,Female,Single,Not Graduate,Salaried,33700.0,2808.33,0.0,196000.0,360,635,0,10300.0,Urban,19.39,229900.0,Business Loan,3,1
+John Sharma,64,Female,Single,Graduate,Salaried,102200.0,8516.67,0.0,208000.0,360,790,4,18300.0,Semiurban,20.87,88900.0,Personal Loan,0,1
+William Lopez,64,Male,Single,Graduate,Self-Employed,21500.0,1791.67,0.0,64000.0,120,639,0,15900.0,Urban,29.77,106700.0,Business Loan,0,1
+Elizabeth Wilson,29,Male,Single,Graduate,Business,53000.0,4416.67,0.0,114000.0,360,672,3,8100.0,Urban,27.55,176200.0,Home Loan,1,1
+David Johnson,41,Female,Single,Graduate,Self-Employed,57700.0,4808.33,0.0,212000.0,360,642,0,53600.0,Rural,12.25,187500.0,Home Loan,3,1
+Priya Lopez,44,Male,Married,Graduate,Salaried,57100.0,4758.33,47400.0,196000.0,60,689,2,29200.0,Urban,44.4,302000.0,Home Loan,0,1
+Amit Lopez,54,Female,Single,Graduate,Salaried,49000.0,4083.33,0.0,88000.0,48,794,0,1100.0,Urban,44.9,129800.0,Home Loan,0,1
+Richard Rodriguez,42,Male,Married,Graduate,Salaried,90400.0,7533.33,3000.0,117000.0,36,608,1,51400.0,Urban,45.61,126600.0,Business Loan,0,1
+Richard Williams,23,Male,Married,Graduate,Salaried,26500.0,2208.33,9200.0,46000.0,36,689,2,3400.0,Urban,63.12,37500.0,Auto Loan,1,1
+Charles Miller,32,Male,Married,Graduate,Salaried,36700.0,3058.33,25600.0,72000.0,360,711,2,15500.0,Urban,15.41,65900.0,Auto Loan,2,1
+Susan Brown,48,Male,Single,Graduate,Self-Employed,63000.0,5250.0,0.0,147000.0,120,615,2,25400.0,Rural,34.76,154300.0,Business Loan,0,1
+Richard Davis,50,Female,Married,Graduate,Salaried,72800.0,6066.67,17800.0,269000.0,360,675,2,200.0,Urban,17.84,434900.0,Home Loan,1,1
+Amit Jones,46,Male,Single,Graduate,Self-Employed,43300.0,3608.33,0.0,280000.0,240,828,0,31700.0,Semiurban,32.33,86500.0,Education Loan,1,1
+Amit Verma,41,Female,Married,Graduate,Salaried,113700.0,9475.0,8400.0,345000.0,180,539,1,32300.0,Urban,21.79,82700.0,Education Loan,1,0
+Charles Lopez,48,Female,Married,Graduate,Self-Employed,44200.0,3683.33,23700.0,218000.0,180,646,1,31700.0,Rural,26.71,81300.0,Personal Loan,0,1
+Sarah Garcia,46,Male,Married,Graduate,Salaried,43200.0,3600.0,43100.0,197000.0,12,700,2,5400.0,Semiurban,85.0,214200.0,Home Loan,3,1
+Sarah Williams,53,Female,Married,Graduate,Salaried,21700.0,1808.33,12800.0,225000.0,360,650,0,8900.0,Rural,21.74,370200.0,Auto Loan,1,1
+Priya Jones,41,Male,Single,Graduate,Salaried,56000.0,4666.67,0.0,224000.0,60,850,3,8500.0,Urban,85.0,205300.0,Home Loan,2,1
+Ananya Rodriguez,55,Male,Single,Graduate,Salaried,75500.0,6291.67,0.0,35000.0,120,724,1,96600.0,Rural,9.4,29300.0,Business Loan,1,1
+John Lopez,54,Female,Married,Graduate,Business,25500.0,2125.0,18500.0,350000.0,12,596,1,2100.0,Rural,85.0,493000.0,Home Loan,4,0
+Elizabeth Williams,61,Male,Single,Graduate,Salaried,36400.0,3033.33,0.0,10000.0,360,493,0,16800.0,Semiurban,5.0,3400.0,Personal Loan,1,1
+John Gonzalez,67,Female,Married,Not Graduate,Self-Employed,88400.0,7366.67,7900.0,283000.0,360,707,1,61500.0,Urban,13.53,107100.0,Personal Loan,0,1
+Priya Sharma,38,Male,Single,Graduate,Unemployed,40500.0,3375.0,0.0,185000.0,120,620,1,44000.0,Urban,54.57,275100.0,Home Loan,0,0
+Joseph Smith,31,Female,Single,Graduate,Self-Employed,32400.0,2700.0,0.0,82000.0,120,783,1,51900.0,Urban,36.42,47200.0,Personal Loan,0,1
+Michael Lopez,43,Female,Single,Post Graduate,Salaried,70200.0,5850.0,0.0,228000.0,240,658,3,107600.0,Urban,31.62,255900.0,Home Loan,0,1
+Thomas Wilson,42,Female,Single,Graduate,Business,29900.0,2491.67,0.0,169000.0,48,635,1,14700.0,Semiurban,85.0,90300.0,Personal Loan,4,0
+Rahul Sharma,37,Female,Married,Graduate,Salaried,121700.0,10141.67,34500.0,119000.0,48,633,1,11100.0,Semiurban,21.35,158700.0,Business Loan,2,1
+Ananya Brown,25,Female,Married,Post Graduate,Salaried,25000.0,2083.33,7000.0,56000.0,180,759,2,900.0,Semiurban,34.17,81400.0,Home Loan,0,1
+Robert Brown,64,Female,Married,Not Graduate,Business,75200.0,6266.67,24400.0,48000.0,36,713,1,4900.0,Urban,19.68,48100.0,Business Loan,0,1
+Barbara Wilson,31,Female,Married,Graduate,Self-Employed,51200.0,4266.67,14400.0,125000.0,60,820,1,24800.0,Urban,43.6,214100.0,Home Loan,0,1
+Karen Lopez,50,Male,Married,Graduate,Salaried,111800.0,9316.67,17600.0,145000.0,60,663,0,5100.0,Urban,22.41,210900.0,Auto Loan,2,1
+Ananya Johnson,35,Male,Married,Graduate,Salaried,26100.0,2175.0,4000.0,71000.0,60,749,0,40000.0,Urban,47.18,11600.0,Education Loan,0,0
+Thomas Williams,47,Male,Single,Graduate,Salaried,71000.0,5916.67,0.0,183000.0,36,750,1,1100.0,Semiurban,85.0,311900.0,Home Loan,1,1
+William Brown,55,Female,Married,Graduate,Salaried,58200.0,4850.0,4200.0,84000.0,60,734,2,9000.0,Urban,38.46,42100.0,Education Loan,3,1
+Rahul Johnson,53,Male,Single,Graduate,Salaried,49400.0,4116.67,0.0,212000.0,60,639,0,35700.0,Semiurban,85.0,60300.0,Personal Loan,0,1
+Patricia Johnson,40,Male,Single,Graduate,Unemployed,50400.0,4200.0,0.0,291000.0,60,718,0,8900.0,Semiurban,85.0,275000.0,Home Loan,2,1
+Joseph Johnson,36,Male,Married,Post Graduate,Business,77600.0,6466.67,24700.0,206000.0,180,672,1,39100.0,Rural,16.94,321800.0,Business Loan,0,1
+Patricia Garcia,54,Female,Single,Post Graduate,Business,144900.0,12075.0,0.0,172000.0,360,670,0,164600.0,Urban,5.0,302200.0,Home Loan,2,1
+Michael Martinez,22,Female,Single,Graduate,Salaried,24300.0,2025.0,0.0,132000.0,36,616,1,47800.0,Semiurban,85.0,193600.0,Home Loan,0,1
+Charles Williams,55,Male,Single,Not Graduate,Self-Employed,20900.0,1741.67,0.0,310000.0,360,510,1,12500.0,Urban,66.67,71700.0,Personal Loan,0,0
+Priya Gonzalez,60,Male,Single,Graduate,Business,93700.0,7808.33,0.0,163000.0,48,780,0,69300.0,Urban,43.49,241800.0,Business Loan,4,1
+Barbara Williams,48,Female,Divorced,Post Graduate,Business,25200.0,2100.0,0.0,404000.0,120,715,2,1600.0,Semiurban,85.0,415600.0,Business Loan,1,1
+Richard Johnson,67,Male,Single,Graduate,Salaried,214400.0,17866.67,0.0,74000.0,120,573,1,38700.0,Semiurban,5.13,133000.0,Home Loan,0,1
+Linda Jones,59,Male,Single,Graduate,Salaried,63500.0,5291.67,0.0,206000.0,120,737,1,700.0,Urban,38.11,67800.0,Education Loan,0,1
+Joseph Smith,26,Female,Married,Graduate,Salaried,67400.0,5616.67,20000.0,307000.0,240,781,0,5800.0,Urban,17.56,531600.0,Auto Loan,0,1
+John Martinez,29,Female,Single,Graduate,Self-Employed,30000.0,2500.0,0.0,118000.0,60,742,1,131700.0,Semiurban,85.0,47500.0,Education Loan,2,0
+Linda Brown,40,Male,Divorced,Graduate,Self-Employed,32400.0,2700.0,0.0,159000.0,60,609,2,13400.0,Urban,85.0,274800.0,Home Loan,0,0
+Jessica Wilson,21,Female,Single,Not Graduate,Business,68500.0,5708.33,0.0,236000.0,360,621,0,51500.0,Semiurban,11.48,268000.0,Auto Loan,2,1
+Amit Martinez,28,Female,Married,Not Graduate,Salaried,128200.0,10683.33,13600.0,215000.0,48,636,0,14200.0,Rural,37.91,335500.0,Business Loan,0,1
+Barbara Wilson,43,Male,Married,Graduate,Salaried,201800.0,16816.67,16600.0,230000.0,36,749,0,55000.0,Semiurban,35.1,65200.0,Personal Loan,0,1
+Susan Johnson,23,Female,Divorced,Graduate,Salaried,29900.0,2491.67,0.0,284000.0,12,718,0,101000.0,Semiurban,85.0,46400.0,Education Loan,2,0
+Amit Jones,24,Female,Married,Graduate,Salaried,26500.0,2208.33,51200.0,149000.0,48,850,0,17200.0,Semiurban,47.94,220200.0,Home Loan,1,1
+Robert Garcia,45,Female,Married,Post Graduate,Salaried,22600.0,1883.33,1200.0,309000.0,120,549,0,24600.0,Rural,85.0,279000.0,Home Loan,2,0

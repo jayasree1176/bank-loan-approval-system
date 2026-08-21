@@ -1,0 +1,51 @@
+{% extends 'base.html' %}
+
+{% block title %}Register - Bank Loan Approval System{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-5">
+            <div class="card-bank p-4 p-md-5 shadow-lg border-0">
+                <div class="text-center mb-4">
+                    <div class="metric-icon icon-green mx-auto mb-3">
+                        <i class="fa-solid fa-user-plus"></i>
+                    </div>
+                    <h3 class="fw-bold">Create Account</h3>
+                    <p class="text-muted small">Register for loan evaluation & portfolio analytics</p>
+                </div>
+                
+                <form action="{{ url_for('auth.register') }}" method="POST">
+                    <div class="mb-3">
+                        <label for="username" class="form-label">Username</label>
+                        <input type="text" class="form-control" id="username" name="username" placeholder="Choose a username" required>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email Address</label>
+                        <input type="email" class="form-control" id="email" name="email" placeholder="name@bankdomain.com" required>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label for="password" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="password" name="password" placeholder="At least 6 characters" required>
+                    </div>
+                    
+                    <div class="mb-4">
+                        <label for="confirm_password" class="form-label">Confirm Password</label>
+                        <input type="password" class="form-control" id="confirm_password" name="confirm_password" placeholder="Re-enter password" required>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-bank-primary w-100 py-2 mb-3 shadow-sm">
+                        <i class="fa-solid fa-user-check me-2"></i> Register Account
+                    </button>
+                    
+                    <div class="text-center text-muted small">
+                        Already registered? <a href="{{ url_for('auth.login') }}" class="fw-bold text-decoration-none">Log in here</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

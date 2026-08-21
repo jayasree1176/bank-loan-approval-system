@@ -1,0 +1,230 @@
+{% extends 'base.html' %}
+
+{% block title %}Dashboard - Bank Loan Approval System{% endblock %}
+
+{% block content %}
+<div class="dashboard-wrapper">
+    <!-- Sidebar Navigation -->
+    <div class="sidebar d-none d-md-block">
+        <div class="sidebar-heading">Navigation</div>
+        <ul class="sidebar-menu">
+            <li>
+                <a href="{{ url_for('dashboard.index') }}" class="active">
+                    <i class="fa-solid fa-gauge"></i> Overview
+                </a>
+            </li>
+            <li>
+                <a href="{{ url_for('predict.predict') }}">
+                    <i class="fa-solid fa-calculator"></i> New Evaluation
+                </a>
+            </li>
+            <li>
+                <a href="{{ url_for('predict.history') }}">
+                    <i class="fa-solid fa-folder-open"></i> Application History
+                </a>
+            </li>
+            <li>
+                <a href="{{ url_for('analytics.index') }}">
+                    <i class="fa-solid fa-chart-pie"></i> Visual Analytics
+                </a>
+            </li>
+            {% if session.get('role') == 'admin' %}
+            <li>
+                <a href="{{ url_for('admin.index') }}">
+                    <i class="fa-solid fa-user-shield"></i> Administration
+                </a>
+            </li>
+            {% endif %}
+            <li>
+                <a href="{{ url_for('auth.profile') }}">
+                    <i class="fa-solid fa-user-gear"></i> Account Settings
+                </a>
+            </li>
+        </ul>
+
+        <div class="sidebar-heading">Quick Export</div>
+        <div class="px-2">
+            <a href="{{ url_for('predict.download_csv') }}" class="btn btn-sm btn-outline-light w-100 mb-2">
+                <i class="fa-solid fa-download me-1"></i> Export Data CSV
+            </a>
+        </div>
+    </div>
+
+    <!-- Main Content Area -->
+    <div class="main-content">
+        <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap gap-2">
+            <div>
+                <h2 class="fw-bold mb-1">Underwriting & Credit Risk Dashboard</h2>
+                <p class="text-muted mb-0">Overview of evaluated loan applications and portfolio risk exposure.</p>
+            </div>
+            <div>
+                <a href="{{ url_for('predict.predict') }}" class="btn btn-bank-primary shadow-sm">
+                    <i class="fa-solid fa-plus me-2"></i> Evaluate New Loan
+                </a>
+            </div>
+        </div>
+
+        <!-- 4 Top Key Metrics Cards -->
+        <div class="row g-3 mb-4">
+            <div class="col-sm-6 col-lg-3">
+                <div class="metric-card">
+                    <div>
+                        <div class="metric-label">Total Applications</div>
+                        <div class="metric-val">{{ metrics.total_applications }}</div>
+                    </div>
+                    <div class="metric-icon icon-blue">
+                        <i class="fa-solid fa-file-invoice-dollar"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-sm-6 col-lg-3">
+                <div class="metric-card">
+                    <div>
+                        <div class="metric-label">Approved Loans</div>
+                        <div class="metric-val text-success">{{ metrics.approved_loans }}</div>
+                    </div>
+                    <div class="metric-icon icon-green">
+                        <i class="fa-solid fa-circle-check"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-3">
+                <div class="metric-card">
+                    <div>
+                        <div class="metric-label">Rejected Loans</div>
+                        <div class="metric-val text-danger">{{ metrics.rejected_loans }}</div>
+                    </div>
+                    <div class="metric-icon icon-red">
+                        <i class="fa-solid fa-circle-xmark"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-sm-6 col-lg-3">
+                <div class="metric-card">
+                    <div>
+                        <div class="metric-label">Approval Rate</div>
+                        <div class="metric-val">{{ metrics.approval_rate }}%</div>
+                    </div>
+                    <div class="metric-icon icon-amber">
+                        <i class="fa-solid fa-percent"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Risk Distribution Cards -->
+        <div class="row g-3 mb-4">
+            <div class="col-md-4">
+                <div class="card-bank p-3 border-start border-4 border-success">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <span class="text-muted small fw-semibold">Low Risk Customers</span>
+                            <h3 class="fw-bold mb-0 text-success">{{ metrics.low_risk }}</h3>
+                        </div>
+                        <span class="badge-risk-low"><i class="fa-solid fa-shield-cat me-1"></i> Low</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card-bank p-3 border-start border-4 border-warning">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <span class="text-muted small fw-semibold">Medium Risk Customers</span>
+                            <h3 class="fw-bold mb-0 text-warning">{{ metrics.medium_risk }}</h3>
+                        </div>
+                        <span class="badge-risk-medium"><i class="fa-solid fa-triangle-exclamation me-1"></i> Medium</span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card-bank p-3 border-start border-4 border-danger">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div>
+                            <span class="text-muted small fw-semibold">High Risk Customers</span>
+                            <h3 class="fw-bold mb-0 text-danger">{{ metrics.high_risk }}</h3>
+                        </div>
+                        <span class="badge-risk-high"><i class="fa-solid fa-skull-crossbones me-1"></i> High</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Recent Applications Table -->
+        <div class="card-bank p-4 mb-4">
+            <div class="d-flex justify-content-between align-items-center mb-3">
+                <h5 class="fw-bold mb-0"><i class="fa-solid fa-list-check me-2 text-primary"></i> Recent Loan Evaluations</h5>
+                <a href="{{ url_for('predict.history') }}" class="btn btn-sm btn-outline-primary">View All History</a>
+            </div>
+
+            <div class="table-responsive">
+                <table class="table table-hover align-middle mb-0">
+                    <thead class="table-light">
+                        <tr>
+                            <th>#ID</th>
+                            <th>Applicant Name</th>
+                            <th>Loan Amount</th>
+                            <th>Credit Score</th>
+                            <th>Loan Purpose</th>
+                            <th>Probability</th>
+                            <th>Risk Level</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        {% if recent_applications %}
+                            {% for app in recent_applications %}
+                            <tr>
+                                <td class="fw-bold text-muted">#{{ app.id }}</td>
+                                <td class="fw-bold">{{ app.applicant_name }}</td>
+                                <td>{{ app.loan_amount | currency }}</td>
+                                <td>
+                                    <span class="badge {% if app.credit_score >= 740 %}bg-success{% elif app.credit_score >= 650 %}bg-info text-dark{% else %}bg-danger{% endif %}">
+                                        {{ app.credit_score }}
+                                    </span>
+                                </td>
+                                <td>{{ app.loan_purpose }}</td>
+                                <td>
+                                    <div class="fw-bold">{{ app.approval_probability }}%</div>
+                                    <div class="progress" style="height: 5px;">
+                                        <div class="progress-bar {% if app.approval_probability >= 50 %}bg-success{% else %}bg-danger{% endif %}" role="progressbar" style="width: {{ app.approval_probability }}%;"></div>
+                                    </div>
+                                </td>
+                                <td>
+                                    {% if app.risk_level == 'Low' %}
+                                        <span class="badge-risk-low">Low</span>
+                                    {% elif app.risk_level == 'Medium' %}
+                                        <span class="badge-risk-medium">Medium</span>
+                                    {% else %}
+                                        <span class="badge-risk-high">High</span>
+                                    {% endif %}
+                                </td>
+                                <td>
+                                    {% if app.prediction_status == 'Approved' %}
+                                        <span class="badge-status-approved">Approved</span>
+                                    {% else %}
+                                        <span class="badge-status-rejected">Rejected</span>
+                                    {% endif %}
+                                </td>
+                                <td>
+                                    <a href="{{ url_for('predict.prediction_result', app_id=app.id) }}" class="btn btn-sm btn-light border shadow-sm">
+                                        <i class="fa-solid fa-eye text-primary"></i> View
+                                    </a>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        {% else %}
+                            <tr>
+                                <td colspan="9" class="text-center py-4 text-muted">No loan applications recorded yet. <a href="{{ url_for('predict.predict') }}">Click here to submit your first application.</a></td>
+                            </tr>
+                        {% endif %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

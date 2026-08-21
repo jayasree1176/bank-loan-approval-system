@@ -1,0 +1,57 @@
+{% extends 'base.html' %}
+
+{% block title %}Home - Credit Risk Intelligence System{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    <div class="hero-banner mb-5 text-center text-md-start">
+        <div class="row align-items-center">
+            <div class="col-md-7">
+                <span class="badge bg-light text-primary mb-3 px-3 py-2 fw-semibold">Next-Gen Credit Risk AI</span>
+                <h1 class="display-4 fw-bold mb-3">Bank Loan Approval & Risk Intelligence</h1>
+                <p class="lead mb-4 text-light opacity-90">
+                    Automate loan decisioning with high-accuracy Random Forest Machine Learning algorithms. Evaluate 19 comprehensive applicant parameters, predict credit risk levels, and streamline underwriting in real-time.
+                </p>
+                <div class="d-flex flex-wrap gap-3">
+                    <a href="{{ url_for('auth.login') }}" class="btn btn-light btn-lg text-primary fw-bold px-4 shadow">Get Started / Login</a>
+                    <a href="{{ url_for('auth.register') }}" class="btn btn-outline-light btn-lg px-4">Register Account</a>
+                </div>
+            </div>
+            <div class="col-md-5 text-center mt-4 mt-md-0">
+                <img src="{{ url_for('static', filename='images/banner.jpg') }}" alt="Banking Banner" class="img-fluid rounded-4 shadow-lg border border-2 border-white">
+            </div>
+        </div>
+    </div>
+
+    <!-- Feature Showcase -->
+    <div class="row g-4 mb-5">
+        <div class="col-md-4">
+            <div class="card-bank p-4 h-100">
+                <div class="metric-icon icon-blue mb-3">
+                    <i class="fa-solid fa-brain"></i>
+                </div>
+                <h4 class="fw-bold mb-2">Random Forest ML</h4>
+                <p class="text-muted small">Trained on multi-variate financial datasets to deliver instant loan approval decisions and exact probability percentages.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card-bank p-4 h-100">
+                <div class="metric-icon icon-amber mb-3">
+                    <i class="fa-solid fa-shield-halved"></i>
+                </div>
+                <h4 class="fw-bold mb-2">3-Tier Credit Risk Level</h4>
+                <p class="text-muted small">Categorizes applicants into Low, Medium, or High Risk profiles with actionable mitigation recommendations.</p>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card-bank p-4 h-100">
+                <div class="metric-icon icon-green mb-3">
+                    <i class="fa-solid fa-file-csv"></i>
+                </div>
+                <h4 class="fw-bold mb-2">Bulk CSV & Analytics</h4>
+                <p class="text-muted small">Upload CSV files for batch underwriting or analyze loan portfolio trends via interactive Chart.js dashboards.</p>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

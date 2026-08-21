@@ -1,0 +1,53 @@
+{% extends 'base.html' %}
+
+{% block title %}User Login - Bank Loan Approval System{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-5 col-lg-4">
+            <div class="card-bank p-4 p-md-5 shadow-lg border-0">
+                <div class="text-center mb-4">
+                    <div class="metric-icon icon-blue mx-auto mb-3">
+                        <i class="fa-solid fa-lock"></i>
+                    </div>
+                    <h3 class="fw-bold">Bank Portal Login</h3>
+                    <p class="text-muted small">Sign in to access underwriting & risk intelligence</p>
+                </div>
+                
+                <form action="{{ url_for('auth.login') }}" method="POST">
+                    <div class="mb-3">
+                        <label for="username" class="form-label">Username or Email</label>
+                        <div class="input-group">
+                            <span class="input-group-text bg-light"><i class="fa-solid fa-user text-muted"></i></span>
+                            <input type="text" class="form-control" id="username" name="username" placeholder="e.g. loan_officer or admin" required autofocus>
+                        </div>
+                    </div>
+                    
+                    <div class="mb-4">
+                        <label for="password" class="form-label">Password</label>
+                        <div class="input-group">
+                            <span class="input-group-text bg-light"><i class="fa-solid fa-key text-muted"></i></span>
+                            <input type="password" class="form-control" id="password" name="password" placeholder="••••••••" required>
+                        </div>
+                    </div>
+                    
+                    <button type="submit" class="btn btn-bank-primary w-100 py-2 mb-3 shadow-sm">
+                        <i class="fa-solid fa-right-to-bracket me-2"></i> Log In
+                    </button>
+                    
+                    <div class="card bg-light border-0 p-2 text-center small mb-3 text-muted">
+                        <strong>Demo Accounts:</strong><br>
+                        Admin: <code>admin</code> / <code>admin123</code><br>
+                        Officer: <code>loan_officer</code> / <code>password123</code>
+                    </div>
+                    
+                    <div class="text-center text-muted small">
+                        Don't have an account? <a href="{{ url_for('auth.register') }}" class="fw-bold text-decoration-none">Register here</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,234 @@
+{% extends 'base.html' %}
+
+{% block title %}Loan Application & Risk Predictor{% endblock %}
+
+{% block content %}
+<div class="container py-4">
+    <div class="d-flex justify-content-between align-items-center mb-4 flex-wrap">
+        <div>
+            <h2 class="fw-bold mb-1">Loan Application & Credit Risk Predictor</h2>
+            <p class="text-muted mb-0">Fill in the 19 applicant parameters below or upload a CSV for bulk predictions.</p>
+        </div>
+        <a href="{{ url_for('dashboard.index') }}" class="btn btn-outline-secondary">
+            <i class="fa-solid fa-arrow-left me-1"></i> Back to Dashboard
+        </a>
+    </div>
+
+    <!-- Navigation Tabs -->
+    <ul class="nav nav-pills mb-4 card-bank p-2" id="predictTabs" role="tablist">
+        <li class="nav-item" role="presentation">
+            <button class="nav-link active fw-bold px-4" id="single-tab" data-bs-toggle="tab" data-bs-target="#single-form" type="button" role="tab">
+                <i class="fa-solid fa-user-pen me-2"></i> Single Application Form (19 Fields)
+            </button>
+        </li>
+        <li class="nav-item" role="presentation">
+            <button class="nav-link fw-bold px-4" id="bulk-tab" data-bs-toggle="tab" data-bs-target="#bulk-upload" type="button" role="tab">
+                <i class="fa-solid fa-file-csv me-2"></i> Bulk CSV Prediction
+            </button>
+        </li>
+    </ul>
+
+    <div class="tab-content" id="predictTabsContent">
+        <!-- SINGLE LOAN FORM (19 FIELDS) -->
+        <div class="tab-pane fade show active" id="single-form" role="tabpanel">
+            <form action="{{ url_for('predict.predict') }}" method="POST">
+                
+                <!-- SECTION 1: PERSONAL & DEMOGRAPHIC DETAILS -->
+                <div class="card-bank p-4 mb-4">
+                    <h5 class="fw-bold mb-3 text-primary">
+                        <i class="fa-solid fa-id-card me-2"></i> 1. Applicant Personal & Demographic Information
+                    </h5>
+                    <div class="row g-3">
+                        <div class="col-md-4">
+                            <label for="applicant_name" class="form-label">Applicant Name *</label>
+                            <input type="text" class="form-control" id="applicant_name" name="applicant_name" value="{{ form_data.get('applicant_name', '') }}" placeholder="e.g. John Smith" required>
+                        </div>
+                        <div class="col-md-2">
+                            <label for="age" class="form-label">Age *</label>
+                            <input type="number" class="form-control" id="age" name="age" min="18" max="100" value="{{ form_data.get('age', '35') }}" required>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="gender" class="form-label">Gender *</label>
+                            <select class="form-select" id="gender" name="gender" required>
+                                <option value="Male" {% if form_data.get('gender') == 'Male' %}selected{% endif %}>Male</option>
+                                <option value="Female" {% if form_data.get('gender') == 'Female' %}selected{% endif %}>Female</option>
+                                <option value="Other" {% if form_data.get('gender') == 'Other' %}selected{% endif %}>Other</option>
+                            </select>
+                        </div>
+                        <div class="col-md-3">
+                            <label for="marital_status" class="form-label">Marital Status *</label>
+                            <select class="form-select" id="marital_status" name="marital_status" required>
+                                <option value="Single" {% if form_data.get('marital_status') == 'Single' %}selected{% endif %}>Single</option>
+                                <option value="Married" {% if form_data.get('marital_status') == 'Married' or not form_data %}selected{% endif %}>Married</option>
+                                <option value="Divorced" {% if form_data.get('marital_status') == 'Divorced' %}selected{% endif %}>Divorced</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="education" class="form-label">Education Level *</label>
+                            <select class="form-select" id="education" name="education" required>
+                                <option value="Graduate" {% if form_data.get('education') == 'Graduate' or not form_data %}selected{% endif %}>Graduate</option>
+                                <option value="Not Graduate" {% if form_data.get('education') == 'Not Graduate' %}selected{% endif %}>Not Graduate</option>
+                                <option value="Post Graduate" {% if form_data.get('education') == 'Post Graduate' %}selected{% endif %}>Post Graduate</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="employment_status" class="form-label">Employment Status *</label>
+                            <select class="form-select" id="employment_status" name="employment_status" required>
+                                <option value="Salaried" {% if form_data.get('employment_status') == 'Salaried' or not form_data %}selected{% endif %}>Salaried</option>
+                                <option value="Self-Employed" {% if form_data.get('employment_status') == 'Self-Employed' %}selected{% endif %}>Self-Employed</option>
+                                <option value="Business" {% if form_data.get('employment_status') == 'Business' %}selected{% endif %}>Business Owner</option>
+                                <option value="Unemployed" {% if form_data.get('employment_status') == 'Unemployed' %}selected{% endif %}>Unemployed</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="dependents" class="form-label">Number of Dependents *</label>
+                            <input type="number" class="form-control" id="dependents" name="dependents" min="0" max="10" value="{{ form_data.get('dependents', '1') }}" required>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECTION 2: FINANCIAL & INCOME DETAILS -->
+                <div class="card-bank p-4 mb-4">
+                    <h5 class="fw-bold mb-3 text-primary">
+                        <i class="fa-solid fa-wallet me-2"></i> 2. Financial Metrics & Income Structure
+                    </h5>
+                    <div class="row g-3">
+                        <div class="col-md-4">
+                            <label for="annual_income" class="form-label">Annual Income ($) *</label>
+                            <div class="input-group">
+                                <span class="input-group-text">$</span>
+                                <input type="number" class="form-control" id="annual_income" name="annual_income" min="0" step="500" value="{{ form_data.get('annual_income', '75000') }}" required>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="monthly_income" class="form-label">Monthly Income ($) *</label>
+                            <div class="input-group">
+                                <span class="input-group-text">$</span>
+                                <input type="number" class="form-control" id="monthly_income" name="monthly_income" min="0" step="100" value="{{ form_data.get('monthly_income', '6250') }}" required>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="coapplicant_income" class="form-label">Co-Applicant Income ($)</label>
+                            <div class="input-group">
+                                <span class="input-group-text">$</span>
+                                <input type="number" class="form-control" id="coapplicant_income" name="coapplicant_income" min="0" step="500" value="{{ form_data.get('coapplicant_income', '15000') }}">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="savings" class="form-label">Total Liquid Savings ($) *</label>
+                            <div class="input-group">
+                                <span class="input-group-text">$</span>
+                                <input type="number" class="form-control" id="savings" name="savings" min="0" step="500" value="{{ form_data.get('savings', '25000') }}" required>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="existing_loans" class="form-label">Existing Active Loans Count *</label>
+                            <input type="number" class="form-control" id="existing_loans" name="existing_loans" min="0" max="10" value="{{ form_data.get('existing_loans', '1') }}" required>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="dti_ratio" class="form-label">Debt-to-Income (DTI) Ratio (%) *</label>
+                            <div class="input-group">
+                                <input type="number" class="form-control" id="dti_ratio" name="dti_ratio" min="0" max="100" step="0.1" value="{{ form_data.get('dti_ratio', '28.5') }}" required>
+                                <span class="input-group-text">%</span>
+                            </div>
+                            <div class="form-text small text-muted">Auto-calculated based on income and debts</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- SECTION 3: LOAN SPECIFICATIONS & ASSETS -->
+                <div class="card-bank p-4 mb-4">
+                    <h5 class="fw-bold mb-3 text-primary">
+                        <i class="fa-solid fa-file-contract me-2"></i> 3. Loan Requirements & Security Collateral
+                    </h5>
+                    <div class="row g-3">
+                        <div class="col-md-4">
+                            <label for="loan_amount" class="form-label">Requested Loan Amount ($) *</label>
+                            <div class="input-group">
+                                <span class="input-group-text">$</span>
+                                <input type="number" class="form-control" id="loan_amount" name="loan_amount" min="1000" step="1000" value="{{ form_data.get('loan_amount', '200000') }}" required>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="loan_term" class="form-label">Loan Tenure (Months) *</label>
+                            <select class="form-select" id="loan_term" name="loan_term" required>
+                                <option value="12" {% if form_data.get('loan_term') == '12' %}selected{% endif %}>12 Months (1 Year)</option>
+                                <option value="24" {% if form_data.get('loan_term') == '24' %}selected{% endif %}>24 Months (2 Years)</option>
+                                <option value="36" {% if form_data.get('loan_term') == '36' %}selected{% endif %}>36 Months (3 Years)</option>
+                                <option value="60" {% if form_data.get('loan_term') == '60' %}selected{% endif %}>60 Months (5 Years)</option>
+                                <option value="120" {% if form_data.get('loan_term') == '120' %}selected{% endif %}>120 Months (10 Years)</option>
+                                <option value="180" {% if form_data.get('loan_term') == '180' %}selected{% endif %}>180 Months (15 Years)</option>
+                                <option value="240" {% if form_data.get('loan_term') == '240' %}selected{% endif %}>240 Months (20 Years)</option>
+                                <option value="360" {% if form_data.get('loan_term') == '360' or not form_data %}selected{% endif %}>360 Months (30 Years)</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="loan_purpose" class="form-label">Loan Purpose *</label>
+                            <select class="form-select" id="loan_purpose" name="loan_purpose" required>
+                                <option value="Home Loan" {% if form_data.get('loan_purpose') == 'Home Loan' or not form_data %}selected{% endif %}>Home Purchase / Mortgage</option>
+                                <option value="Personal Loan" {% if form_data.get('loan_purpose') == 'Personal Loan' %}selected{% endif %}>Personal Loan</option>
+                                <option value="Auto Loan" {% if form_data.get('loan_purpose') == 'Auto Loan' %}selected{% endif %}>Auto / Vehicle Loan</option>
+                                <option value="Business Loan" {% if form_data.get('loan_purpose') == 'Business Loan' %}selected{% endif %}>Business Expansion</option>
+                                <option value="Education Loan" {% if form_data.get('loan_purpose') == 'Education Loan' %}selected{% endif %}>Higher Education</option>
+                            </select>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="credit_score" class="form-label">Credit Score (300 - 850) *</label>
+                            <input type="number" class="form-control" id="credit_score" name="credit_score" min="300" max="850" value="{{ form_data.get('credit_score', '720') }}" required>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="collateral_value" class="form-label">Collateral Asset Value ($) *</label>
+                            <div class="input-group">
+                                <span class="input-group-text">$</span>
+                                <input type="number" class="form-control" id="collateral_value" name="collateral_value" min="0" step="1000" value="{{ form_data.get('collateral_value', '250000') }}" required>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="property_area" class="form-label">Property Location Area *</label>
+                            <select class="form-select" id="property_area" name="property_area" required>
+                                <option value="Urban" {% if form_data.get('property_area') == 'Urban' or not form_data %}selected{% endif %}>Urban Metropolitan</option>
+                                <option value="Semiurban" {% if form_data.get('property_area') == 'Semiurban' %}selected{% endif %}>Semiurban Suburban</option>
+                                <option value="Rural" {% if form_data.get('property_area') == 'Rural' %}selected{% endif %}>Rural Area</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="text-end mb-4">
+                    <button type="reset" class="btn btn-light me-2 border">Reset Form</button>
+                    <button type="submit" class="btn btn-bank-primary btn-lg px-5 shadow">
+                        <i class="fa-solid fa-wand-magic-sparkles me-2"></i> Evaluate Credit Risk & Predict Approval
+                    </button>
+                </div>
+            </form>
+        </div>
+
+        <!-- BULK CSV UPLOAD TAB -->
+        <div class="tab-pane fade" id="bulk-upload" role="tabpanel">
+            <div class="card-bank p-5 text-center">
+                <div class="metric-icon icon-blue mx-auto mb-3">
+                    <i class="fa-solid fa-file-csv"></i>
+                </div>
+                <h4 class="fw-bold mb-2">Bulk Loan Application Batch Predictor</h4>
+                <p class="text-muted mx-auto mb-4" style="max-width: 600px;">
+                    Upload a CSV file containing multiple applicant records to evaluate approval probability and credit risk in batch.
+                </p>
+
+                <form action="{{ url_for('predict.predict_bulk') }}" method="POST" enctype="multipart/form-data" class="mx-auto" style="max-width: 500px;">
+                    <div class="mb-4">
+                        <input type="file" class="form-control form-control-lg" name="csv_file" accept=".csv" required>
+                    </div>
+                    <button type="submit" class="btn btn-bank-primary btn-lg w-100 shadow">
+                        <i class="fa-solid fa-upload me-2"></i> Process Bulk CSV Records
+                    </button>
+                </form>
+
+                <div class="mt-5 text-start bg-light p-4 rounded-3 border">
+                    <h6 class="fw-bold text-dark mb-2"><i class="fa-solid fa-circle-info me-1 text-primary"></i> Required CSV Columns:</h6>
+                    <code class="small text-break">applicant_name, age, gender, marital_status, education, employment_status, annual_income, monthly_income, coapplicant_income, loan_amount, loan_term, credit_score, existing_loans, savings, property_area, dti_ratio, collateral_value, loan_purpose, dependents</code>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
