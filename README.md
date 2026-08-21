@@ -1,5 +1,7 @@
 # Bank Loan Approval and Credit Risk Intelligence System
 
+CopyRight - Jayasree1176
+
 A full-stack, enterprise-grade web application built with **Python Flask**, **SQLite**, **Bootstrap 5**, **Chart.js**, and **Scikit-Learn Machine Learning**.
 
 The system automates bank loan decisioning, predicts approval probability percentages, and classifies applicant credit risk levels into **Low**, **Medium**, or **High** tiers based on 19 comprehensive parameters.
@@ -80,35 +82,40 @@ Bank-Loan-Approval-System/
 ## 🚀 Quick Setup & Execution
 
 ### 1. Install Dependencies
+
 ```bash
 cd Bank-Loan-Approval-System
 pip install -r requirements.txt
 ```
 
 ### 2. Train Model & Seed Database
+
 ```bash
 python models/train_model.py
 python database/seed_data.py
 ```
 
 ### 3. Launch Web Application
+
 ```bash
 python app.py
 ```
+
 Open your browser at **http://127.0.0.1:5000**
 
 ---
 
 ## 🔑 Demo Account Credentials
 
-| Account Role | Username | Password |
-|---|---|---|
-| **Admin User** | `admin` | `admin123` |
+| Account Role     | Username       | Password      |
+| ---------------- | -------------- | ------------- |
+| **Admin User**   | `admin`        | `admin123`    |
 | **Loan Officer** | `loan_officer` | `password123` |
 
 ---
 
 ## 📋 19 Loan Application Fields
+
 1. Applicant Name
 2. Age
 3. Gender
